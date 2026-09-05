@@ -4,8 +4,8 @@ const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath: isGitHubPages ? "/vr-vlog" : "",
-  assetPrefix: isGitHubPages ? "/vr-vlog/" : "",
+  basePath: isGitHubPages ? "/vr-vlog-website" : "",
+  assetPrefix: isGitHubPages ? "/vr-vlog-website/" : "",
   images: {
     unoptimized: true,
   },
