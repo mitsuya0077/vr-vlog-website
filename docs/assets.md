@@ -16,9 +16,16 @@ additional rights to the depicted avatars.
 | log-review.webp | Saving a short log |
 | log-join.webp | Joining restaurant logs |
 | vlog-restaurant.webp | Completed video example |
-| video-editor.webp | Video editing screen |
+| video-editor.webp | Video editing screen; scenic background updated September 13, 2026 |
 | expression-neutral.webp, expression-calm.webp, expression-star.webp | Expression examples |
 
 `app-store-badge-ja.svg` is Apple's unmodified Japanese Download on the App Store
 badge from [Apple Marketing Tools](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83).
 It is displayed without a link until the app's destination URL is available.
+
+On September 13, 2026, the owner requested a new landscape in the video editor:
+Mount Fuji, red brick warehouses, Goryokaku, Rainbow Bridge and a row of cows.
+The background was created with the built-in image generation tool. The original
+avatar, caption, editing controls and thumbnail avatar pixels were preserved;
+the preview, timeline and filter backgrounds were updated together. Pixel checks
+verified unchanged UI outside those regions and a lossless WebP output.
