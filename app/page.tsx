@@ -1,278 +1,61 @@
-const features = [
-  {
-    number: "01",
-    title: "表情をリアルタイムに反映",
-    text: "まばたき、口の開閉、頭の向きや傾きを、自然な動きでアバターへ反映します。",
-  },
-  {
-    number: "02",
-    title: "自分のVRMを読み込み",
-    text: "ファイルからVRM 0.x／VRM 1.0形式のアバターを選び、すぐに撮影へ使えます。",
-  },
-  {
-    number: "03",
-    title: "2つのカメラで撮影",
-    text: "内カメラと外カメラの表示を入れ替え、小窓のサイズも自由に調整できます。",
-  },
-  {
-    number: "04",
-    title: "見え方を自分らしく",
-    text: "遠近感、明るさ、揺れの安定度、表示するパーツをアプリ内で調整できます。",
-  },
-];
+import { SiteHeader, SiteFooter } from "./components/SiteChrome";
+import { LegacyLinks } from "./components/LegacyLinks";
+import { freeAccessParagraphs, siteHref, sitePath } from "./site";
 
-const privacyItems = [
-  {
-    title: "カメラ",
-    text: "カメラ映像の表示と、顔・表情・頭部のトラッキングに使用します。",
-  },
-  {
-    title: "マイク",
-    text: "ユーザーが録画する際の音声収録に使用します。",
-  },
-  {
-    title: "写真ライブラリ",
-    text: "ユーザーが録画した動画を端末へ保存するために使用します。",
-  },
-  {
-    title: "VRMファイル",
-    text: "ユーザーが選択したアバターを表示するため、アプリ内のローカル領域へ保存します。",
-  },
-  {
-    title: "設定情報",
-    text: "選択したアバターや表示設定を、次回起動時に復元するため端末内へ保存します。",
-  },
-];
-
-function ArrowIcon() {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 20 20">
-      <path d="M4 10h11M11 5l5 5-5 5" />
-    </svg>
-  );
+function Screen({ file, alt, className = "", landscape = false, priority = false }: {
+  file: string; alt: string; className?: string; landscape?: boolean; priority?: boolean;
+}) {
+  return <div className={`device ${className}`}><img src={siteHref(`/images/${file}`)} alt={alt}
+    width={landscape ? 2048 : 945} height={landscape ? 945 : 2048}
+    loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : undefined} decoding="async" /></div>;
 }
-
-function CameraStage() {
-  return (
-    <div className="stage" aria-label="VR Vlogの撮影画面をイメージしたグラフィック">
-      <div className="stage-glow" />
-      <div className="phone">
-        <div className="phone-screen">
-          <div className="phone-status">
-            <span>VR Vlog</span>
-            <span className="live-dot">LIVE</span>
-          </div>
-          <div className="scene-sky" />
-          <div className="scene-horizon" />
-          <div className="avatar">
-            <div className="avatar-hair avatar-hair-back" />
-            <div className="avatar-face">
-              <span className="avatar-eye avatar-eye-left" />
-              <span className="avatar-eye avatar-eye-right" />
-              <span className="avatar-mouth" />
-            </div>
-            <div className="avatar-hair avatar-hair-front" />
-            <div className="avatar-neck" />
-            <div className="avatar-body" />
-          </div>
-          <div className="pip">
-            <span className="pip-sun" />
-            <span className="pip-line pip-line-one" />
-            <span className="pip-line pip-line-two" />
-          </div>
-          <div className="record-control">
-            <span />
-          </div>
-        </div>
-      </div>
-      <div className="orbit orbit-one">
-        <span>BLINK</span>
-      </div>
-      <div className="orbit orbit-two">
-        <span>VRM</span>
-      </div>
-      <div className="orbit orbit-three">
-        <span>REC</span>
-      </div>
-    </div>
-  );
-}
+function Credit() { return <span className="credit">©もち山金魚</span>; }
 
 export default function Home() {
-  return (
-    <main>
-      <div className="noise" aria-hidden="true" />
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="VR Vlog トップ">
-          <span className="brand-mark">VR</span>
-          <span>VR Vlog</span>
-        </a>
-        <nav aria-label="メインナビゲーション">
-          <a href="#features">機能</a>
-          <a href="#vroid-hub">VRoid Hub</a>
-          <a href="#privacy">プライバシー</a>
-        </nav>
-      </header>
-
-      <section className="hero" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow">
-            <span />
-            iOS APP · IN DEVELOPMENT
-          </p>
-          <h1>
-            あなたの表情で、
-            <br />
-            <span>アバターと撮る。</span>
-          </h1>
-          <p className="hero-lead">
-            VR Vlogは、iPhoneのカメラ映像にVRMアバターを重ね、
-            表情や頭の動きをリアルタイムに反映して撮影できるVlogアプリです。
-          </p>
+  return <div className="site" id="top"><a className="skip-link" href="#main-content">本文へ移動</a><LegacyLinks basePath={sitePath} /><SiteHeader />
+    <main className="wrap" id="main-content">
+      <section className="section hero" id="capture" aria-labelledby="hero-heading">
+        <div className="hero-copy"><div className="eyebrow">iPhone用アプリ</div><h1 id="hero-heading">アバターで<br /><span>Vlogを撮る</span></h1>
+          <p className="hero-lead">顔をアバターに置き換えて撮影するiPhoneアプリです。<br className="desktop-break" />服や背景は実写のまま、<br className="desktop-break" />表情や顔の向きがアバターに反映されます。<br className="desktop-break" />内カメラと外カメラを同時に撮れます。</p>
+          <div className="launch-note"><span>公開初期は、全機能を広告なし・無料で。</span><a href="#free-access">提供条件</a></div>
           <div className="hero-actions">
-            <a className="button button-primary" href="#features">
-              VR Vlogについて
-              <ArrowIcon />
-            </a>
-            <span className="development-note">現在開発中 · 公開時期未定</span>
+            {/* Intentionally not a link: the app has not been released yet. */}
+            <div className="store-badge"><img src={siteHref("/images/app-store-badge-ja.svg")} alt="App Storeからダウンロード" width={196} height={72} /></div>
+            <a className="sub-link" href="#log">できることを見る <span aria-hidden="true">↓</span></a>
           </div>
         </div>
-        <CameraStage />
+        <figure className="hero-figure"><Screen file="capture.webp" alt="アバターと夜の水辺を映した撮影画面" className="hero-device" priority /><figcaption><Credit /><span className="caption">撮影画面</span></figcaption></figure>
       </section>
-
-      <section className="intro" aria-label="VR Vlogのコンセプト">
-        <p className="section-kicker">ONE CAMERA, ANOTHER YOU</p>
-        <p className="intro-statement">
-          顔を隠すためのアバターではなく、
-          <br />
-          <em>あなたらしさを映す</em>ためのアバターへ。
-        </p>
+      <section className="section review-section" id="log" aria-labelledby="log-heading">
+        <div><span id="features" className="anchor" /><div className="tag">ログ</div><h2 id="log-heading">2秒ずつ撮って、<br />あとでつなぐ</h2>
+          <p>「ログ」は、1回2秒の短い動画です。<br />撮ったあとにキャプションを入力して、<br className="desktop-break" />アプリに保存できます。</p></div>
+        <figure><Screen file="log-review.webp" alt="キャプションを入力してログを保存する画面" className="landscape-device" landscape /><figcaption><span className="caption">ログ確認画面</span><Credit /></figcaption></figure>
       </section>
-
-      <section className="section features" id="features">
-        <div className="section-heading">
-          <div>
-            <p className="section-kicker">FEATURES</p>
-            <h2>撮ることに、集中できる。</h2>
-          </div>
-          <p>
-            複雑な準備を減らして、iPhoneだけでアバターとの撮影を始められる体験を目指しています。
-          </p>
-        </div>
-        <div className="feature-grid">
-          {features.map((feature) => (
-            <article className="feature-card" key={feature.number}>
-              <span className="feature-number">{feature.number}</span>
-              <div className="feature-line" />
-              <h3>{feature.title}</h3>
-              <p>{feature.text}</p>
-            </article>
-          ))}
-        </div>
+      <section className="section join-section" id="make-vlog" aria-labelledby="join-heading">
+        <div className="join-copy"><div className="tag">ログをつなぐ</div><h2 id="join-heading">短い動画を撮るだけで、<br className="desktop-break" />かんたんに1本のVlogに</h2>
+          <p>ごはんや散歩の途中に、2秒ずつ撮影。<br />使いたいログを選ぶと、撮影順につながって<br className="desktop-break" />1本のVlogができあがります。</p>
+          <ul className="join-points"><li>ログごとにキャプションを入れる</li><li>隠したい部分にモザイクをかける</li><li>つないだ動画をアプリに保存する</li></ul>
+          <p className="small">1本につなげられるのは最大30ログ・60秒。<br />完成動画の例は、5本のログをつないだ10秒の動画です。</p></div>
+        <figure><div className="join-examples"><Screen file="log-join.webp" alt="料理とアバターが写ったログをつなぐ画面" className="join-device" /><div className="join-arrow" aria-hidden="true">→</div>
+          <div className="output-example"><div className="output-heading">完成動画のイメージ</div><div className="movie">
+            <img src={siteHref("/images/vlog-restaurant.webp")} alt="レストランの料理と、目を輝かせたアバター" width={720} height={1280} loading="lazy" decoding="async" /><span className="movie-caption">おいしそ～！</span><span className="duration">00:10</span></div><p>5ログ・10秒</p></div>
+        </div><figcaption><Credit /></figcaption></figure>
       </section>
-
-      <section className="section hub-section" id="vroid-hub">
-        <div className="hub-visual" aria-hidden="true">
-          <div className="hub-ring hub-ring-one" />
-          <div className="hub-ring hub-ring-two" />
-          <div className="hub-core">
-            <span>VR</span>
-          </div>
-          <span className="hub-node hub-node-one" />
-          <span className="hub-node hub-node-two" />
-          <span className="hub-node hub-node-three" />
-        </div>
-        <div className="hub-copy">
-          <p className="section-kicker">COMING NEXT</p>
-          <h2>VRoid Hub連携を開発中</h2>
-          <p>
-            VRoid Hubに登録された利用可能なモデルを選択し、VR
-            Vlogのアバターとして使用できる機能を開発予定です。認証、モデル選択、利用条件の確認を含む連携フローを予定しています。
-          </p>
-          <div className="notice">
-            <span>開発中</span>
-            <p>
-              この機能は現在未提供です。提供内容は開発および審査の状況により変更される場合があります。
-            </p>
-          </div>
-          <p className="trademark-note">
-            VRoid Hubはピクシブ株式会社が提供するサービスです。VR
-            Vlogは、VRoid Hubの公式サービスではありません。
-          </p>
-        </div>
+      <section className="section editing-section" id="editing" aria-labelledby="editing-heading">
+        <div><div className="tag">動画の編集</div><h2 id="editing-heading">動画をカットして、<br />文字を入れる</h2><p>撮影した動画をアプリで編集できます。<br />文字の位置や大きさ、動画の色味も調整できます。</p>
+          <dl className="editing-list"><div><dt>トリム</dt><dd>使いたい部分を残す</dd></div><div><dt>テキスト</dt><dd>文字を入れて、位置や大きさを調整</dd></div><div><dt>フィルタ</dt><dd>クリップごとに色味を変える</dd></div></dl></div>
+        <figure><Screen file="video-editor.webp" alt="トリム・テキスト・フィルタを使う動画編集画面" className="editor-device" /><figcaption><span className="caption">動画編集画面</span><Credit /></figcaption></figure>
       </section>
-
-      <section className="section privacy" id="privacy">
-        <div className="section-heading privacy-heading">
-          <div>
-            <p className="section-kicker">PRIVACY</p>
-            <h2>プライバシーポリシー</h2>
-          </div>
-          <p>最終更新日：2026年7月28日</p>
-        </div>
-        <div className="privacy-panel">
-          <p className="privacy-intro">
-            VR
-            Vlogは、機能提供に必要な範囲で端末のカメラ、マイク、写真ライブラリ、およびユーザーが選択したVRMファイルを使用します。
-          </p>
-          <dl className="privacy-list">
-            {privacyItems.map((item) => (
-              <div key={item.title}>
-                <dt>{item.title}</dt>
-                <dd>{item.text}</dd>
-              </div>
-            ))}
-          </dl>
-          <div className="privacy-details">
-            <p>
-              現行の開発版では、カメラ映像、音声、顔トラッキング情報、選択したローカルVRMファイルを開発者のサーバーへ送信しません。録画データは、ユーザーの操作により端末の写真ライブラリへ保存されます。
-            </p>
-            <p>
-              アプリを削除すると、アプリ内に保存されたVRMファイルと設定は削除されます。写真ライブラリへ保存済みの動画は、ユーザーが写真アプリから削除できます。
-            </p>
-            <p>
-              VRoid
-              Hub連携機能の提供開始前に、公式SDK／APIを通じて取り扱う認証情報・モデル情報、その利用目的と保存方法を本ポリシーへ追記します。
-            </p>
-            <p>
-              本ポリシーは、機能追加や法令・サービス要件の変更に応じて改定する場合があります。
-            </p>
-          </div>
-        </div>
+      <section className="section avatar-section" id="avatar" aria-labelledby="avatar-heading">
+        <div><div className="tag">アバター</div><h2 id="avatar-heading">使うアバターを選ぶ</h2><dl className="avatar-methods">
+          <div><dt>VRMファイル</dt><dd>iPhoneに保存したVRM 0.x / 1.0を読み込めます。</dd></div><div id="vroid-hub"><dt>VRoid Hub</dt><dd>自分が登録したモデルを選び、<br className="desktop-break" />利用条件を確認して使えます。</dd></div><div><dt>lilToon</dt><dd>専用の変換ツールでVRMに<br className="desktop-break" />書き出してから読み込みます。</dd></div></dl>
+          <a className="exporter-link" href="https://mitsuya0077.github.io/VR-Vlog-lilToon-Exporter/">lilToon用の変換ツールを見る <span aria-hidden="true">→</span></a></div>
+        <figure><div className="expressions-title">同じモデルで撮影した表情の例</div><div className="expressions">
+          <img src={siteHref("/images/expression-neutral.webp")} alt="アバターの表情例1" width={386} height={515} loading="lazy" decoding="async" /><img src={siteHref("/images/expression-calm.webp")} alt="アバターの表情例2" width={386} height={515} loading="lazy" decoding="async" /><img src={siteHref("/images/expression-star.webp")} alt="目が輝くアバターの表情" width={386} height={515} loading="lazy" decoding="async" />
+        </div><p className="expressions-copy">表情は撮影画面から切り替えられます。<br />使える表情はモデルによって異なります。</p><figcaption><Credit /></figcaption></figure>
       </section>
-
-      <section className="contact" id="contact">
-        <p className="section-kicker">CONTACT</p>
-        <h2>
-          VR Vlogは、
-          <br />
-          ただいま開発中です。
-        </h2>
-        <p>
-          一般公開時期は未定です。掲載している名称・画面・機能は、開発の進行により変更される場合があります。
-        </p>
-        <a
-          className="button button-secondary"
-          href="https://github.com/mitsuya0077"
-          rel="noreferrer"
-          target="_blank"
-        >
-          開発者ページ
-          <ArrowIcon />
-        </a>
-      </section>
-
-      <footer>
-        <a className="brand footer-brand" href="#top">
-          <span className="brand-mark">VR</span>
-          <span>VR Vlog</span>
-        </a>
-        <p>© 2026 VR Vlog · Developed by mitsuya0077</p>
-        <div>
-          <a href="#privacy">プライバシー</a>
-          <a href="#contact">お問い合わせ</a>
-        </div>
-      </footer>
-    </main>
-  );
+      <section className="section free-section" id="free-access" aria-labelledby="free-heading"><div className="tag">ご利用について</div><h2 id="free-heading">公開初期の無料提供について</h2><div className="free-copy">{freeAccessParagraphs.map((text, i) => <p className={i === 0 ? "free-lead" : undefined} key={text}>{text}</p>)}</div></section>
+      <section className="section support" id="support" aria-labelledby="support-heading"><div><h2 id="support-heading">対応環境・サポート</h2><p>iOS 17以降・対応iPhone</p></div><nav className="support-links" aria-label="サポート"><a href={siteHref("/support/#requirements")}>対応環境</a><a href={siteHref("/support/#faq")}>よくある質問</a><a href={siteHref("/support/#contact")}>お問い合わせ</a></nav></section>
+    </main><noscript><div className="legacy-fallback" id="privacy"><a href={siteHref("/privacy/")}>プライバシーポリシーを開く</a></div></noscript><SiteFooter />
+  </div>;
 }

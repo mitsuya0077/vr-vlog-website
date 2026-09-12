@@ -5,16 +5,16 @@ const siteUrl = "https://mitsuya0077.github.io/vr-vlog-website/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "VR Vlog | アバターと撮る、もうひとつのVlog",
+  title: "VR Vlog | アバターでVlogを撮る",
   description:
-    "VR Vlogは、iPhoneのカメラ映像にVRMアバターを重ね、表情や頭の動きを反映して動画を撮影できる開発中のiOSアプリです。",
+    "顔をアバターに置き換えて撮影するiPhoneアプリ。2秒ずつ撮ったログをつないでVlogを作り、動画のカットや文字入れもできます。",
   applicationName: "VR Vlog",
   alternates: {
     canonical: siteUrl,
   },
   openGraph: {
     title: "VR Vlog",
-    description: "あなたの表情で、アバターと撮る。",
+    description: "アバターでVlogを撮る。短い動画を撮るだけで、かんたんに1本のVlogに。",
     url: siteUrl,
     siteName: "VR Vlog",
     locale: "ja_JP",
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "VR Vlog",
-    description: "あなたの表情で、アバターと撮る。",
+    description: "アバターでVlogを撮る。短い動画を撮るだけで、かんたんに1本のVlogに。",
   },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#090a12",
+  themeColor: "#13191c",
   colorScheme: "dark",
 };
 
