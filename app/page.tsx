@@ -24,7 +24,7 @@ export default function Home() {
             <a className="sub-link" href="#log">できることを見る <span aria-hidden="true">↓</span></a>
           </div>
         </div>
-        <figure className="hero-figure"><Screen file="capture.webp" alt="アバターと夜の水辺を映した撮影画面" className="hero-device" priority /><figcaption><Credit /><span className="caption">撮影画面</span></figcaption></figure>
+        <figure className="hero-figure"><Screen file="capture.webp?v=tokyo-bay-20260913" alt="東京湾岸の夜景とアバターを映した撮影画面" className="hero-device" priority /><figcaption><Credit /><span className="caption">撮影画面</span></figcaption></figure>
       </section>
       <section className="section review-section" id="log" aria-labelledby="log-heading">
         <div><span id="features" className="anchor" /><div className="tag">ログ</div><h2 id="log-heading">2秒ずつ撮って、<br />あとでつなぐ</h2>

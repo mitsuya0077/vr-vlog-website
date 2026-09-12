@@ -12,7 +12,7 @@ additional rights to the depicted avatars.
 
 | File | Use |
 | --- | --- |
-| capture.webp | Hero camera screen |
+| capture.webp | Hero camera screen; Tokyo Bay nightscape updated September 13, 2026 |
 | log-review.webp | Saving a short log |
 | log-join.webp | Joining restaurant logs |
 | vlog-restaurant.webp | Completed video example |
@@ -29,3 +29,9 @@ The background was created with the built-in image generation tool. The original
 avatar, caption, editing controls and thumbnail avatar pixels were preserved;
 the preview, timeline and filter backgrounds were updated together. Pixel checks
 verified unchanged UI outside those regions and a lossless WebP output.
+
+The hero camera background was subsequently updated to a Tokyo Bay nightscape
+with Rainbow Bridge and Tokyo Tower, using the built-in image generation tool.
+The avatar and camera controls retain their existing pixels. The inner-camera
+background uses the same nightscape. The output is lossless WebP; 321,088 protected
+avatar and UI pixels were verified unchanged.
