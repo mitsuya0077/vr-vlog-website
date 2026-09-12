@@ -12,11 +12,11 @@ additional rights to the depicted avatars.
 
 | File | Use |
 | --- | --- |
-| capture.webp | Hero camera screen; aquarium background updated September 13, 2026 |
+| capture.webp | Hero camera screen; latest capture UI and aquarium background, September 13, 2026 |
 | log-review.webp | Saving a short log |
 | log-join.webp | Joining restaurant logs |
 | vlog-restaurant.webp | Completed video example |
-| video-editor.webp | Video editing screen; scenic background updated September 13, 2026 |
+| video-editor.webp | Video editing screen; latest text selection box and scenic background, September 13, 2026 |
 | expression-neutral.webp, expression-calm.webp, expression-star.webp | Expression examples |
 
 `app-store-badge-ja.svg` is Apple's unmodified Japanese Download on the App Store
@@ -35,3 +35,11 @@ created with the built-in image generation tool at the owner's request.
 The avatar and camera controls retain their existing pixels. The inner-camera
 background uses the same aquarium image. The output is lossless WebP; 321,088
 protected avatar and UI pixels were verified unchanged.
+
+Later on September 13, 2026, the owner approved refreshed UI mockups. The hero
+controls now use pixels from the owner's latest capture screenshot, including
+the selected Log mode. Its complete 386 × 515 avatar inset remains unchanged.
+The editor retains the caption 「すごい景色！」 with the latest pink rounded
+selection outline and the supplied screenshot's white resize handle. Its avatar
+inset and all pixels outside the caption/control area remain unchanged. Both
+published WebP images were checked pixel-for-pixel against the approved PNGs.
