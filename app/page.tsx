@@ -24,7 +24,7 @@ export default function Home() {
             <a className="sub-link" href="#log">できることを見る <span aria-hidden="true">↓</span></a>
           </div>
         </div>
-        <figure className="hero-figure"><Screen file="capture.webp?v=aquarium-20260913" alt="色鮮やかな魚が泳ぐ水族館の水槽とアバターを映した撮影画面" className="hero-device" priority /><figcaption><Credit /><span className="caption">撮影画面</span></figcaption></figure>
+        <figure className="hero-figure"><Screen file="capture.webp?v=ui-20260913" alt="色鮮やかな魚が泳ぐ水族館の水槽とアバターを映した撮影画面" className="hero-device" priority /><figcaption><Credit /><span className="caption">撮影画面</span></figcaption></figure>
       </section>
       <section className="section review-section" id="log" aria-labelledby="log-heading">
         <div><span id="features" className="anchor" /><div className="tag">ログ</div><h2 id="log-heading">2秒ずつ撮って、<br />あとでつなぐ</h2>
@@ -44,7 +44,7 @@ export default function Home() {
       <section className="section editing-section" id="editing" aria-labelledby="editing-heading">
         <div><div className="tag">動画の編集</div><h2 id="editing-heading">動画をカットして、<br />文字を入れる</h2><p>撮影した動画をアプリで編集できます。<br />文字の位置や大きさ、動画の色味も調整できます。</p>
           <dl className="editing-list"><div><dt>トリム</dt><dd>使いたい部分を残す</dd></div><div><dt>テキスト</dt><dd>文字を入れて、位置や大きさを調整</dd></div><div><dt>フィルタ</dt><dd>クリップごとに色味を変える</dd></div></dl></div>
-        <figure><Screen file="video-editor.webp?v=scenery-20260913" alt="富士山・赤レンガ倉庫・五稜郭・レインボーブリッジと牛の景色に「すごい景色！」と文字を入れた動画編集画面" className="editor-device" /><figcaption><span className="caption">動画編集画面</span><Credit /></figcaption></figure>
+        <figure><Screen file="video-editor.webp?v=textbox-20260913" alt="富士山・赤レンガ倉庫・五稜郭・レインボーブリッジと牛の景色に「すごい景色！」と文字を入れた動画編集画面" className="editor-device" /><figcaption><span className="caption">動画編集画面</span><Credit /></figcaption></figure>
       </section>
       <section className="section avatar-section" id="avatar" aria-labelledby="avatar-heading">
         <div><div className="tag">アバター</div><h2 id="avatar-heading">使うアバターを選ぶ</h2><dl className="avatar-methods">
