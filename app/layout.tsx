@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "VR Vlog | アバターでVlogを撮る",
   description:
-    "顔をアバターに置き換えて撮影するiPhoneアプリ。2秒ずつ撮ったログをつないでVlogを作り、動画のカットや文字入れもできます。",
+    "あなたの姿をアバターに置き換えて撮影するiPhoneアプリ。2秒ずつ撮ったログをつないでVlogを作り、動画のカットや文字入れもできます。",
   applicationName: "VR Vlog",
   alternates: {
     canonical: siteUrl,

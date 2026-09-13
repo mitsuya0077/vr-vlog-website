@@ -16,7 +16,7 @@ export default function Home() {
     <main className="wrap" id="main-content">
       <section className="section hero" id="capture" aria-labelledby="hero-heading">
         <div className="hero-copy"><div className="eyebrow">iPhone用アプリ</div><h1 id="hero-heading">アバターで<br /><span>Vlogを撮る</span></h1>
-          <p className="hero-lead">顔をアバターに置き換えて撮影するiPhoneアプリです。<br className="desktop-break" />服や背景は実写のまま、<br className="desktop-break" />表情や顔の向きがアバターに反映されます。<br className="desktop-break" />内カメラと外カメラを同時に撮れます。</p>
+          <p className="hero-lead">あなたの姿をアバターに置き換えて撮影するiPhoneアプリです。<br className="desktop-break" />背景は実写のまま、表情や顔の向きがアバターに反映されます。<br className="desktop-break" />内カメラと外カメラを同時に撮れます。</p>
           <div className="launch-note"><span>公開初期は、全機能を広告なし・無料で。</span><a href="#free-access">提供条件</a></div>
           <div className="hero-actions">
             {/* Intentionally not a link: the app has not been released yet. */}
@@ -48,11 +48,23 @@ export default function Home() {
       </section>
       <section className="section avatar-section" id="avatar" aria-labelledby="avatar-heading">
         <div><div className="tag">アバター</div><h2 id="avatar-heading">使うアバターを選ぶ</h2><dl className="avatar-methods">
-          <div><dt>VRMファイル</dt><dd>iPhoneに保存したVRM 0.x / 1.0を読み込めます。</dd></div><div id="vroid-hub"><dt>VRoid Hub</dt><dd>自分が登録したモデルを選び、<br className="desktop-break" />利用条件を確認して使えます。</dd></div><div><dt>lilToon</dt><dd>専用の変換ツールでVRMに<br className="desktop-break" />書き出してから読み込みます。</dd></div></dl>
-          <a className="exporter-link" href="https://mitsuya0077.github.io/VR-Vlog-lilToon-Exporter/">lilToon用の変換ツールを見る <span aria-hidden="true">→</span></a></div>
+          <div><dt>VRMファイル</dt><dd>iPhoneに保存したVRM 0.x / 1.0を読み込めます。</dd></div><div id="vroid-hub"><dt>VRoid Hub</dt><dd>自分が登録したモデルを選び、<br className="desktop-break" />利用条件を確認して使えます。</dd></div></dl></div>
         <figure><div className="expressions-title">同じモデルで撮影した表情の例</div><div className="expressions">
           <img src={siteHref("/images/expression-neutral.webp")} alt="アバターの表情例1" width={386} height={515} loading="lazy" decoding="async" /><img src={siteHref("/images/expression-calm.webp")} alt="アバターの表情例2" width={386} height={515} loading="lazy" decoding="async" /><img src={siteHref("/images/expression-star.webp")} alt="目が輝くアバターの表情" width={386} height={515} loading="lazy" decoding="async" />
         </div><p className="expressions-copy">表情は撮影画面から切り替えられます。<br />使える表情はモデルによって異なります。</p><figcaption><Credit /></figcaption></figure>
+        <div className="avatar-capabilities">
+          <div className="avatar-capability" id="liltoon">
+            <div className="tag">lilToon対応</div>
+            <h3>lilToonの見た目をそのまま再現</h3>
+            <p>専用の変換ツールでVRMに書き出すことで、<br className="desktop-break" />lilToonの見た目を保ったまま撮影できます。</p>
+            <a className="exporter-link" href="https://mitsuya0077.github.io/VR-Vlog-lilToon-Exporter/">lilToon用の変換ツールを見る <span aria-hidden="true">→</span></a>
+          </div>
+          <div className="avatar-capability" id="perfect-sync">
+            <div className="tag">Perfect Sync対応</div>
+            <h3>細かな表情もアバターに反映</h3>
+            <p>Perfect Sync対応アバターでは、<br className="desktop-break" />より詳細な顔トラッキングが利用できます。</p>
+          </div>
+        </div>
       </section>
       <section className="section free-section" id="free-access" aria-labelledby="free-heading"><div className="tag">ご利用について</div><h2 id="free-heading">公開初期の無料提供について</h2><div className="free-copy">{freeAccessParagraphs.map((text, i) => <p className={i === 0 ? "free-lead" : undefined} key={text}>{text}</p>)}</div></section>
       <section className="section support" id="support" aria-labelledby="support-heading"><div><h2 id="support-heading">対応環境・サポート</h2><p>iOS 17以降・対応iPhone</p></div><nav className="support-links" aria-label="サポート"><a href={siteHref("/support/#requirements")}>対応環境</a><a href={siteHref("/support/#faq")}>よくある質問</a><a href={siteHref("/support/#contact")}>お問い合わせ</a></nav></section>
