@@ -41,6 +41,10 @@ section, [id] { scroll-margin-top: 24px; }
 .launch-note { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 18px; width: fit-content; border-left: 3px solid var(--pink); padding: 8px 0 8px 15px; margin-top: 23px; font-size: 18px; font-weight: 650; }
 .launch-note a { font-size: 13px; font-weight: 500; color: #b8c4cc; text-decoration: underline; text-underline-offset: 4px; white-space: nowrap; }
 .hero-actions { display: flex; align-items: center; gap: 35px; margin-top: 29px; }
+.hero-tutorial { margin-top: 24px; }
+.tutorial-link { display: inline-flex; align-items: center; gap: 14px; padding: 13px 18px; border: 1px solid var(--pink); border-radius: 8px; color: #ff71ae; font-size: 17px; font-weight: 700; line-height: 1.5; }
+.tutorial-link:hover { background: #ff188014; text-decoration: none; }
+.hero .hero-tutorial p { margin-top: 9px; font-size: 13px; line-height: 1.8; }
 .store-badge { display: block; flex-shrink: 0; width: 196px; }
 .store-badge img { width: 196px; height: auto; }
 .sub-link { font-size: 16px; display: flex; align-items: center; gap: 17px; border-bottom: 1px solid #8b949e; padding: 10px 0 3px; white-space: nowrap; }

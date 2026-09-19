@@ -10,6 +10,25 @@ Avatar credit: ©もち山金魚. Credits appear alongside the images on the web
 These materials are supplied for this website; this repository does not grant
 additional rights to the depicted avatars.
 
+## Getting-started video
+
+The owner approved publication of `public/guide/` on September 19, 2026.
+The 4-minute-20-second video uses actual Unity, ALCOM and iPhone captures.
+Personal information is masked or cropped. Camera insets and library thumbnails
+use the owner's approved generated park scenery; avatar and app-control pixels
+remain captured material. Do not add raw captures or avatar model files here.
+
+- `vrvlog-start-guide.mp4`: H.264/AAC video with Japanese captions.
+- `vrvlog-start-guide.vtt`, `vrvlog-start-guide.srt`: accompanying subtitles.
+- `poster.jpg`: thumbnail from the same video revision.
+- `logo.png`: owner-supplied VR Vlog logo with background extracted using the built-in image tool.
+- `guide.md`: written steps, narration and reference links.
+- Voice credit: **VOICEVOX:ずんだもん**.
+- Avatar credit: **©もち山金魚**, as specified in the [official license](https://mochiyama.com/license_jp).
+
+These files are supplied for this website and do not grant additional rights
+to the depicted avatar or the logo.
+
 | File | Use |
 | --- | --- |
 | capture.webp | Hero camera screen; latest capture UI and aquarium background, September 13, 2026 |

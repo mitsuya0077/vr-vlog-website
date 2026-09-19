@@ -5,6 +5,7 @@ VR Vlogの公式案内サイトです。
 - 撮影・ログ結合・動画編集・アバター選択の案内
 - 公開初期の無料提供条件、サポート、プライバシーポリシー
 - PC・タブレット・スマートフォンに対応
+- [使い方の動画](https://mitsuya0077.github.io/vr-vlog-website/guide/)：エクスポーターの導入から撮影開始まで
 
 アプリは公開前です。App Storeバッジは表示のみで、リンクやクリック処理を付けていません。
 公開時に正式なApp Store URLが決まり次第、バッジにリンクを設定してください。
@@ -34,6 +35,8 @@ CIの`GITHUB_ACTIONS=true`で`/vr-vlog-website`のbasePathが設定されます�
 ローカルで公開用ビルドを確認する場合もこの環境変数を設定してから`npm run build:pages`を実行してください。
 
 画像の出典と取り扱いは[docs/assets.md](docs/assets.md)を参照してください。
+
+動画の再生ページと配信ファイルは`public/guide/`にあります。GitHub Pagesへの書き出しでそのまま`/guide/`へ配置されます。更新時は動画・字幕・サムネイル・テキストガイドを同じ版にそろえてください。
 
 ## Legacy URL compatibility
 
