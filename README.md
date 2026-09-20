@@ -56,3 +56,10 @@ The homepage also preserves `#privacy` and `#contact`, forwarding to the corresp
 document page while retaining query parameters. Without JavaScript, the homepage's
 `#privacy` anchor offers a direct policy link. The former `#features` and `#vroid-hub`
 anchors still point to their matching homepage sections.
+
+## 規約・プライバシーポリシー
+
+両ページは `public/legal-documents.json` の同じ本文データを描画します。
+アプリ側の正本から公開文書のJSONだけを同期し、本文・改定日を一致させます。
+このJSONをサイトだけで手修正せず、アプリの文書更新・同期検査・配布と併せて更新してください。
+公開後はページの全文と `/legal-documents.json` が改定版へ更新されたことを確認します。

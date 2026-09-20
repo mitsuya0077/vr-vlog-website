@@ -129,6 +129,9 @@ section, [id] { scroll-margin-top: 24px; }
 .subpage p { font-size: 16px; line-height: 1.95; color: var(--muted); }
 .subpage p + p { margin-top: 20px; }
 .document-section { border-top: 1px solid var(--line); padding: 32px 0; }
+.legal-document { max-width: 760px; }
+.legal-document p { white-space: pre-line; overflow-wrap: anywhere; line-break: strict; }
+.legal-document h2 { font-size: 21px; letter-spacing: 0; overflow-wrap: anywhere; }
 .faq-list details { border-bottom: 1px solid var(--line); }
 .faq-list summary { cursor: pointer; padding: 20px 8px; font-size: 17px; font-weight: 600; }
 .faq-list details p { padding: 0 8px 24px; }
