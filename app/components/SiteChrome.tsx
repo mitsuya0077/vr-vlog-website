@@ -11,7 +11,7 @@ export function SiteHeader() {
 }
 export function SiteFooter() {
   return <footer className="site-footer"><div className="footer-main"><Brand /><span>© 2026 VR Vlog</span>
-    <nav aria-label="フッターナビゲーション"><a href={siteHref("/privacy/")}>プライバシーポリシー</a><a href={siteHref("/terms/")}>ご利用条件</a></nav></div>
+    <nav aria-label="フッターナビゲーション"><a href={siteHref("/privacy/")}>プライバシーポリシー</a><a href={siteHref("/terms/")}>利用規約</a></nav></div>
     <p className="footer-trademark">Apple、Appleのロゴ、iPhoneは、米国およびその他の国で登録されたApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。</p>
   </footer>;
 }
