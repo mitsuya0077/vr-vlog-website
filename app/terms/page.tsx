@@ -4,7 +4,7 @@ import { LegalDocument } from "../components/LegalDocument";
 
 export const metadata: Metadata = {
   title: "利用規約 | VR Vlog",
-  alternates: { canonical: "https://mitsuya0077.github.io/vr-vlog-website/terms/" },
+  alternates: { canonical: "https://vrvlog.fun/terms/" },
 };
 
 export default function Page() {

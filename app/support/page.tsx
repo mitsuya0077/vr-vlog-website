@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Subpage } from "../components/SiteChrome";
 import { siteHref } from "../site";
-export const metadata: Metadata = { title: "対応環境・サポート | VR Vlog", alternates: { canonical: "https://mitsuya0077.github.io/vr-vlog-website/support/" } };
+export const metadata: Metadata = { title: "対応環境・サポート | VR Vlog", alternates: { canonical: "https://vrvlog.fun/support/" } };
 export default function Support() {
   return <Subpage title="対応環境・サポート">
     <section className="document-section" id="requirements"><h2>対応環境</h2><p>iOS 17以降の対応iPhone向けアプリです。対応機種の詳細は、アプリ公開時のApp Storeページでご確認ください。</p></section>
