@@ -5,12 +5,12 @@ VR Vlogの公式案内サイトです。
 - 撮影・ログ結合・動画編集・アバター選択の案内
 - 公開初期の無料提供条件、サポート、プライバシーポリシー
 - PC・タブレット・スマートフォンに対応
-- [使い方の動画](https://mitsuya0077.github.io/vr-vlog-website/guide/)：エクスポーターの導入からアバターの読み込みまで
+- [使い方の動画](https://vrvlog.fun/guide/)：エクスポーターの導入からアバターの読み込みまで
 
 アプリは公開前です。App Storeバッジは表示のみで、リンクやクリック処理を付けていません。
 公開時に正式なApp Store URLが決まり次第、バッジにリンクを設定してください。
 
-公開URL: <https://mitsuya0077.github.io/vr-vlog-website/>
+公開URL: <https://vrvlog.fun/>
 
 アプリ本体のソースコードや認証情報は、この公開リポジトリには含まれません。
 
@@ -31,8 +31,9 @@ npm run build
 ```
 
 `main`へのpushでGitHub Actionsが静的サイトを書き出し、GitHub Pagesへ公開します。
-CIの`GITHUB_ACTIONS=true`で`/vr-vlog-website`のbasePathが設定されます。
-ローカルで公開用ビルドを確認する場合もこの環境変数を設定してから`npm run build:pages`を実行してください。
+独自ドメイン`vrvlog.fun`のルートに公開するため、basePathは設定しません。
+ローカルで公開用ビルドを確認する場合は`npm run build:pages`を実行してください。
+GitHub PagesのCustom domainは`vrvlog.fun`に設定し、DNSはGitHub Pagesへ向けます。
 
 画像の出典と取り扱いは[docs/assets.md](docs/assets.md)を参照してください。
 

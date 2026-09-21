@@ -1,4 +1,4 @@
-export const sitePath = process.env.GITHUB_ACTIONS === "true" ? "/vr-vlog-website" : "";
+export const sitePath = "";
 export const siteHref = (path = "/") => `${sitePath}${path}`;
 export const freeAccessParagraphs = [
   "VR Vlogは現在、撮影・編集・保存を含む、提供中の全機能を広告なし・無料でご利用いただけます。",
