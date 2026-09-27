@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.583
+Let’s load an avatar into VR Vlog and get ready to film, step by step.
+
+00:00:08.583 --> 00:00:15.583
+This video does not cover buying an avatar or setting up Unity.
+
+00:00:15.583 --> 00:00:24.417
+You can find helpful articles in “Prepare to capture” below the video.
+
+00:00:24.417 --> 00:00:29.333
+On your computer, open the exporter’s official website.
+
+00:00:29.333 --> 00:00:35.708
+Click the “Add to VCC / ALCOM” button.
+
+00:00:35.708 --> 00:00:40.375
+If asked to open ALCOM, choose Open.
+
+00:00:40.375 --> 00:00:47.583
+On the ALCOM screen, click the button to add the repository.
+
+00:00:47.583 --> 00:00:56.333
+Open Projects on the left and click Manage for the project containing your avatar.
+
+00:00:56.333 --> 00:01:06.333
+Search for “VR Vlog,” then click the plus button next to the exporter.
+
+00:01:06.333 --> 00:01:14.583
+Click Apply. Required packages will be installed with the exporter.
+
+00:01:14.583 --> 00:01:19.292
+When installation finishes, click Open Unity.
+
+00:01:19.292 --> 00:01:29.625
+In Unity, choose VR Vlog → Export lilToon VRM 1.0 from the top menu.
+
+00:01:29.625 --> 00:01:36.708
+Drag the top-level Kipfel object from Hierarchy into the Avatar field.
+
+00:01:36.708 --> 00:01:42.500
+Select the parent of the whole avatar, not just its body or clothes.
+
+00:01:42.500 --> 00:01:52.875
+Next, enter the creator’s name. For this Kipfel example, enter the model creator’s name, Kameyama.
+
+00:01:52.875 --> 00:01:57.833
+Click “Choose destination and export VRM.”
+
+00:01:57.833 --> 00:02:08.917
+Choose a folder and file name, then click Save. Here, we use Kipfel.vrm.
+
+00:02:08.917 --> 00:02:18.542
+Transfer the exported file to iPhone using a cloud service such as Google Drive or Dropbox.
+
+00:02:18.542 --> 00:02:27.375
+You can also connect your iPhone to the computer and transfer it to a file-sharing app.
+
+00:02:27.375 --> 00:02:32.625
+This guide uses iCloud Drive.
+
+00:02:32.625 --> 00:02:39.208
+In a computer browser, open Drive on iCloud.com.
+
+00:02:39.208 --> 00:02:46.042
+Sign in with the same Apple Account you use on your iPhone.
+
+00:02:46.042 --> 00:02:50.292
+Click the New Folder button at the top.
+
+00:02:50.292 --> 00:02:55.917
+Name it VRVlog and press Enter.
+
+00:02:55.917 --> 00:03:00.875
+Double-click the folder you just created.
+
+00:03:00.875 --> 00:03:06.083
+Click the upload button with an upward arrow on a cloud.
+
+00:03:06.083 --> 00:03:14.292
+Select the Kipfel.vrm file you exported, then click Open.
+
+00:03:14.292 --> 00:03:23.000
+Wait for the upload to finish and the file to appear in the folder.
+
+00:03:23.000 --> 00:03:31.500
+On your iPhone, open VR Vlog and tap the gear icon on the capture screen.
+
+00:03:31.500 --> 00:03:39.917
+In Settings, under Change model, tap “Choose a VRM on this device.”
+
+00:03:39.917 --> 00:03:46.250
+In the file picker, tap Browse and open iCloud Drive.
+
+00:03:46.250 --> 00:03:49.500
+Open the VRVlog folder.
+
+00:03:49.500 --> 00:03:55.542
+Tap Kipfel.vrm inside it.
+
+00:03:55.542 --> 00:04:05.625
+If it has a cloud icon, wait for the download. Then wait for the avatar to load.
+
+00:04:05.625 --> 00:04:11.375
+When the avatar appears, you are ready to film.
+
+00:04:11.375 --> 00:04:20.375
+Narration was provided by Zundamon.

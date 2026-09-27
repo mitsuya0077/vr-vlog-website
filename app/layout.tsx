@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 const siteUrl = "https://vrvlog.fun/";
@@ -41,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>{children}<Script src="/localize.js" strategy="afterInteractive" /></body>
     </html>
   );
 }
