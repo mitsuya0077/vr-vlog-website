@@ -19,8 +19,7 @@ export default function Home() {
           <p className="hero-lead">あなたの姿をアバターに置き換えて撮影するiPhoneアプリです。<br className="desktop-break" />背景は実写のまま、表情や顔の向きがアバターに反映されます。<br className="desktop-break" />内カメラと外カメラを同時に撮れます。</p>
           <div className="launch-note"><span>公開初期は、全機能を広告なし・無料で。</span><a href="#free-access">提供条件</a></div>
           <div className="hero-actions">
-            {/* Intentionally not a link: the app has not been released yet. */}
-            <div className="store-badge"><img src={siteHref("/images/app-store-badge-ja.svg")} alt="App Storeからダウンロード" width={196} height={72} /></div>
+            <a className="store-badge" href="https://apps.apple.com/jp/app/vr-vlog/id6789953414" aria-label="App StoreでVR Vlogをダウンロード"><img src={siteHref("/images/app-store-badge-ja.svg")} alt="App Storeからダウンロード" width={196} height={72} /></a>
             <a className="sub-link" href="#log">できることを見る <span aria-hidden="true">↓</span></a>
           </div>
           <div className="hero-tutorial">

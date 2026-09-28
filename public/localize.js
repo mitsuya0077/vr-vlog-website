@@ -15,6 +15,28 @@ const VRVLOG_TRANSLATIONS = {"en":{"で":"in","と":"and","ログ":"Log","撮影
   if (locale === "ja") return;
 
   const messages = VRVLOG_TRANSLATIONS[locale];
+  Object.assign(messages, {
+    en: {
+      "ダウンロード": "Download",
+      "App StoreでVR Vlogをダウンロード": "Download VR Vlog on the App Store",
+      "App Storeからダウンロード": "Download on the App Store",
+    },
+    "zh-Hans": {
+      "ダウンロード": "下载",
+      "App StoreでVR Vlogをダウンロード": "在 App Store 下载 VR Vlog",
+      "App Storeからダウンロード": "从 App Store 下载",
+    },
+    "zh-Hant": {
+      "ダウンロード": "下載",
+      "App StoreでVR Vlogをダウンロード": "在 App Store 下載 VR Vlog",
+      "App Storeからダウンロード": "從 App Store 下載",
+    },
+    ko: {
+      "ダウンロード": "다운로드",
+      "App StoreでVR Vlogをダウンロード": "App Store에서 VR Vlog 다운로드",
+      "App Storeからダウンロード": "App Store에서 다운로드",
+    },
+  }[locale]);
   const attrs = ["alt", "aria-label", "content", "label", "placeholder", "title"];
   const skipTags = new Set(["SCRIPT", "STYLE", "CODE", "TEXTAREA"]);
   const Japanese = /[ぁ-んァ-ヶ一-龠]/;

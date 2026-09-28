@@ -7,8 +7,7 @@ VR Vlogの公式案内サイトです。
 - PC・タブレット・スマートフォンに対応
 - [使い方の動画](https://vrvlog.fun/guide/)：エクスポーターの導入からアバターの読み込みまで
 
-アプリは公開前です。App Storeバッジは表示のみで、リンクやクリック処理を付けていません。
-公開時に正式なApp Store URLが決まり次第、バッジにリンクを設定してください。
+App Storeの[VR Vlog公式ページ](https://apps.apple.com/jp/app/vr-vlog/id6789953414)へ、トップページの公式バッジとナビゲーションから移動できます。
 
 公開URL: <https://vrvlog.fun/>
 

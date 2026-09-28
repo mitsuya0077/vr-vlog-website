@@ -6,7 +6,7 @@ export function Brand() {
 }
 export function SiteHeader() {
   return <header className="site-header"><Brand /><nav className="nav-links" aria-label="メインナビゲーション">
-    <a href={siteHref("/#capture")}>撮影</a><a href={siteHref("/#log")}>ログ</a><a href={siteHref("/#avatar")}>アバター</a><a href={siteHref("/#free-access")}>無料提供について</a>
+    <a href={siteHref("/#capture")}>撮影</a><a href={siteHref("/#log")}>ログ</a><a href={siteHref("/#avatar")}>アバター</a><a href={siteHref("/#free-access")}>無料提供について</a><a href="https://apps.apple.com/jp/app/vr-vlog/id6789953414">ダウンロード</a>
   </nav></header>;
 }
 export function SiteFooter() {

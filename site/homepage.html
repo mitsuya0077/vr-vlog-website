@@ -198,13 +198,28 @@ html:not([lang="ja"]) .headline-line{white-space:normal}
  .hero-figure .phone{box-shadow:0 12px 23px rgba(0,0,0,.18),0 2px 6px rgba(0,0,0,.10)}
 }
 </style>
+<style id="app-store-download-styles">
+.navigation .download-nav{display:inline-flex;align-items:center;color:var(--text);font-size:14px;font-weight:700;white-space:nowrap}
+.hero-actions{column-gap:22px;row-gap:14px}
+.hero-actions>.store-badge{display:block;flex:none;line-height:0}
+.hero-actions>.store-badge img{display:block;width:163px;height:auto}
+.hero-actions>.hero-guide-link{flex-basis:100%;justify-content:flex-start;min-height:36px;padding:2px 0;border:0;background:transparent;color:var(--muted);font-size:14px;font-weight:500}
+.hero-actions>.hero-guide-link .guide-play{display:none}
+.hero-actions>.hero-guide-link:hover{border:0;background:transparent;color:var(--text);text-decoration:underline}
+@media(max-width:900px) and (min-width:701px){.hero-actions>.store-badge,.hero-actions>.hero-guide-link{min-width:0}}
+@media(max-width:700px){
+ .navigation .download-nav{display:block;width:auto;margin:0;padding:10px 0}
+ .hero-actions>.store-badge{justify-self:center}
+ .hero-actions>.hero-guide-link{justify-content:center;width:100%;min-height:36px;padding:2px 0;font-size:14px}
+}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">本文へ移動</a>
 <header class="header"><div class="wrap header-inner">
 <a aria-label="VR Vlog トップ" class="brand" href="#top"><img class="brand-logo" src="sunset/image-3278474d5ade.png" alt="VR VLOG" width="1990" height="456" decoding="async"/></a>
 <button aria-controls="navigation" aria-expanded="false" class="menu-button" type="button">メニュー <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></button>
-<nav aria-label="メインナビゲーション" class="navigation" id="navigation"><a href="#samples">撮影例</a><a href="#howto">使い方</a><a href="#ar">AR配置</a><a href="#support">サポート</a><span class="release-state">公開準備中</span></nav>
+<nav aria-label="メインナビゲーション" class="navigation" id="navigation"><a href="#samples">撮影例</a><a href="#howto">使い方</a><a href="#ar">AR配置</a><a href="#support">サポート</a><a class="download-nav" href="https://apps.apple.com/jp/app/vr-vlog/id6789953414">ダウンロード</a></nav>
 </div></header>
 <main id="main">
 <div class="wrap">
@@ -212,7 +227,7 @@ html:not([lang="ja"]) .headline-line{white-space:normal}
 <div class="hero-copy"><span id="capture"></span><p class="eyebrow">iPhone用アプリ</p>
 <h1 id="hero-heading"><span class="headline-line">アバター<em>で</em>撮る。</span><span class="headline-line">アバター<em>と</em>撮る。</span></h1>
 <p class="hero-lead"><span>自分の姿をアバターに置き換えて撮影。</span><span>ARモードでは、机や床にアバターを配置できます。</span></p>
-<div class="hero-actions"><a class="primary" href="#samples">撮影例を見る <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path></svg></a><a class="hero-guide-link" href="guide/" target="_blank" rel="noopener" aria-label="使い方動画を見る（新しいタブで開きます）"><svg class="guide-play" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="m10 7.5 6.5 4.5-6.5 4.5Z" class="guide-play-cutout"/></svg><span>使い方動画を見る</span><svg class="guide-external" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 6h10v10M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+<div class="hero-actions"><a class="store-badge" href="https://apps.apple.com/jp/app/vr-vlog/id6789953414" aria-label="App StoreでVR Vlogをダウンロード"><img src="images/app-store-badge-ja.svg" alt="App Storeからダウンロード" width="163" height="60"/></a><a class="primary" href="#samples">撮影例を見る <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path></svg></a><a class="hero-guide-link" href="guide/" target="_blank" rel="noopener" aria-label="使い方動画を見る（新しいタブで開きます）"><svg class="guide-play" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="m10 7.5 6.5 4.5-6.5 4.5Z" class="guide-play-cutout"/></svg><span>使い方動画を見る</span><svg class="guide-external" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 6h10v10M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
 <p class="launch-note">現在、全機能を広告なし・無料で提供中。<a href="#free-access">無料提供について</a></p></div>
 <figure class="hero-figure"><div aria-hidden="true" class="hero-backplate"></div>
 <button aria-label="AR撮影画面を拡大" class="phone" data-image="hero-capture" type="button"><img alt="夕暮れの海辺にアバターを配置したVR VlogのAR撮影画面" fetchpriority="high" width="941" height="1672" id="source-hero-capture" src="sunset/image-090af02450b2.webp"/></button>
