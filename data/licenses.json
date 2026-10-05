@@ -37,12 +37,12 @@
         "note": "lilToonのテッセレーション処理に使用。"
       },
       {
-        "name": "MI-GAN（実装・モデル重み）",
+        "name": "MI-GAN（同梱モデル）",
         "version": "2b793c5ece43",
         "license": "MIT",
         "source": "https://github.com/Picsart-AI-Research/MI-GAN/tree/2b793c5ece43f4253e32d4afc257120a5deed6f5",
         "notice": "licenses/app-MI-GAN-notices.txt",
-        "note": "背景補完用のモデルをCore MLへ変換して使用。固定した上流版の実装とモデル重みは、いずれもMIT Licenseです。"
+        "note": "背景補完機能は停止済みです。現行のiOSビルドで同梱対象として残るモデルの著作権表示・ライセンスを掲載しています。"
       },
       {
         "name": "Unity パッケージ",
