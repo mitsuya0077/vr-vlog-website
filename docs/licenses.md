@@ -14,6 +14,8 @@ When dependencies or assets change:
 
 - Inspect the exact pinned release, including embedded and transitive libraries,
   native archives, model licenses, and `NOTICE`/third-party-notice files.
+- Confirm both runtime use and build payloads. A retired feature may leave models
+  in the distribution, so do not describe those models as active functionality.
 - Replace the relevant original texts and update their manifest entries. Keep
   app dependencies separate from exporter dependencies and website build tools.
 - For the website, inspect `package-lock.json` and Next.js's bundled libraries,
