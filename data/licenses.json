@@ -1,0 +1,462 @@
+[
+  {
+    "id": "app",
+    "title": "VR Vlogアプリ",
+    "description": "iPhone向けアプリのソース・依存関係に記録されたソフトウェア、モデル、シェーダーの通知です。組込み範囲はアプリの版・機能によって異なります。",
+    "entries": [
+      {
+        "name": "Unity / Unity Editor",
+        "version": "2022.3.62f3",
+        "license": "Unity Software Terms / 同梱の第三者ライセンス",
+        "source": "https://unity.com/releases/editor/whats-new/2022.3.62f3",
+        "notice": "licenses/Unity-2022.3.62f3-Third-Party-Notices.txt",
+        "note": "アプリの実行エンジンと開発環境に使用するUnityの共通の第三者通知です。公式の通知全文を掲載しているため、Editorやビルドツールに関する項目も含まれます。本文中のすべてのコンポーネントがVR Vlogアプリに組み込まれていることを示すものではありません。"
+      },
+      {
+        "name": "UniVRM / UniGLTF / MToon",
+        "version": "0.131.1",
+        "license": "MIT",
+        "source": "https://github.com/vrm-c/UniVRM/tree/66558744b7fa50790d7cec217c6dd94b58c7441e",
+        "notice": "licenses/app-UniVRM-notices.txt",
+        "note": "VRM読み込み・表示に使用。UniGLTF、UniVRM、MToonの著作権表示と許諾文を保持しています。"
+      },
+      {
+        "name": "lilToon",
+        "version": "2.3.4",
+        "license": "MIT（同梱の第三者通知を含む）",
+        "source": "https://github.com/lilxyzw/lilToon/tree/252fd8cfc46106d4967e95b3f2c788418502f227",
+        "notice": "licenses/app-lilToon-notices.txt",
+        "note": "アバター表示用シェーダー。Unlit_WF_ShaderSuite、GTAvaCrypt、PoiyomiToonShaderなど、上流が提供する第三者通知も掲載しています。"
+      },
+      {
+        "name": "Microsoft D3D11 reference tessellator",
+        "version": "a11d1bd247df",
+        "license": "MIT",
+        "source": "https://chromium.googlesource.com/chromiumos/third_party/mesa/+/a11d1bd247df18057ecb9945e01bf39ff85d8d9d/src/gallium/auxiliary/tessellator/tessellator.cpp",
+        "notice": "licenses/app-MicrosoftTessellator.txt",
+        "note": "lilToonのテッセレーション処理に使用。"
+      },
+      {
+        "name": "MI-GAN（実装・モデル重み）",
+        "version": "2b793c5ece43",
+        "license": "MIT",
+        "source": "https://github.com/Picsart-AI-Research/MI-GAN/tree/2b793c5ece43f4253e32d4afc257120a5deed6f5",
+        "notice": "licenses/app-MI-GAN-notices.txt",
+        "note": "背景補完用のモデルをCore MLへ変換して使用。固定した上流版の実装とモデル重みは、いずれもMIT Licenseです。"
+      },
+      {
+        "name": "Unity パッケージ",
+        "version": "各パッケージ版は通知本文に記載",
+        "license": "Unity Companion License / Unity Package Distribution License / MIT / Apache-2.0 / BSD / SGI Free B など",
+        "source": "https://unity.com/legal/licenses/unity-companion-license",
+        "notice": "licenses/app-Unity-packages-notices.txt",
+        "note": "ソースの依存関係に記録されたUnityパッケージの通知をまとめています。Input System、AR Foundation、ARKit、TextMesh Pro、Mathematics、Newtonsoft.Json、URP、Burstなどを含みます。開発・テスト専用や、利用機能・プラットフォームで組込みが変わる依存関係も含みます。"
+      },
+      {
+        "name": "VR Vlog lilToon モバイル表示用シェーダー",
+        "version": "lilToon 2.3.4 / OpenLit 1.0.2 / MToon10由来",
+        "license": "MIT / CC0-1.0",
+        "source": "https://github.com/vrm-c/UniVRM/tree/66558744b7fa50790d7cec217c6dd94b58c7441e",
+        "notice": "licenses/app-VRVlogLilToonMobile-LICENSE.txt",
+        "note": "上流のシェーダーと光源処理に基づくアプリ側の改変です。各上流の著作権表示を保持しています。"
+      },
+      {
+        "name": "MediaPipe Tasks / Face Landmarker",
+        "version": "Tasks 0.10.21 / 顔モデル float16 v1",
+        "license": "Apache-2.0 / MIT / BSD / MPL-2.0 / zlib など（ネイティブ依存関係を含む）",
+        "source": "https://github.com/google-ai-edge/mediapipe/tree/v0.10.21",
+        "notice": "licenses/app-MediaPipe-native-notices.txt",
+        "note": "顔の検出用ライブラリとモデル。TensorFlow Lite、XNNPACK、KleidiAI、Eigen、OpenCV、ICU、Protocol Buffersなど、固定したiOSアーカイブのネイティブ依存関係の通知も掲載しています。アーカイブ全体には、アプリで有効にしていないTasksの処理も含まれます。Eigenの対応する上流ソースへのリンクと、Independent JPEG Groupの謝辞を通知本文に含めています。"
+      },
+      {
+        "name": "VRoid SDK for Unity",
+        "version": "0.5.2",
+        "license": "VRoid SDK利用規約（pixiv）",
+        "source": "https://developer.vroid.com/sdk/",
+        "notice": "licenses/vroid-sdk-0.5.2-license-summary.txt",
+        "note": "VRoid Hubとの連携に使用。SDK本体はpixivの利用規約に基づき提供されています。同梱コードの第三者通知は以下に掲載しています。"
+      },
+      {
+        "name": "VRoid SDKに含まれるHTTPポート選択処理",
+        "version": "SDK 0.5.2",
+        "license": "CC-BY-SA-2.5",
+        "source": "https://stackoverflow.com/a/3978040",
+        "notice": "licenses/vroid-sdk-0.5.2-stackoverflow-3978040.txt",
+        "note": "原著者：Richard Dingwall。出典、SDK側の改変説明、ライセンス全文を掲載しています。"
+      },
+      {
+        "name": "VRoid SDKに含まれるUnityウィンドウ制御",
+        "version": "SDK 0.5.2",
+        "license": "CC-BY-SA-4.0",
+        "source": "https://stackoverflow.com/a/56961044",
+        "notice": "licenses/vroid-sdk-0.5.2-stackoverflow-56961044.txt",
+        "note": "原著者：Ruzihm。対象環境で使用されるSDK内のコードです。出典、SDK側の改変説明、ライセンス全文を掲載しています。"
+      }
+    ]
+  },
+  {
+    "id": "exporter",
+    "title": "VR Vlogエクスポーター",
+    "description": "Unityエクスポーターと、その配布物・依存パッケージに関するライセンスです。",
+    "entries": [
+      {
+        "name": "VR Vlog lilToon VRM Exporter",
+        "version": "0.11.10",
+        "license": "MIT",
+        "source": "https://github.com/mitsuya0077/VR-Vlog-lilToon-Exporter/blob/a4d11c9925b44e218c0885a6e372625a3a847dec/LICENSE",
+        "notice": "licenses/exporter-exporter.txt",
+        "note": "VRM書き出し用のUnityエクスポーター。"
+      },
+      {
+        "name": "lilToon",
+        "version": "2.3.4",
+        "license": "MIT",
+        "source": "https://github.com/lilxyzw/lilToon/blob/252fd8cfc46106d4967e95b3f2c788418502f227/LICENSE",
+        "notice": "licenses/exporter-liltoon-exporter.txt",
+        "note": "エクスポーターのアルファマスク・レイヤーベイク処理はlilToon 2.3.4のコードを改変して使用しています。lilToon本体は別途導入する依存ツールです。"
+      },
+      {
+        "name": "UniVRM / MToon",
+        "version": "0.131.0 (compatible: 0.131.1, 0.131.2)",
+        "license": "MIT",
+        "source": "https://github.com/vrm-c/UniVRM/blob/3b99078d26b362733ad9bf463f98c83b8a1b4c9f/LICENSE.txt",
+        "notice": "licenses/exporter-univrm-exporter.txt",
+        "note": "VRM 1.0の読み込み・書き出しとMToon表示。依存パッケージの配布時にはライセンス本文を同梱しています。"
+      },
+      {
+        "name": "UniGLTF",
+        "version": "0.131.0",
+        "license": "MIT",
+        "source": "https://github.com/vrm-c/UniVRM/blob/3b99078d26b362733ad9bf463f98c83b8a1b4c9f/Packages/UniGLTF/LICENSE.md",
+        "notice": "licenses/exporter-unigltf-exporter.txt",
+        "note": "glTFの読み込み・書き出し用の依存パッケージ。"
+      },
+      {
+        "name": "Avatar Optimizer compatibility patch",
+        "version": "1.9.20",
+        "license": "MIT",
+        "source": "https://github.com/mitsuya0077/VR-Vlog-lilToon-Exporter/blob/a4d11c9925b44e218c0885a6e372625a3a847dec/Documentation~/DependencyPatches/AAO-LICENSE.txt",
+        "notice": "licenses/exporter-avatar-optimizer-patch.txt",
+        "note": "Avatar Optimizer 1.9.20の頂点バッファ解放を修正する差分を同梱しています。Avatar Optimizer本体は任意の外部依存ツールです。"
+      },
+      {
+        "name": "BouncyCastle.Cryptography",
+        "version": "2.7.0",
+        "license": "MIT; Apache-2.0; BSD-3-Clause; origin acknowledgement",
+        "source": "https://github.com/bcgit/bc-csharp/blob/4007498b13582d90ee1eda5d9920c324428b98b3/LICENSE.md",
+        "notice": "licenses/exporter-bouncycastle.txt",
+        "note": "LAN転送のTLS通信・証明書生成に利用します。同梱DLLにはBzip2、JZlib、Falcon、Serpent由来のコードと各ライセンス・出典表記が含まれます。"
+      },
+      {
+        "name": "ZXing.Net",
+        "version": "0.16.11",
+        "license": "Apache-2.0",
+        "source": "https://github.com/micjahn/ZXing.Net/blob/fd58f3c4a5d80ccf45ef1237899a65b0ba5b83a0/COPYING",
+        "notice": "licenses/exporter-zxing.txt",
+        "note": "端末間LAN転送用のQRコードをUnity内で生成します。改変していない.NET Standard 2.0のコアDLLを同梱しています。"
+      }
+    ]
+  },
+  {
+    "id": "website",
+    "title": "公式サイト",
+    "description": "公式サイトを構成するライブラリの固定バージョンと、そのライセンス原文です。",
+    "entries": [
+      {
+        "name": "Next.js",
+        "version": "15.5.22",
+        "license": "MIT",
+        "source": "https://nextjs.org",
+        "notice": "licenses/npm-next-15.5.22.txt",
+        "note": ""
+      },
+      {
+        "name": "React",
+        "version": "19.2.8",
+        "license": "MIT",
+        "source": "https://react.dev/",
+        "notice": "licenses/npm-react-19.2.8.txt",
+        "note": ""
+      },
+      {
+        "name": "React DOM",
+        "version": "19.2.8",
+        "license": "MIT",
+        "source": "https://react.dev/",
+        "notice": "licenses/npm-react-dom-19.2.8.txt",
+        "note": ""
+      },
+      {
+        "name": "@emnapi/runtime",
+        "version": "1.11.3",
+        "license": "MIT",
+        "source": "https://github.com/toyobayashi/emnapi#readme",
+        "notice": "licenses/npm--emnapi-runtime-1.11.3.txt",
+        "note": ""
+      },
+      {
+        "name": "@next/env",
+        "version": "15.5.22",
+        "license": "MIT",
+        "source": "https://github.com/vercel/next.js",
+        "notice": "licenses/npm--next-env-15.5.22.txt",
+        "note": ""
+      },
+      {
+        "name": "@swc/helpers",
+        "version": "0.5.15",
+        "license": "Apache-2.0",
+        "source": "https://swc.rs",
+        "notice": "licenses/npm--swc-helpers-0.5.15.txt",
+        "note": ""
+      },
+      {
+        "name": "caniuse-lite",
+        "version": "1.0.30001806",
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/browserslist/caniuse-lite",
+        "notice": "licenses/npm-caniuse-lite-1.0.30001806.txt",
+        "note": "Browser support data source: caniuse.com (https://caniuse.com/), CC BY 4.0. Attribution requirement: https://github.com/browserslist/caniuse-lite#license."
+      },
+      {
+        "name": "client-only",
+        "version": "0.0.1",
+        "license": "MIT",
+        "source": "https://reactjs.org/",
+        "notice": "licenses/npm-client-only-0.0.1.txt",
+        "note": ""
+      },
+      {
+        "name": "detect-libc",
+        "version": "2.1.2",
+        "license": "Apache-2.0",
+        "source": "https://github.com/lovell/detect-libc",
+        "notice": "licenses/npm-detect-libc-2.1.2.txt",
+        "note": ""
+      },
+      {
+        "name": "nanoid",
+        "version": "3.3.16",
+        "license": "MIT",
+        "source": "https://github.com/ai/nanoid",
+        "notice": "licenses/npm-nanoid-3.3.16.txt",
+        "note": ""
+      },
+      {
+        "name": "picocolors",
+        "version": "1.1.1",
+        "license": "ISC",
+        "source": "https://github.com/alexeyraspopov/picocolors",
+        "notice": "licenses/npm-picocolors-1.1.1.txt",
+        "note": ""
+      },
+      {
+        "name": "postcss",
+        "version": "8.5.24",
+        "license": "MIT",
+        "source": "https://postcss.org/",
+        "notice": "licenses/npm-postcss-8.5.24.txt",
+        "note": ""
+      },
+      {
+        "name": "scheduler",
+        "version": "0.27.0",
+        "license": "MIT",
+        "source": "https://react.dev/",
+        "notice": "licenses/npm-scheduler-0.27.0.txt",
+        "note": ""
+      },
+      {
+        "name": "semver",
+        "version": "7.8.5",
+        "license": "ISC",
+        "source": "https://github.com/npm/node-semver",
+        "notice": "licenses/npm-semver-7.8.5.txt",
+        "note": ""
+      },
+      {
+        "name": "sharp",
+        "version": "0.35.3",
+        "license": "Apache-2.0",
+        "source": "https://sharp.pixelplumbing.com",
+        "notice": "licenses/npm-sharp-0.35.3.txt",
+        "note": ""
+      },
+      {
+        "name": "source-map-js",
+        "version": "1.2.1",
+        "license": "BSD-3-Clause",
+        "source": "https://github.com/7rulnik/source-map-js",
+        "notice": "licenses/npm-source-map-js-1.2.1.txt",
+        "note": ""
+      },
+      {
+        "name": "styled-jsx",
+        "version": "5.1.6",
+        "license": "MIT",
+        "source": "https://github.com/vercel/styled-jsx",
+        "notice": "licenses/npm-styled-jsx-5.1.6.txt",
+        "note": ""
+      },
+      {
+        "name": "tslib",
+        "version": "2.8.1",
+        "license": "0BSD",
+        "source": "https://www.typescriptlang.org/",
+        "notice": "licenses/npm-tslib-2.8.1.txt",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "website-build",
+    "title": "開発・サイト構築用のライブラリ",
+    "description": "サイトの構築、型検査、任意機能などに使用する依存関係と第三者通知です。",
+    "entries": [
+      {
+        "name": "@types/node",
+        "version": "24.10.1",
+        "license": "MIT",
+        "source": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
+        "notice": "licenses/build--types-node-24.10.1.txt",
+        "note": "サイトの構築・型検査に使用します。"
+      },
+      {
+        "name": "@types/react",
+        "version": "19.2.7",
+        "license": "MIT",
+        "source": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react",
+        "notice": "licenses/build--types-react-19.2.7.txt",
+        "note": "サイトの構築・型検査に使用します。"
+      },
+      {
+        "name": "@types/react-dom",
+        "version": "19.2.3",
+        "license": "MIT",
+        "source": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom",
+        "notice": "licenses/build--types-react-dom-19.2.3.txt",
+        "note": "サイトの構築・型検査に使用します。"
+      },
+      {
+        "name": "csstype",
+        "version": "3.2.3",
+        "license": "MIT",
+        "source": "https://github.com/frenic/csstype",
+        "notice": "licenses/build-csstype-3.2.3.txt",
+        "note": "サイトの構築・型検査に使用します。"
+      },
+      {
+        "name": "typescript",
+        "version": "5.9.3",
+        "license": "Apache-2.0",
+        "source": "https://www.typescriptlang.org/",
+        "notice": "licenses/build-typescript-5.9.3.txt",
+        "note": "サイトの構築・型検査に使用します。"
+      },
+      {
+        "name": "undici-types",
+        "version": "7.16.0",
+        "license": "MIT",
+        "source": "https://undici.nodejs.org",
+        "notice": "licenses/build-undici-types-7.16.0.txt",
+        "note": "サイトの構築・型検査に使用します。"
+      },
+      {
+        "name": "@img/colour",
+        "version": "1.1.0",
+        "license": "MIT",
+        "source": "https://github.com/lovell/colour",
+        "notice": "licenses/npm--img-colour-1.1.0.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@img/sharp-libvips-linux-x64",
+        "version": "1.3.2",
+        "license": "LGPL-3.0-or-later",
+        "source": "https://sharp.pixelplumbing.com",
+        "notice": "licenses/npm--img-sharp-libvips-linux-x64-1.3.2.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@img/sharp-libvips-linuxmusl-x64",
+        "version": "1.3.2",
+        "license": "LGPL-3.0-or-later",
+        "source": "https://sharp.pixelplumbing.com",
+        "notice": "licenses/npm--img-sharp-libvips-linuxmusl-x64-1.3.2.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@img/sharp-linux-x64",
+        "version": "0.35.3",
+        "license": "Apache-2.0",
+        "source": "https://sharp.pixelplumbing.com",
+        "notice": "licenses/npm--img-sharp-linux-x64-0.35.3.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@img/sharp-linuxmusl-x64",
+        "version": "0.35.3",
+        "license": "Apache-2.0",
+        "source": "https://sharp.pixelplumbing.com",
+        "notice": "licenses/npm--img-sharp-linuxmusl-x64-0.35.3.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@img/sharp-wasm32",
+        "version": "0.35.3",
+        "license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+        "source": "https://sharp.pixelplumbing.com",
+        "notice": "licenses/npm--img-sharp-wasm32-0.35.3.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@img/sharp-win32-x64",
+        "version": "0.35.3",
+        "license": "Apache-2.0 AND LGPL-3.0-or-later",
+        "source": "https://sharp.pixelplumbing.com",
+        "notice": "licenses/npm--img-sharp-win32-x64-0.35.3.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@next/swc-linux-x64-gnu",
+        "version": "15.5.22",
+        "license": "MIT",
+        "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+        "notice": "licenses/npm--next-swc-linux-x64-gnu-15.5.22.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@next/swc-linux-x64-musl",
+        "version": "15.5.22",
+        "license": "MIT",
+        "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+        "notice": "licenses/npm--next-swc-linux-x64-musl-15.5.22.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "@next/swc-win32-x64-msvc",
+        "version": "15.5.22",
+        "license": "MIT",
+        "source": "https://github.com/vercel/next.js",
+        "notice": "licenses/npm--next-swc-win32-x64-msvc-15.5.22.txt",
+        "note": "サイト構築用の任意のネイティブ依存ライブラリ。静的サイトではネイティブ実行ファイルを配信していません。"
+      },
+      {
+        "name": "Next.js / @next/env の同梱ライブラリ",
+        "version": "15.5.22",
+        "license": "MIT / Apache-2.0 / BSD / ISC など（各項目の原文を参照）",
+        "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+        "notice": "licenses/next-bundled-third-party-notices.txt",
+        "note": "同梱された第三者ライブラリの通知をまとめています。サーバー・構築用の機能や、使用しない任意機能の依存関係も含みます。"
+      },
+      {
+        "name": "sharp / libvips の第三者通知",
+        "version": "sharp-libvips 1.3.2",
+        "license": "LGPL / GPL / MIT / BSD など（各項目の原文を参照）",
+        "source": "https://github.com/lovell/sharp-libvips/tree/v1.3.2",
+        "notice": "licenses/sharp-libvips-third-party-notices.txt",
+        "note": "任意の画像処理ビルド依存関係に付属する通知とライセンス本文です。"
+      }
+    ]
+  }
+]

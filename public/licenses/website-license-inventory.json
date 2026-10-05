@@ -1,0 +1,3126 @@
+{
+  "schemaVersion": 1,
+  "scope": "Official website npm lockfile and Next.js bundled notices; Windows x64 development and Linux x64 CI, including Linux musl alternatives and installed wasm fallback.",
+  "packageLockSha256": "07b7c44a65efbe5e944832094cc5518fb53eb22213bc4404264bc7125895c4e7",
+  "groups": [
+    {
+      "id": "website",
+      "title": "公式サイトのライブラリ",
+      "description": "npm の固定バージョンから取得したライブラリと、そのライセンス原文です。",
+      "entries": [
+        {
+          "name": "@emnapi/runtime",
+          "version": "1.11.3",
+          "license": "MIT",
+          "source": "https://github.com/toyobayashi/emnapi#readme",
+          "notice": "licenses/npm--emnapi-runtime-1.11.3.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/@emnapi/runtime/LICENSE",
+              "sha256": "2088f55c6731498410b20c95ebd345ed4a4a800bf74c0fba4d282fd2a021daaa"
+            }
+          ],
+          "sha256": "91516a7e6bdec58e3e1aecfbaf3d627373758f18da11371717eda708faf1137a",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "@img/colour",
+          "version": "1.1.0",
+          "license": "MIT",
+          "source": "https://github.com/lovell/colour",
+          "notice": "licenses/npm--img-colour-1.1.0.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "node_modules/@img/colour/LICENSE.md",
+              "sha256": "e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8"
+            }
+          ],
+          "sha256": "0d3d305d8c29faed5c91801733c23d0303287ca36e19cfaa10f1bc8fbadefea1",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "@img/sharp-libvips-linux-x64",
+          "version": "1.3.2",
+          "license": "LGPL-3.0-or-later",
+          "source": "https://sharp.pixelplumbing.com",
+          "notice": "licenses/npm--img-sharp-libvips-linux-x64-1.3.2.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "README.md (upstream licensing and third-party notices)",
+              "source": "https://registry.npmjs.org/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.2.tgz",
+              "sha256": "4f87b4934d26d52ed65a42e96bfe88e75ac98dbd3bc302b50fe6c07d22e42630"
+            }
+          ],
+          "sha256": "17ff70aa94167c92496c8d4b8dc5c4b6fc7889faaee8dd3e392ab79e16a1b2cf",
+          "platforms": [
+            "linux"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@img/sharp-libvips-linuxmusl-x64",
+          "version": "1.3.2",
+          "license": "LGPL-3.0-or-later",
+          "source": "https://sharp.pixelplumbing.com",
+          "notice": "licenses/npm--img-sharp-libvips-linuxmusl-x64-1.3.2.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "README.md (upstream licensing and third-party notices)",
+              "source": "https://registry.npmjs.org/@img/sharp-libvips-linuxmusl-x64/-/sharp-libvips-linuxmusl-x64-1.3.2.tgz",
+              "sha256": "2948195d2a4f5bb3c9cdc22ac4184e38b63c8319c2753d454571cf7b31482b17"
+            }
+          ],
+          "sha256": "42453ddde9634c13f66133ea74f7b2a5d9be0ca095f2626246984d84f6196c3b",
+          "platforms": [
+            "linux"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@img/sharp-linux-x64",
+          "version": "0.35.3",
+          "license": "Apache-2.0",
+          "source": "https://sharp.pixelplumbing.com",
+          "notice": "licenses/npm--img-sharp-linux-x64-0.35.3.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "https://registry.npmjs.org/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.3.tgz",
+              "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+            },
+            {
+              "name": "README.md (upstream licensing and third-party notices)",
+              "source": "https://registry.npmjs.org/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.3.tgz",
+              "sha256": "8f8f907a15368c3ab82e675dde406263c321e1d14533285f6827da72b2bb7f55"
+            }
+          ],
+          "sha256": "b360c28f082975d233ffd9933ff6a41047734d39c375cdbe01605224c4d177f9",
+          "platforms": [
+            "linux"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@img/sharp-linuxmusl-x64",
+          "version": "0.35.3",
+          "license": "Apache-2.0",
+          "source": "https://sharp.pixelplumbing.com",
+          "notice": "licenses/npm--img-sharp-linuxmusl-x64-0.35.3.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "https://registry.npmjs.org/@img/sharp-linuxmusl-x64/-/sharp-linuxmusl-x64-0.35.3.tgz",
+              "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+            },
+            {
+              "name": "README.md (upstream licensing and third-party notices)",
+              "source": "https://registry.npmjs.org/@img/sharp-linuxmusl-x64/-/sharp-linuxmusl-x64-0.35.3.tgz",
+              "sha256": "711a113a4feee4312861aaa9d0bacb8693a37ff1614861f21302a1e500e63744"
+            }
+          ],
+          "sha256": "359a4279d05941825f498ee8fe1dcd71181800ff50053cb92ae075dacbe78aa2",
+          "platforms": [
+            "linux"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@img/sharp-wasm32",
+          "version": "0.35.3",
+          "license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+          "source": "https://sharp.pixelplumbing.com",
+          "notice": "licenses/npm--img-sharp-wasm32-0.35.3.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/@img/sharp-wasm32/LICENSE",
+              "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+            },
+            {
+              "name": "README.md (upstream licensing and third-party notices)",
+              "source": "https://www.npmjs.com/package/@img/sharp-wasm32/v/0.35.3",
+              "sha256": "9d7a84ade91e8e50f5dfc303fb53e580e806f6f89bde804e84a01c1b8853fff5"
+            }
+          ],
+          "sha256": "f1df893ae7f8450f742676109134da8a9fd35c22cfb01d409e5f11d462686487",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "@img/sharp-win32-x64",
+          "version": "0.35.3",
+          "license": "Apache-2.0 AND LGPL-3.0-or-later",
+          "source": "https://sharp.pixelplumbing.com",
+          "notice": "licenses/npm--img-sharp-win32-x64-0.35.3.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/@img/sharp-win32-x64/LICENSE",
+              "sha256": "dc1f5d2d43c5531dfe0acaf4e950ea5dbe3e61e1850cf0e983bda7efc10d6693"
+            },
+            {
+              "name": "README.md (upstream licensing and third-party notices)",
+              "source": "https://www.npmjs.com/package/@img/sharp-win32-x64/v/0.35.3",
+              "sha256": "280e7d164420cfc1a1b192a582bf53e3dba97b86a5c3575f878b674ad1d41e13"
+            }
+          ],
+          "sha256": "0477d01aae6c7cdd54de6cf7cde09662860b126d8f89c7e6d5e620cfd65667c3",
+          "platforms": [
+            "win32"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@next/env",
+          "version": "15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js",
+          "notice": "licenses/npm--next-env-15.5.22.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "Next.js root license.md",
+              "source": "https://github.com/vercel/next.js/blob/v15.5.22/license.md",
+              "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+            }
+          ],
+          "sha256": "2c4cb33252d9f4f1a3cad231d00a04bd5d7a57d5a985dcde27517e1884f97af0",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "@next/swc-linux-x64-gnu",
+          "version": "15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/npm--next-swc-linux-x64-gnu-15.5.22.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "Next.js root license.md",
+              "source": "https://github.com/vercel/next.js/blob/v15.5.22/license.md",
+              "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+            }
+          ],
+          "sha256": "86352c51abce4cdef0f5e34cb199c68286b76a3568f84d09a58f72ac211865b3",
+          "platforms": [
+            "linux"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@next/swc-linux-x64-musl",
+          "version": "15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/npm--next-swc-linux-x64-musl-15.5.22.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "Next.js root license.md",
+              "source": "https://github.com/vercel/next.js/blob/v15.5.22/license.md",
+              "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+            }
+          ],
+          "sha256": "120436fb555ca6b0ed7d6e39b62867d9dc5a7c4b94f5a4a2e9dc3ad307ffa730",
+          "platforms": [
+            "linux"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@next/swc-win32-x64-msvc",
+          "version": "15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js",
+          "notice": "licenses/npm--next-swc-win32-x64-msvc-15.5.22.txt",
+          "note": "Optional native build dependency; not shipped as a binary in the exported website.",
+          "files": [
+            {
+              "name": "Next.js root license.md",
+              "source": "https://github.com/vercel/next.js/blob/v15.5.22/license.md",
+              "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+            }
+          ],
+          "sha256": "13d340f5f995fb26639bdf44478c971b20f3f858525eb1d557bc4e30fbf9ca76",
+          "platforms": [
+            "win32"
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "kind": "npm"
+        },
+        {
+          "name": "@swc/helpers",
+          "version": "0.5.15",
+          "license": "Apache-2.0",
+          "source": "https://swc.rs",
+          "notice": "licenses/npm--swc-helpers-0.5.15.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/@swc/helpers/LICENSE",
+              "sha256": "d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91"
+            }
+          ],
+          "sha256": "0bfb1133509838e7b8af17cd88c7023657766416eb4b14aa059acc705d0555af",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "caniuse-lite",
+          "version": "1.0.30001806",
+          "license": "CC-BY-4.0",
+          "source": "https://github.com/browserslist/caniuse-lite",
+          "notice": "licenses/npm-caniuse-lite-1.0.30001806.txt",
+          "note": "Browser support data source: caniuse.com (https://caniuse.com/), CC BY 4.0. Attribution requirement: https://github.com/browserslist/caniuse-lite#license.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/caniuse-lite/LICENSE",
+              "sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e"
+            }
+          ],
+          "sha256": "faf345e60ef7a8a24936b5e48ce7b925976b58fe20a61e637f050a0c66e2ade5",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "client-only",
+          "version": "0.0.1",
+          "license": "MIT",
+          "source": "https://reactjs.org/",
+          "notice": "licenses/npm-client-only-0.0.1.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "React project LICENSE (MIT; marker package omits its license file)",
+              "source": "https://www.npmjs.com/package/react/v/19.2.8",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "4696ec8b961cadc1e28c5c245b93150219996766093c6928b943bd4fe0833479",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "detect-libc",
+          "version": "2.1.2",
+          "license": "Apache-2.0",
+          "source": "https://github.com/lovell/detect-libc",
+          "notice": "licenses/npm-detect-libc-2.1.2.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/detect-libc/LICENSE",
+              "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+            }
+          ],
+          "sha256": "5414337a00d3baf0e918f5e4bf5c97cec9727d936f58ada3b64b1da6fcbf7cf1",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "nanoid",
+          "version": "3.3.16",
+          "license": "MIT",
+          "source": "https://github.com/ai/nanoid",
+          "notice": "licenses/npm-nanoid-3.3.16.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/nanoid/LICENSE",
+              "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987"
+            }
+          ],
+          "sha256": "41f250bd2d0437b22714a74603b006783b4cd2d38a9936d598d51049a55d414f",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "next",
+          "version": "15.5.22",
+          "license": "MIT",
+          "source": "https://nextjs.org",
+          "notice": "licenses/npm-next-15.5.22.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "license.md",
+              "source": "node_modules/next/license.md",
+              "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+            }
+          ],
+          "sha256": "d6c271c9dd2af93d2f3ad5593ba6fb8caeed14608437e99c32ef1bbd63930d68",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "picocolors",
+          "version": "1.1.1",
+          "license": "ISC",
+          "source": "https://github.com/alexeyraspopov/picocolors",
+          "notice": "licenses/npm-picocolors-1.1.1.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/picocolors/LICENSE",
+              "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750"
+            }
+          ],
+          "sha256": "afb6e3b615b8e5fb6bad8b99d0f5f8c2f12cae69ebd2d6be51cf52cd9ca34ed4",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "postcss",
+          "version": "8.5.24",
+          "license": "MIT",
+          "source": "https://postcss.org/",
+          "notice": "licenses/npm-postcss-8.5.24.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/postcss/LICENSE",
+              "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8"
+            }
+          ],
+          "sha256": "4c5abaee1939a8092efe5b43d1ee091c266a0f2627d18cf090dd7681db0d7bbf",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "react",
+          "version": "19.2.8",
+          "license": "MIT",
+          "source": "https://react.dev/",
+          "notice": "licenses/npm-react-19.2.8.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/react/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "95df1700ad8650dea3c4fdba1120f8c3ff74e2e286ee70d13db93c3480184c23",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "react-dom",
+          "version": "19.2.8",
+          "license": "MIT",
+          "source": "https://react.dev/",
+          "notice": "licenses/npm-react-dom-19.2.8.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/react-dom/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "8ced4d2b2dae7228b760b9c624a831c99176bca17aaa7bdd0f7fd3658d8fc660",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "scheduler",
+          "version": "0.27.0",
+          "license": "MIT",
+          "source": "https://react.dev/",
+          "notice": "licenses/npm-scheduler-0.27.0.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/scheduler/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "a5701b2e7b5ef6a4c81ebff09bdd8b18b66cbe93b15c877abe76d2f9290ad5eb",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "semver",
+          "version": "7.8.5",
+          "license": "ISC",
+          "source": "https://github.com/npm/node-semver",
+          "notice": "licenses/npm-semver-7.8.5.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/semver/LICENSE",
+              "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+            }
+          ],
+          "sha256": "948ccb644b43d1a85f404c448c748e2a166d72cacbfccde06f1c38a376af6e71",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "sharp",
+          "version": "0.35.3",
+          "license": "Apache-2.0",
+          "source": "https://sharp.pixelplumbing.com",
+          "notice": "licenses/npm-sharp-0.35.3.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/sharp/LICENSE",
+              "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+            },
+            {
+              "name": "README.md licensing section",
+              "source": "https://github.com/lovell/sharp/blob/v0.35.3/README.md",
+              "sha256": "feca845b902a0140e3c3036455a967f865eca1f6870258d3215fa21fa8cebbde"
+            }
+          ],
+          "sha256": "79b8b4f7c8541503d6eb63051abd11aaaf92c4bf2629b4bf8264810ac46b10c2",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "source-map-js",
+          "version": "1.2.1",
+          "license": "BSD-3-Clause",
+          "source": "https://github.com/7rulnik/source-map-js",
+          "notice": "licenses/npm-source-map-js-1.2.1.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/source-map-js/LICENSE",
+              "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd"
+            }
+          ],
+          "sha256": "dde36201b91e2cd64970e088c4032470dfb8684a24a937e9f28df9d77262755d",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "styled-jsx",
+          "version": "5.1.6",
+          "license": "MIT",
+          "source": "https://github.com/vercel/styled-jsx",
+          "notice": "licenses/npm-styled-jsx-5.1.6.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "license.md",
+              "source": "node_modules/styled-jsx/license.md",
+              "sha256": "24d4a4580df855c345705b3016404f0c9da7e7674dc3b21a3ce7d0e5d0c37e2d"
+            }
+          ],
+          "sha256": "c7c9a5a56df6a5d5580da51ec68cdfcc46607e0f73eb47d3b7d9a9a62e626fa3",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        },
+        {
+          "name": "tslib",
+          "version": "2.8.1",
+          "license": "0BSD",
+          "source": "https://www.typescriptlang.org/",
+          "notice": "licenses/npm-tslib-2.8.1.txt",
+          "note": "",
+          "files": [
+            {
+              "name": "CopyrightNotice.txt",
+              "source": "node_modules/tslib/CopyrightNotice.txt",
+              "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b"
+            },
+            {
+              "name": "LICENSE.txt",
+              "source": "node_modules/tslib/LICENSE.txt",
+              "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+            }
+          ],
+          "sha256": "d15e95395e776d13a661a6e8d5e41f5bb4c6e0c83a800d372d21ec74a95ad883",
+          "platforms": [],
+          "architectures": [],
+          "kind": "npm"
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "title": "開発・ビルドに利用するライブラリ",
+      "description": "TypeScript と型定義など、公式サイトのビルドに使用するライブラリです。",
+      "entries": [
+        {
+          "name": "@types/node",
+          "version": "24.10.1",
+          "license": "MIT",
+          "source": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
+          "notice": "licenses/build--types-node-24.10.1.txt",
+          "note": "Build and type-check tooling.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/@types/node/LICENSE",
+              "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+            }
+          ],
+          "sha256": "d2c13b9bfb74db23bf0a4ac0f1ec444fde60f899c64adf062586172d50fb782c",
+          "platforms": [],
+          "architectures": [],
+          "kind": "build"
+        },
+        {
+          "name": "@types/react",
+          "version": "19.2.7",
+          "license": "MIT",
+          "source": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react",
+          "notice": "licenses/build--types-react-19.2.7.txt",
+          "note": "Build and type-check tooling.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/@types/react/LICENSE",
+              "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+            }
+          ],
+          "sha256": "8fc5bb7a49e066bf8a692905fa856d39e2af8ae9771437542a15529ecc049f83",
+          "platforms": [],
+          "architectures": [],
+          "kind": "build"
+        },
+        {
+          "name": "@types/react-dom",
+          "version": "19.2.3",
+          "license": "MIT",
+          "source": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom",
+          "notice": "licenses/build--types-react-dom-19.2.3.txt",
+          "note": "Build and type-check tooling.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/@types/react-dom/LICENSE",
+              "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+            }
+          ],
+          "sha256": "8bb485376da24d58cfc459b3d7109c9276731397bfc7515d4f2c2264a69021f0",
+          "platforms": [],
+          "architectures": [],
+          "kind": "build"
+        },
+        {
+          "name": "csstype",
+          "version": "3.2.3",
+          "license": "MIT",
+          "source": "https://github.com/frenic/csstype",
+          "notice": "licenses/build-csstype-3.2.3.txt",
+          "note": "Build and type-check tooling.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/csstype/LICENSE",
+              "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+            }
+          ],
+          "sha256": "56caed3dc37bec13903d107557f44b0cc5ec0c24e955175c35e1213b25dd9c9d",
+          "platforms": [],
+          "architectures": [],
+          "kind": "build"
+        },
+        {
+          "name": "typescript",
+          "version": "5.9.3",
+          "license": "Apache-2.0",
+          "source": "https://www.typescriptlang.org/",
+          "notice": "licenses/build-typescript-5.9.3.txt",
+          "note": "Build and type-check tooling.",
+          "files": [
+            {
+              "name": "LICENSE.txt",
+              "source": "node_modules/typescript/LICENSE.txt",
+              "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+            },
+            {
+              "name": "ThirdPartyNoticeText.txt",
+              "source": "node_modules/typescript/ThirdPartyNoticeText.txt",
+              "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c"
+            }
+          ],
+          "sha256": "3ca4dc1431c3aad6f100edcb2df52ad145e95d32c20c3df34cfe76b039e681ed",
+          "platforms": [],
+          "architectures": [],
+          "kind": "build"
+        },
+        {
+          "name": "undici-types",
+          "version": "7.16.0",
+          "license": "MIT",
+          "source": "https://undici.nodejs.org",
+          "notice": "licenses/build-undici-types-7.16.0.txt",
+          "note": "Build and type-check tooling.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/undici-types/LICENSE",
+              "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+            }
+          ],
+          "sha256": "ba3368a1e170450e92cb8024b4031fac0d80db2610c1e96169314db1f6b8d40b",
+          "platforms": [],
+          "architectures": [],
+          "kind": "build"
+        }
+      ]
+    },
+    {
+      "id": "next-bundled",
+      "title": "Next.js に同梱されるライブラリ",
+      "description": "Next.js 15.5.22 と @next/env に同梱された第三者ライブラリのライセンスです。未使用の任意機能やサーバー用機能も含め、同梱範囲を保守的に掲載しています。",
+      "entries": [
+        {
+          "name": "@ampproject/toolbox-optimizer",
+          "version": "2.8.3",
+          "license": "Apache-2.0",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled--ampproject-toolbox-optimizer-2.8.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/LICENSE",
+              "sha256": "d55f836b1fb57a8a7fbaca7dcc1dfa09778bae2c73e273e8684d6c968942067c"
+            }
+          ],
+          "sha256": "0b56b23bd66ce3587007b879d3bc03f82d05b489ad6e2eeb9b3ab2bcb95f1acb"
+        },
+        {
+          "name": "@babel/runtime",
+          "version": "7.27.0",
+          "license": "MIT",
+          "source": "https://babel.dev/docs/en/next/babel-runtime",
+          "notice": "licenses/next-bundled--babel-runtime-7.27.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/@babel/runtime/LICENSE",
+              "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+            }
+          ],
+          "sha256": "5e47fb20e71d6d5ebead73a609f4c9f292a17e922beed37a41883badefc91ac1"
+        },
+        {
+          "name": "@edge-runtime/cookies",
+          "version": "6.0.0",
+          "license": "MIT",
+          "source": "https://edge-runtime.vercel.app/packages/cookies",
+          "notice": "licenses/next-bundled--edge-runtime-cookies-6.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/@edge-runtime/cookies/-/cookies-6.0.0.tgz",
+              "sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3"
+            }
+          ],
+          "sha256": "33ce62dcbe7834b84be9f37c35af5846eca6da56f96d707e69441f9ac10c7950"
+        },
+        {
+          "name": "@edge-runtime/ponyfill",
+          "version": "4.0.0",
+          "license": "MIT",
+          "source": "https://edge-runtime.vercel.app/packages/ponyfill",
+          "notice": "licenses/next-bundled--edge-runtime-ponyfill-4.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/@edge-runtime/ponyfill/-/ponyfill-4.0.0.tgz",
+              "sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3"
+            }
+          ],
+          "sha256": "007d2ce9ecae25dc20cdf7e7c0a7a0a41e3d3d25ac8682aebf95aa474f55b308"
+        },
+        {
+          "name": "@edge-runtime/primitives",
+          "version": "6.0.0",
+          "license": "MIT",
+          "source": "https://edge-runtime.vercel.app/packages/primitives",
+          "notice": "licenses/next-bundled--edge-runtime-primitives-6.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/@edge-runtime/primitives/-/primitives-6.0.0.tgz",
+              "sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3"
+            }
+          ],
+          "sha256": "436a541a3ccdd2fd725a8f8c64a2c8c5cbdf58d0feafe169cdac13efc4310926"
+        },
+        {
+          "name": "@hapi/accept",
+          "version": "5.0.2",
+          "license": "BSD-3-Clause",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled--hapi-accept-5.0.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/@hapi/accept/-/accept-5.0.2.tgz",
+              "sha256": "ff96bbd6a7408c166f16dbed7f2c87a8061e5a21289ec8f2d3069f8d3b15fc0a"
+            }
+          ],
+          "sha256": "9d4d01aca06941bff74b5a220e98cdcb7f1700d1cd963de2716319a350245204"
+        },
+        {
+          "name": "@mswjs/interceptors/ClientRequest",
+          "version": "0.23.0",
+          "license": "MIT",
+          "source": "https://github.com/mswjs/interceptors",
+          "notice": "licenses/next-bundled--mswjs-interceptors-ClientRequest-0.23.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/@mswjs/interceptors/-/interceptors-0.23.0.tgz",
+              "sha256": "bb3a5cb8fb224f632970e31425348f556f7a83b165d5384ea5e142575f5c412e"
+            }
+          ],
+          "sha256": "cd27d09aa2034b6ad21bc25173d41bf11791a45b6ef47133cf28968575d43e23"
+        },
+        {
+          "name": "@napi-rs/triples",
+          "version": "1.2.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled--napi-rs-triples-1.2.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/@napi-rs/triples/LICENSE",
+              "sha256": "7b34e99bc43641767fded49f7f03563ffd50c689b1f3b0d50700b4727bc4ae24"
+            }
+          ],
+          "sha256": "5e9f0141f618007daa0928c14f387aaf4f888c7dd309a8c38f94ccdfb85e2673"
+        },
+        {
+          "name": "@next/font",
+          "version": "15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled--next-font-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "Next.js root license.md",
+              "source": "https://github.com/vercel/next.js/blob/v15.5.22/license.md",
+              "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+            }
+          ],
+          "sha256": "e7d36a5421065b3ab8844cbb9b0baeeb4cce525cc0b47d947c228073b407dcc5"
+        },
+        {
+          "name": "@opentelemetry/api",
+          "version": "1.6.0",
+          "license": "Apache-2.0",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled--opentelemetry-api-1.6.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/@opentelemetry/api/LICENSE",
+              "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+            }
+          ],
+          "sha256": "29303ccc6a4d28640108063c566d794b048ca458c3b4fb28030a62e65b51235f"
+        },
+        {
+          "name": "@vercel/nft",
+          "version": "0.27.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled--vercel-nft-0.27.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/@vercel/nft/LICENSE",
+              "sha256": "0b31f3a6ab66b272b7de451df39835f310a309a06b1a8aafb3a2fdab20adc166"
+            }
+          ],
+          "sha256": "4cb1aaeed4c806f5ef9463e9558b20dc912e029f54ab1bbabdef658486127906"
+        },
+        {
+          "name": "@vercel/og",
+          "version": "0.7.2",
+          "license": "MPL-2.0",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled--vercel-og-0.7.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/@vercel/og/LICENSE",
+              "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+            },
+            {
+              "name": "satori/LICENSE",
+              "source": "node_modules/next/dist/compiled/@vercel/og/satori/LICENSE",
+              "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+            }
+          ],
+          "sha256": "91f8111d556585343f5eebf9200e1133b8b4d0613032afa504887a6a666a4660"
+        },
+        {
+          "name": "acorn",
+          "version": "8.14.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-acorn-8.14.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/acorn/LICENSE",
+              "sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7"
+            }
+          ],
+          "sha256": "1b4441877ace1d36be6e3f524f42a309d2eabc1f992e2a1faf115aa3d06e85a7"
+        },
+        {
+          "name": "amphtml-validator",
+          "version": "1.0.38",
+          "license": "Apache-2.0",
+          "source": "https://github.com/ampproject/amphtml/tree/main/validator/js/nodejs/",
+          "notice": "licenses/next-bundled-amphtml-validator-1.0.38.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "Apache License 2.0 declared by upstream package.json (original package omits LICENSE)",
+              "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.28.0/text/Apache-2.0.txt",
+              "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff"
+            },
+            {
+              "name": "package.json original author and license declaration",
+              "source": "https://registry.npmjs.org/amphtml-validator/-/amphtml-validator-1.0.38.tgz",
+              "sha256": "0f06f57e5d08abea5fe6bfa170ce1903f93ec792b2d1eb534a503f9c3ff4961f"
+            }
+          ],
+          "sha256": "e75844357c64eda7068a54d1e2423b61f18814ea0cefb692994a3a4d056d3a9e"
+        },
+        {
+          "name": "anser",
+          "version": "1.4.9",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-anser-1.4.9.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/anser/LICENSE",
+              "sha256": "6d2abc90a426cf65bbf84f7cedf9487f7ff86a3daf0e130b335a45c112f040d0"
+            }
+          ],
+          "sha256": "8b69fb99fc94e534a0673af9635d74c422b829933f2933b992addc99d40f6f4e"
+        },
+        {
+          "name": "assert",
+          "version": "2.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-assert-2.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/assert/LICENSE",
+              "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43"
+            }
+          ],
+          "sha256": "aa19673da8050da25aa4b039cd236ff3e29d775eaa07bdc127dccc92e332ec8e"
+        },
+        {
+          "name": "async-retry",
+          "version": "1.2.3",
+          "license": "MIT",
+          "source": "https://github.com/zeit/async-retry",
+          "notice": "licenses/next-bundled-async-retry-1.2.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/async-retry/-/async-retry-1.2.3.tgz",
+              "sha256": "8cec82f7beeab8459fa6165c973f5cd6f89aceea7a07de0aa8fc30a9dd339a05"
+            }
+          ],
+          "sha256": "3f65a83b1f4c3694182168a9d4b1bba250c8b3e589886966fb46fa79d4902506"
+        },
+        {
+          "name": "async-sema",
+          "version": "3.0.0",
+          "license": "MIT",
+          "source": "https://github.com/zeit/async-sema",
+          "notice": "licenses/next-bundled-async-sema-3.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "license.md",
+              "source": "https://registry.npmjs.org/async-sema/-/async-sema-3.0.0.tgz",
+              "sha256": "291ff3e2bd22891edef553930da53ba64adf79d83f0bd1c5b7f6fe9727526b37"
+            }
+          ],
+          "sha256": "af7509b03bce5d03d3b2883404ca57d9606b00ff9f76741a5719977c1a7ab75f"
+        },
+        {
+          "name": "babel",
+          "version": "7.26.10",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-babel-7.26.10.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/babel/LICENSE",
+              "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+            }
+          ],
+          "sha256": "68be09492a09c7c035da00ebb1b25b584d7dd832c53beffa84c53461df3c70a9"
+        },
+        {
+          "name": "babel-code-frame",
+          "version": "7.26.2",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-babel-code-frame-7.26.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/babel-code-frame/LICENSE",
+              "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+            }
+          ],
+          "sha256": "4e0a824507990cf588bd19030cc170fa24ea265cf6a130daf709888f1dc56741"
+        },
+        {
+          "name": "babel-packages",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "See upstream license text",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-babel-packages-next-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "Next.js root license.md",
+              "source": "https://github.com/vercel/next.js/blob/v15.5.22/license.md",
+              "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+            }
+          ],
+          "sha256": "718d3c45b991bb662a2fb9d03f41881e56cbaa5d3104d9f26e8e4c60282dcb6f"
+        },
+        {
+          "name": "browserify-zlib",
+          "version": "0.2.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-browserify-zlib-0.2.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/browserify-zlib/LICENSE",
+              "sha256": "ddd770379e07bf0574dfaa4485be80a23b3248b36d09f33ec79276c09b829daf"
+            }
+          ],
+          "sha256": "6a7f6c060992441daa3d733ae30c9159a239b3c5746f91ecc72416730a0a30e3"
+        },
+        {
+          "name": "browserslist",
+          "version": "4.24.4",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-browserslist-4.24.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/browserslist/LICENSE",
+              "sha256": "f25bf9bf3ae8984bcd43bf7fb8f78e7eec8d577081fb8d0989cfa7c67ecebb8e"
+            }
+          ],
+          "sha256": "de62e8f2fddfd7af9e53dbf8c982ecb391ddf3edb36b95f19419a1cd2c9c8c61"
+        },
+        {
+          "name": "buffer",
+          "version": "5.6.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-buffer-5.6.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/buffer/LICENSE",
+              "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6"
+            }
+          ],
+          "sha256": "9ee64f8af2fc81426b2bc05cc0c08e3c5663e146c9c6111c26a41983bf0594c5"
+        },
+        {
+          "name": "busboy",
+          "version": "1.6.0",
+          "license": "See upstream license text",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-busboy-1.6.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/busboy/LICENSE",
+              "sha256": "d06b5d27bbbbe22c36b1fd88406b1208876e2d37d795f5b8eaed951a459a3111"
+            }
+          ],
+          "sha256": "23843e0ed62c00cb084a6033538000884d6633df029553171b8a30b036e3579d"
+        },
+        {
+          "name": "bytes",
+          "version": "3.1.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-bytes-3.1.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/bytes/LICENSE",
+              "sha256": "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85"
+            }
+          ],
+          "sha256": "676cbf22da3e9d064dd31c696e9d35b2543e389bf77b7fed6711831fcb64e845"
+        },
+        {
+          "name": "ci-info",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-ci-info-next-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/ci-info/LICENSE",
+              "sha256": "25bd22427e27b0d3f1c3da2670bb44b622bcced22ebdf4777d5488ac129370a1"
+            }
+          ],
+          "sha256": "624f717723689afa2b8e004f1fee93523ea9f9c2a9cc19f645a0b175b5fc176c"
+        },
+        {
+          "name": "cli-select",
+          "version": "1.1.2",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-cli-select-1.1.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/cli-select/LICENSE",
+              "sha256": "a8e260b5b60eb27746ff2c5967489e6878c5a6ba99400cbec84c89a9b49a46ca"
+            }
+          ],
+          "sha256": "eeb763459b2d03e09baa846d4d336368490aa7d804a7ccbfc0fb4c20c49a9033"
+        },
+        {
+          "name": "client-only",
+          "version": "0.0.1",
+          "license": "MIT",
+          "source": "https://reactjs.org/",
+          "notice": "licenses/next-bundled-client-only-0.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "React project LICENSE (MIT; marker package omits its license file)",
+              "source": "https://www.npmjs.com/package/react/v/19.2.8",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "264a60991873c856b190e8da011fb5b4adde3b399a9833a2823dfdf19d2c4c84"
+        },
+        {
+          "name": "commander",
+          "version": "12.1.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-commander-12.1.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/commander/LICENSE",
+              "sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b"
+            }
+          ],
+          "sha256": "395e04616cd64052e810ac87160278d0c03a8daf368be1401500a7fbf82048f6"
+        },
+        {
+          "name": "comment-json",
+          "version": "3.0.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-comment-json-3.0.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/comment-json/LICENSE",
+              "sha256": "9dbd86998d3cdafc1d8c298aea636146568d05d429b81386e60cfce11e6cedb6"
+            }
+          ],
+          "sha256": "bbdbfed1dc0746dc009a4dcbd788dfdcd2f998a4357f024da738c075b7cc5e47"
+        },
+        {
+          "name": "compression",
+          "version": "1.7.4",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-compression-1.7.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/compression/LICENSE",
+              "sha256": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68"
+            }
+          ],
+          "sha256": "c56bec917a4b45b7dfe39bc49d849b395c06ed24f8beb9e929cc9f8e33c11403"
+        },
+        {
+          "name": "conf",
+          "version": "5.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-conf-5.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/conf/LICENSE",
+              "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+            }
+          ],
+          "sha256": "700176f56453461817942e2bf9bce435536a2a2eb3984a521af2109697010175"
+        },
+        {
+          "name": "constants-browserify",
+          "version": "1.0.0",
+          "license": "MIT",
+          "source": "https://github.com/juliangruber/constants-browserify",
+          "notice": "licenses/next-bundled-constants-browserify-1.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "README (upstream licensing declaration)",
+              "source": "https://registry.npmjs.org/constants-browserify/-/constants-browserify-1.0.0.tgz",
+              "sha256": "b06569bf170a015c56cbad9b45756519d0b8a682770fe30d66bc1e235e26196a"
+            }
+          ],
+          "sha256": "a423da368dd739d1d9e48f645bdbe4e2114464c82336ff04056e920707c7122f"
+        },
+        {
+          "name": "content-disposition",
+          "version": "0.5.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-content-disposition-0.5.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/content-disposition/LICENSE",
+              "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+            }
+          ],
+          "sha256": "d2feb77b3f9ae714b096f888b38f052d8bdeb719b78a854c3d49140dc26cc62a"
+        },
+        {
+          "name": "content-type",
+          "version": "1.0.4",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-content-type-1.0.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/content-type/LICENSE",
+              "sha256": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38"
+            }
+          ],
+          "sha256": "7f83fd5a2fa3c98acc01357b5653c5a749bdf892587209318c46f9e642786a03"
+        },
+        {
+          "name": "cookie",
+          "version": "0.4.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-cookie-0.4.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/cookie/LICENSE",
+              "sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858"
+            }
+          ],
+          "sha256": "b67eb1a3e6abea854a57c1fe34be2d30d74accd95bbdd46d3b3e62d9dba67809"
+        },
+        {
+          "name": "cross-spawn",
+          "version": "7.0.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-cross-spawn-7.0.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/cross-spawn/LICENSE",
+              "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+            }
+          ],
+          "sha256": "a8e18cc89d5588e0226deb7af00c8e86935b9a78b1e10eeeb758cb3cbb82835e"
+        },
+        {
+          "name": "crypto-browserify",
+          "version": "3.12.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-crypto-browserify-3.12.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/crypto-browserify/LICENSE",
+              "sha256": "6134c69bc22c8289252e70de3af20bd67071233459055be74d83acfcc4865e7e"
+            }
+          ],
+          "sha256": "d7a1e9c4712f8be17f630433bdb8275137700441b574b6fba4e8b133468ea809"
+        },
+        {
+          "name": "css.escape",
+          "version": "1.5.1",
+          "license": "MIT",
+          "source": "https://mths.be/cssescape",
+          "notice": "licenses/next-bundled-css.escape-1.5.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE-MIT.txt",
+              "source": "https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz",
+              "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+            }
+          ],
+          "sha256": "2a119a8591caa3949563e90010e45b820585aff3f535ce1618083b0e8e4f3ab1"
+        },
+        {
+          "name": "data-uri-to-buffer",
+          "version": "3.0.1",
+          "license": "MIT",
+          "source": "https://github.com/TooTallNate/node-data-uri-to-buffer",
+          "notice": "licenses/next-bundled-data-uri-to-buffer-3.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "README (upstream licensing declaration)",
+              "source": "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz",
+              "sha256": "6a14de4d552c0c88bdbbaf57f72f625835685eea97de5047f87a463089b8e9f6"
+            }
+          ],
+          "sha256": "93438a46b99740cbacbfa7dc78b21a15324b402834f781a232c15b9ebef570be"
+        },
+        {
+          "name": "debug",
+          "version": "4.1.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-debug-4.1.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/debug/LICENSE",
+              "sha256": "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422"
+            }
+          ],
+          "sha256": "18d6f178683225619390c44f35aad9cf3adae8cc0476e0a3750e2a4fee89d30b"
+        },
+        {
+          "name": "devalue",
+          "version": "2.0.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-devalue-2.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/devalue/LICENSE",
+              "sha256": "e399db7e952e45cae84f1b53d72ba8dbad2daaa7ab8cd1f0ab72fea5ab73b225"
+            }
+          ],
+          "sha256": "862949684aaff8412ae47fa98cd5305b960b007d8c95502d5b568548418428ad"
+        },
+        {
+          "name": "domain-browser",
+          "version": "4.19.0",
+          "license": "MIT",
+          "source": "https://github.com/bevry/domain-browser",
+          "notice": "licenses/next-bundled-domain-browser-4.19.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/domain-browser/-/domain-browser-4.19.0.tgz",
+              "sha256": "fc06db8dd5e7840db84ab328d9f58bdb91a56fbbf045bb977c11fcd07e2d8e3e"
+            }
+          ],
+          "sha256": "22a6dde46ef1ff08744119f2365b6f6c17eac5a4ace78836df2a49d800bee7f3"
+        },
+        {
+          "name": "edge-runtime",
+          "version": "4.0.1",
+          "license": "MIT",
+          "source": "https://edge-runtime.vercel.app/packages/runtime",
+          "notice": "licenses/next-bundled-edge-runtime-4.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/edge-runtime/-/edge-runtime-4.0.1.tgz",
+              "sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3"
+            }
+          ],
+          "sha256": "b9ce5aea91a64a8c4ba46865d9b71d681936a9f269afa4030b4d4dadc90df6aa"
+        },
+        {
+          "name": "events",
+          "version": "3.3.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-events-3.3.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/events/LICENSE",
+              "sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599"
+            }
+          ],
+          "sha256": "0d85536e93b97cc38304e0a6ad5175a90c6c26ed56e8515d864d2151ad9efce7"
+        },
+        {
+          "name": "find-up",
+          "version": "4.1.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-find-up-4.1.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/find-up/LICENSE",
+              "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+            }
+          ],
+          "sha256": "05d8b4fcaa3d5757a72ccad345e40890ba97775e77f0be41bb5b7efaed3ec6e8"
+        },
+        {
+          "name": "fresh",
+          "version": "0.5.2",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-fresh-0.5.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/fresh/LICENSE",
+              "sha256": "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d"
+            }
+          ],
+          "sha256": "a3f63546127e4a6e5f681520d8da01d8de8870ad553cd545cf1d5c370e135c87"
+        },
+        {
+          "name": "glob",
+          "version": "7.1.7",
+          "license": "ISC",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-glob-7.1.7.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/glob/LICENSE",
+              "sha256": "6236fa0b88a4a0cce3dda0367979491b2052b3c8d6b1c10b3668de083e86a7f0"
+            }
+          ],
+          "sha256": "22e501903c4bd2768d26bc2ea7c3e37fa78dc81649df1c697664af55065e45d4"
+        },
+        {
+          "name": "gzip-size",
+          "version": "5.1.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-gzip-size-5.1.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/gzip-size/LICENSE",
+              "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+            }
+          ],
+          "sha256": "365b8b847fd5eb760552b77a13dd87ad1ddcfc1cfd135031be7b0f48404a2de8"
+        },
+        {
+          "name": "http-proxy",
+          "version": "1.18.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-http-proxy-1.18.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/http-proxy/LICENSE",
+              "sha256": "589850dfc0a1d39a97c592d618d5772f84aec2b11c6898e020acb985299f3bab"
+            }
+          ],
+          "sha256": "6920b1b2875b5bb1301b0b675dc4e560e1f6d6024a01351f09d6648c588f3586"
+        },
+        {
+          "name": "http-proxy-agent",
+          "version": "5.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-http-proxy-agent-5.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "README (upstream licensing declaration)",
+              "source": "https://registry.npmjs.org/http-proxy-agent/-/http-proxy-agent-5.0.0.tgz",
+              "sha256": "ca0b65367e78e9c255a1c9883eb7ec30aae491d76e1c6815b865563106d21dff"
+            }
+          ],
+          "sha256": "992309e33b2875bc85e8e92f33db2ac1c8862e023b2cb89450f844b6f5bc7976"
+        },
+        {
+          "name": "https-browserify",
+          "version": "1.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-https-browserify-1.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/https-browserify/LICENSE",
+              "sha256": "ff151c00207c908581639851dd8504ce4255be0650b2b236edec2aa90342b0cd"
+            }
+          ],
+          "sha256": "1e6e92a2c03b02386524a3a48d8767a139c55f15057d6aa49919a60415801b9e"
+        },
+        {
+          "name": "https-proxy-agent",
+          "version": "5.0.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-https-proxy-agent-5.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "README (upstream licensing declaration)",
+              "source": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz",
+              "sha256": "32f0856d2c43df7d05cca960fdee84e1e38ab545bd7b2186433dfa41aa90a712"
+            }
+          ],
+          "sha256": "8329bb883980d20b623b401b9fff7848fdc26ce10af2fe87b17d53cc2e356fa0"
+        },
+        {
+          "name": "icss-utils",
+          "version": "5.1.0",
+          "license": "ISC",
+          "source": "https://github.com/css-modules/icss-utils#readme",
+          "notice": "licenses/next-bundled-icss-utils-5.1.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/icss-utils/-/icss-utils-5.1.0.tgz",
+              "sha256": "b2b54c738525e98cc42d4a1c239c9d8421507816acce98950e81d0943daae68e"
+            }
+          ],
+          "sha256": "28eb1c1bc4b5c54e8b9dbb5025449f9d05b1edc7ae4de1b70abbe68dcfeaa0ee"
+        },
+        {
+          "name": "ignore-loader",
+          "version": "0.1.2",
+          "license": "See upstream license text",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-ignore-loader-0.1.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/ignore-loader/LICENSE",
+              "sha256": "62ba766e9b50f9b175b0229f4ea03e93730c9180408acec50dd617e9ae1fa059"
+            }
+          ],
+          "sha256": "93e4834fdb8dd598b510dae5768a837d0786241c498610e438c23c6016962551"
+        },
+        {
+          "name": "image-size",
+          "version": "1.2.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-image-size-1.2.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/image-size/LICENSE",
+              "sha256": "3109783dad7527b490aabc49c3cb148573c19b41b843e70cf9388a93f3d7fccd"
+            }
+          ],
+          "sha256": "bc74028a448a54e6aadd229e38f6521b5f37eb877dca42858a9d891c3fd2fccd"
+        },
+        {
+          "name": "is-animated",
+          "version": "2.0.2",
+          "license": "MIT",
+          "source": "https://github.com/qzb/is-animated",
+          "notice": "licenses/next-bundled-is-animated-2.0.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/is-animated/-/is-animated-2.0.2.tgz",
+              "sha256": "e08c030e1274fadc495c71e0489612f0c74673b69ae8e41460526c233a94a728"
+            }
+          ],
+          "sha256": "130168b0a27e7f73d91396559a69d8cc5567e195fddd5bbb0ab3e5f384a7642d"
+        },
+        {
+          "name": "is-docker",
+          "version": "2.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-is-docker-2.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/is-docker/LICENSE",
+              "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+            }
+          ],
+          "sha256": "d6e13436dd853d7b97f67fb323f963eec368301474199bd3fbf5a7600f05d536"
+        },
+        {
+          "name": "is-wsl",
+          "version": "2.2.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-is-wsl-2.2.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/is-wsl/LICENSE",
+              "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+            }
+          ],
+          "sha256": "c447acd8a20326edcce25acd063cb1488f93c13f878e7de92f77d967fb4cfb5c"
+        },
+        {
+          "name": "jest-worker",
+          "version": "27.5.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-jest-worker-27.5.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/jest-worker/LICENSE",
+              "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+            }
+          ],
+          "sha256": "22e48f857d70985752470669d6b44163a979c43a24142d7ad5c22fc7a73c13b9"
+        },
+        {
+          "name": "json5",
+          "version": "2.2.3",
+          "license": "MIT",
+          "source": "https://github.com/json5/json5",
+          "notice": "licenses/next-bundled-json5-2.2.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",
+              "sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927"
+            }
+          ],
+          "sha256": "59dd9530b19329c8770b414e142866efb7e440d16d43dd3ca4bb7b591c48ce1c"
+        },
+        {
+          "name": "jsonwebtoken",
+          "version": "9.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-jsonwebtoken-9.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/jsonwebtoken/LICENSE",
+              "sha256": "2144eb6894cb440fde6b2b3aaae3b617c8f1dc9bb19813079dcf62ec6c517042"
+            }
+          ],
+          "sha256": "9c425531afd5934280f49efb708cee4788a8c71cc44141084dc222018b940062"
+        },
+        {
+          "name": "loader-runner",
+          "version": "4.3.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-loader-runner-4.3.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/loader-runner/LICENSE",
+              "sha256": "498d39c83164cf8de195090f5564fc0308ab271344ca2f95484a7f1020952d00"
+            }
+          ],
+          "sha256": "ebda691e11aeeeab4b3e03a37e9eba970163e550addb6655afceb0c1d51aa6a4"
+        },
+        {
+          "name": "loader-utils2",
+          "version": "2.0.4",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-loader-utils2-2.0.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/loader-utils2/LICENSE",
+              "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e"
+            }
+          ],
+          "sha256": "7fc64e145c6178869c646fa1afd106a01dd64ee3082115ca4f8a7960bdae6512"
+        },
+        {
+          "name": "loader-utils3",
+          "version": "3.1.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-loader-utils3-3.1.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/loader-utils3/LICENSE",
+              "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e"
+            }
+          ],
+          "sha256": "fc20f2691988359142f8c50f80d8a172e81909e21814cec2615842f58b8afaeb"
+        },
+        {
+          "name": "lodash.curry",
+          "version": "4.1.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-lodash.curry-4.1.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/lodash.curry/LICENSE",
+              "sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272"
+            }
+          ],
+          "sha256": "10dd9dd34ab20196647c373868c42b633bbc043dc9f72e8fe26298e41d4d67e4"
+        },
+        {
+          "name": "lru-cache",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "ISC",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-lru-cache-next-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/lru-cache/LICENSE",
+              "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+            }
+          ],
+          "sha256": "89ac8053fccf9da7da4119c3358313d4d7675475831e9e12122f0a27638f94ad"
+        },
+        {
+          "name": "mini-css-extract-plugin",
+          "version": "2.4.4",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-mini-css-extract-plugin-2.4.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/mini-css-extract-plugin/LICENSE",
+              "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e"
+            }
+          ],
+          "sha256": "eceaca2175bcc6898ddc4e941c178aa4680a79f78f7914a863ba9edf65e2730f"
+        },
+        {
+          "name": "nanoid",
+          "version": "3.1.32",
+          "license": "MIT",
+          "source": "https://github.com/ai/nanoid",
+          "notice": "licenses/next-bundled-nanoid-3.1.32.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/nanoid/LICENSE",
+              "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987"
+            }
+          ],
+          "sha256": "5275c101a965e4fd06c246b912d04d702d2b89b64dd5f2521313a3d0ab8a5ac4"
+        },
+        {
+          "name": "native-url",
+          "version": "0.3.4",
+          "license": "Apache-2.0",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-native-url-0.3.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/native-url/LICENSE",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+            }
+          ],
+          "sha256": "12eadc499b53c70c7a3516eea31f71e11114f3507f1a55f513348a7fbb1623f0"
+        },
+        {
+          "name": "neo-async",
+          "version": "2.6.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-neo-async-2.6.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/neo-async/LICENSE",
+              "sha256": "811238ba7d85f6fe6b820703a32f92705bcf77bc352ddc3476783491c64a129a"
+            }
+          ],
+          "sha256": "e93a9e9e48fb37d045fd5b796a5f7cb04cc1ee1fc4aeffd776dc37dbeeeb7bdf"
+        },
+        {
+          "name": "node-html-parser",
+          "version": "5.3.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-node-html-parser-5.3.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/node-html-parser/LICENSE",
+              "sha256": "ea75e9321945b7f0bc4644da1e404ad76ce55e9bc05cae3b2f5f2d973aede83b"
+            }
+          ],
+          "sha256": "f3cf0506091afd99be688e0d09dc1275c24672d3dd78805ef7db3c3fc1ad3a29"
+        },
+        {
+          "name": "ora",
+          "version": "4.0.4",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-ora-4.0.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/ora/LICENSE",
+              "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+            }
+          ],
+          "sha256": "d093ca2351cb95afa7724ca6290d893c97886ad720040231cad2ccf544858afd"
+        },
+        {
+          "name": "os-browserify",
+          "version": "0.3.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-os-browserify-0.3.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/os-browserify/LICENSE",
+              "sha256": "d25d1d6d28c35cb6f358e2833e405c4e53fec2fa24d156323ddea5cd438d3407"
+            }
+          ],
+          "sha256": "ca415c0737eecdd56583dc9d04f79cf7f1a3e6d5d892a4a1bd87d4afbdc62c4e"
+        },
+        {
+          "name": "p-limit",
+          "version": "3.1.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-p-limit-3.1.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/p-limit/LICENSE",
+              "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+            }
+          ],
+          "sha256": "5fa8e2f9a4a4a14232d9d275d102257495bc0353efb646821e9e7ed8801c7fe2"
+        },
+        {
+          "name": "p-queue",
+          "version": "6.6.2",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-p-queue-6.6.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/p-queue/LICENSE",
+              "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+            }
+          ],
+          "sha256": "ad53b0428581f36ea215fd3ebbaba95ae943a78fecd686b4ea0f01c360650b86"
+        },
+        {
+          "name": "path-browserify",
+          "version": "1.0.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-path-browserify-1.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/path-browserify/LICENSE",
+              "sha256": "a22b9d5763f574e5db347c30acc0b33eaf4846767c03d2e27d012e864e79a824"
+            }
+          ],
+          "sha256": "08b3a15519d1e3ba45485db6568ead23a7e37c0aeebca69f1824c42c8080a99d"
+        },
+        {
+          "name": "path-to-regexp",
+          "version": "6.3.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-path-to-regexp-6.3.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/path-to-regexp/LICENSE",
+              "sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25"
+            }
+          ],
+          "sha256": "48de3280817e5c2ab642d00efec82c60b9bc87c49261bb92d1d4570aa7ec0cb9"
+        },
+        {
+          "name": "picomatch",
+          "version": "4.0.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-picomatch-4.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/picomatch/LICENSE",
+              "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+            }
+          ],
+          "sha256": "2ccad75d9df330ffc691402e2d785a0720b2653a65cedb883c4fbf802dbfcdb9"
+        },
+        {
+          "name": "postcss-flexbugs-fixes",
+          "version": "5.0.2",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-flexbugs-fixes-5.0.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-flexbugs-fixes/LICENSE",
+              "sha256": "f26c92c1c16e78c6b1f7474792f7195b7abc851caccb4a73dcc5b3c31efc7321"
+            }
+          ],
+          "sha256": "f4c6f934eaaf19503af6e2b155cb7b191d05e577cbeac722ac32b3839c30c371"
+        },
+        {
+          "name": "postcss-modules-extract-imports",
+          "version": "3.0.0",
+          "license": "ISC",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-modules-extract-imports-3.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-modules-extract-imports/LICENSE",
+              "sha256": "9e534cfb7f7ae1300e16fe1ee7d203fdfe707dc932429c37246f747c3699ee14"
+            }
+          ],
+          "sha256": "823a308d9d2801e3ba4ceb7460e97a13bdf1c5cc265710a569a8a67247754dd5"
+        },
+        {
+          "name": "postcss-modules-local-by-default",
+          "version": "4.2.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-modules-local-by-default-4.2.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-modules-local-by-default/LICENSE",
+              "sha256": "dd40f37957ddcb6a6157f40b677d6f43697583f956144fbce25443e35630453e"
+            }
+          ],
+          "sha256": "a397f79cb6dff211b359899045dfeb5de967c93bd12e6bfef28602cc3ddd08da"
+        },
+        {
+          "name": "postcss-modules-scope",
+          "version": "3.0.0",
+          "license": "ISC",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-modules-scope-3.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-modules-scope/LICENSE",
+              "sha256": "7774c8c4a3f750b294b416818062201a404fc2d6c8756d8b89a1688e24b5d5a7"
+            }
+          ],
+          "sha256": "dc07ec6fe79ad2046577f6037d1033fc92c4db4fc67a85460ba4403a924030e0"
+        },
+        {
+          "name": "postcss-modules-values",
+          "version": "4.0.0",
+          "license": "ISC",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-modules-values-4.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-modules-values/LICENSE",
+              "sha256": "655287aefbf8e292057318c385d77767b1dd9819c87709fd26730b7090efe4d9"
+            }
+          ],
+          "sha256": "7a2f7891cdcfe7bfb2ecd05f6969cd576facbd964beaf26607adbef8b3a78dc5"
+        },
+        {
+          "name": "postcss-preset-env",
+          "version": "7.4.3",
+          "license": "CC0-1.0",
+          "source": "https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env#readme",
+          "notice": "licenses/next-bundled-postcss-preset-env-7.4.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-7.4.3.tgz",
+              "sha256": "597756adcb51f243ef4fb386920377f61d012ace0904364e1a8ee9aaec6afc84"
+            }
+          ],
+          "sha256": "ced7268163674cc26d340e1f07c93c1cdf17f95ea1e1641e23ff3678318c3c81"
+        },
+        {
+          "name": "postcss-safe-parser",
+          "version": "6.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-safe-parser-6.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-safe-parser/LICENSE",
+              "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b"
+            }
+          ],
+          "sha256": "3a743f135eca31a24535c31a96abacba3b9230f66fdc8fe4ffdae22fe16fab71"
+        },
+        {
+          "name": "postcss-scss",
+          "version": "4.0.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-scss-4.0.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-scss/LICENSE",
+              "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b"
+            }
+          ],
+          "sha256": "91cc0cc8be73924a35e37e02d23597e9f4b8bb64749273c88fcd82bbfd53c7d8"
+        },
+        {
+          "name": "postcss-value-parser",
+          "version": "4.2.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-postcss-value-parser-4.2.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/postcss-value-parser/LICENSE",
+              "sha256": "3687447039151857a6ba378db062172c7f33d4aa70a615c87a43a9c50e990485"
+            }
+          ],
+          "sha256": "e0b8a998f9c94fdeead8b25f3d55d1e381ae0479eda20ec7e561e02f72bc6c9d"
+        },
+        {
+          "name": "process",
+          "version": "0.11.10",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-process-0.11.10.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/process/LICENSE",
+              "sha256": "59a400d04c5078579acc27ddd6452c1bdf763f9506e01364700935fbb1a7c91b"
+            }
+          ],
+          "sha256": "264046aa7d1727f5b5513c2604ee1f086ef8b1da1925b704f2b54169e1a2693b"
+        },
+        {
+          "name": "punycode",
+          "version": "2.1.1",
+          "license": "MIT",
+          "source": "https://mths.be/punycode",
+          "notice": "licenses/next-bundled-punycode-2.1.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE-MIT.txt",
+              "source": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz",
+              "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+            }
+          ],
+          "sha256": "0dbbe4ae4eee379ce11fdf7894dde3f24e1fb673cadd869bc62ac4b200f6949d"
+        },
+        {
+          "name": "querystring-es3",
+          "version": "0.2.1",
+          "license": "See upstream license text",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-querystring-es3-0.2.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "License.md",
+              "source": "https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz",
+              "sha256": "cb72d9714ddc21e758d63f423be0caddf909d23ccbb10a2f5201a870818e4f57"
+            }
+          ],
+          "sha256": "0695a992579d2a6d7113a98d5bca7ba966eee9fcecd7e161a3aa0c915039b9ec"
+        },
+        {
+          "name": "raw-body",
+          "version": "2.4.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-raw-body-2.4.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/raw-body/LICENSE",
+              "sha256": "c8e6bca7230689d536a3bd7158f66e9c4f89f95d0748743a0370ac229e9023ad"
+            }
+          ],
+          "sha256": "a7fd498279e89249e1bf3adea84db51e08b7add630503c2f1fc9741b85e0eb5d"
+        },
+        {
+          "name": "react",
+          "version": "19.2.0-canary-0bdb9206-20250818",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-19.2.0-canary-0bdb9206-20250818.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "e577f66971cc22cab9c228308e69842348c2a41149d9688e899552e5882bf082"
+        },
+        {
+          "name": "react-dom",
+          "version": "19.2.0-canary-0bdb9206-20250818",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-dom-19.2.0-canary-0bdb9206-20250818.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-dom/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "a6d170d6862390f82c1f07cb6888c3d727baaa3006c54bfe1f62a869cc988bc1"
+        },
+        {
+          "name": "react-dom-experimental",
+          "version": "0.0.0-experimental-0bdb9206-20250818",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-dom-experimental-0.0.0-experimental-0bdb9206-20250818.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-dom-experimental/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "dd9089166b9a2824fced329231d191e2cdcd5a0379d9425251aa5ecc960ddbe7"
+        },
+        {
+          "name": "react-experimental",
+          "version": "0.0.0-experimental-0bdb9206-20250818",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-experimental-0.0.0-experimental-0bdb9206-20250818.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-experimental/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "1fc0263cdfd4eba376a5cb135ea5af6d9eea5f939591ac88784c6b588c0bf727"
+        },
+        {
+          "name": "react-is",
+          "version": "19.2.0-canary-0bdb9206-20250818",
+          "license": "MIT",
+          "source": "https://react.dev/",
+          "notice": "licenses/next-bundled-react-is-19.2.0-canary-0bdb9206-20250818.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-is/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "5924b1298ed9b00a7be2d128f50707bdfc0106b5472fa4a3842311af34ccbc07"
+        },
+        {
+          "name": "react-refresh",
+          "version": "0.12.0",
+          "license": "MIT",
+          "source": "https://reactjs.org/",
+          "notice": "licenses/next-bundled-react-refresh-0.12.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-refresh/LICENSE",
+              "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+            }
+          ],
+          "sha256": "a7d07e752c389d5d2ec633af250dcb05033d39d9f8f69e4d5ae94b1731c6a1b1"
+        },
+        {
+          "name": "react-server-dom-turbopack",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-server-dom-turbopack-next-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-server-dom-turbopack/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "1b351b794462ef546efeaca7f31cb49666c7fbbf22d65e5fd264ea5835f97eda"
+        },
+        {
+          "name": "react-server-dom-turbopack-experimental",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-server-dom-turbopack-experimental-next-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-server-dom-turbopack-experimental/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "16ff2816d520be960a751e340c92952438663ef891f457c303df213e08f7918a"
+        },
+        {
+          "name": "react-server-dom-webpack",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-server-dom-webpack-next-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-server-dom-webpack/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "1883a80c6e30b7753b9b50720aeb05a8d35a027dcd33d1f6d9d96473bc8c4635"
+        },
+        {
+          "name": "react-server-dom-webpack-experimental",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-react-server-dom-webpack-experimental-next-15.5.22.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/react-server-dom-webpack-experimental/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "234a957973a7a3a1c9755479b535f6cf9fcac41ee914e331e5f11d092571e42a"
+        },
+        {
+          "name": "regenerator-runtime",
+          "version": "0.13.4",
+          "license": "MIT",
+          "source": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime",
+          "notice": "licenses/next-bundled-regenerator-runtime-0.13.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/regenerator-runtime/LICENSE",
+              "sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd"
+            }
+          ],
+          "sha256": "791c8e188e89ccc9c8a67d4ab64cc7fd2d5cd97873bdcc4aafbdc4b0b71aed5a"
+        },
+        {
+          "name": "safe-stable-stringify",
+          "version": "2.5.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-safe-stable-stringify-2.5.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/safe-stable-stringify/LICENSE",
+              "sha256": "3a6d6de49d284a36c5d271ef0e62eca1838cc460dd7630e3f2c347c8f5b2232a"
+            }
+          ],
+          "sha256": "92daa43c01442371ee0299a1a7ca18ad21f934f86100675e221fcd8596b69375"
+        },
+        {
+          "name": "sass-loader",
+          "version": "15.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-sass-loader-15.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/sass-loader/LICENSE",
+              "sha256": "2af12ca8b612a22e6659ae68e0e59ee7ac792718c45524a989b512c49c5f5879"
+            }
+          ],
+          "sha256": "3995e042b6001fe68263e5c9a92ea79e2ae0dd4d5da8cff2b0844c24869d7a2f"
+        },
+        {
+          "name": "scheduler",
+          "version": "0.27.0-canary-0bdb9206-20250818",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-scheduler-0.27.0-canary-0bdb9206-20250818.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/scheduler/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "baef482be15f4f51539e968119968c8a81bdcfdc1aab5bfeb51c0ae9f188bd80"
+        },
+        {
+          "name": "scheduler-experimental",
+          "version": "0.0.0-experimental-0bdb9206-20250818",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-scheduler-experimental-0.0.0-experimental-0bdb9206-20250818.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/scheduler-experimental/LICENSE",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "230e999f77ea1b15dd5e93cad334c2224cea124e58953bc00fd89fb3ad3d8898"
+        },
+        {
+          "name": "schema-utils2",
+          "version": "2.7.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-schema-utils2-2.7.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/schema-utils2/LICENSE",
+              "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e"
+            }
+          ],
+          "sha256": "53e66e0ce2d7b03e7fb7a7946b6fa3c662182e8a46998a4cf96d58bc599861a3"
+        },
+        {
+          "name": "schema-utils3",
+          "version": "3.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-schema-utils3-3.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/schema-utils3/LICENSE",
+              "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e"
+            }
+          ],
+          "sha256": "6a9052d9f53558633f39b223a9becbedd365e41fe2f186a9ca14729a9f0d8f85"
+        },
+        {
+          "name": "semver",
+          "version": "7.3.2",
+          "license": "ISC",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-semver-7.3.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/semver/LICENSE",
+              "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+            }
+          ],
+          "sha256": "e711148c134bb98ccfaca0f4d340e034147b86b34843b666fed33e5e3a5d36d7"
+        },
+        {
+          "name": "send",
+          "version": "0.18.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-send-0.18.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/send/LICENSE",
+              "sha256": "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9"
+            }
+          ],
+          "sha256": "ae0182f6288e999c636a1fd97e8b7e90999099659388eb6fb879d5acd65d6ba7"
+        },
+        {
+          "name": "server-only",
+          "version": "0.0.1",
+          "license": "MIT",
+          "source": "https://reactjs.org/",
+          "notice": "licenses/next-bundled-server-only-0.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "React project LICENSE (MIT; marker package omits its license file)",
+              "source": "https://www.npmjs.com/package/react/v/19.2.8",
+              "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+            }
+          ],
+          "sha256": "b6b3c9c39541cc1fd850e1261f0df34731fea72f914129136eb4a9ac183b39db"
+        },
+        {
+          "name": "setimmediate",
+          "version": "1.0.5",
+          "license": "MIT",
+          "source": "https://github.com/YuzuJS/setImmediate",
+          "notice": "licenses/next-bundled-setimmediate-1.0.5.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.txt",
+              "source": "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz",
+              "sha256": "c4b4ad3a5746f1f5249a6dd90396ec519264e1bb02e01e48a6522c48a3a97cb4"
+            }
+          ],
+          "sha256": "9755066fa6cd544dedcaaa0d9e0fb24ac532f1490709618b7def6b5d2cee265e"
+        },
+        {
+          "name": "shell-quote",
+          "version": "1.7.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-shell-quote-1.7.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/shell-quote/LICENSE",
+              "sha256": "8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe"
+            }
+          ],
+          "sha256": "a65bb2a465451389267a697515504daffa8546d3138402815b75f90460d4dbc4"
+        },
+        {
+          "name": "source-map",
+          "version": "0.6.1",
+          "license": "BSD-3-Clause",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-source-map-0.6.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/source-map/LICENSE",
+              "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd"
+            }
+          ],
+          "sha256": "dfc196f62d8ea2e445b9a7603749df78de10f9e30d65724206608e7de1c3ab76"
+        },
+        {
+          "name": "source-map08",
+          "version": "0.8.0-beta.0",
+          "license": "BSD-3-Clause",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-source-map08-0.8.0-beta.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/source-map08/LICENSE",
+              "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd"
+            }
+          ],
+          "sha256": "051fcd541dd474be781b15e4a699bc4eb560051fc9866b4b0de0f3b47c63ed27"
+        },
+        {
+          "name": "stacktrace-parser",
+          "version": "0.1.10",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-stacktrace-parser-0.1.10.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/stacktrace-parser/LICENSE",
+              "sha256": "e1898814043cb5500483d9c8517edda824b352f696d35e5043fcfb537c221531"
+            }
+          ],
+          "sha256": "0e027c9ebc8fb95991adb4bd17ce801678a7009b0f155edffe71ca9a0a409185"
+        },
+        {
+          "name": "stream-browserify",
+          "version": "3.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-stream-browserify-3.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/stream-browserify/LICENSE",
+              "sha256": "96e5193183476a03da6667d217ce14110191d26ee105338086e94339edf40d5a"
+            }
+          ],
+          "sha256": "50cfebd0d195903d1a20a3fdd29a1a80c8b8119df0f430d1b0cf8259fc88a134"
+        },
+        {
+          "name": "stream-http",
+          "version": "3.1.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-stream-http-3.1.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/stream-http/LICENSE",
+              "sha256": "a0e6357a5e8ea65827addeb383e0948a1874d2f46bc7feaf6349b7a376ed6e98"
+            }
+          ],
+          "sha256": "e71e96e3ebf9611809137027f3e71bffd9b128dbf89f70cae47a0ad51d9fe695"
+        },
+        {
+          "name": "string-hash",
+          "version": "1.1.3",
+          "license": "CC0-1.0",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-string-hash-1.1.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "README (upstream licensing declaration)",
+              "source": "https://registry.npmjs.org/string-hash/-/string-hash-1.1.3.tgz",
+              "sha256": "62a7a3b8dba4cc818974ab2c00cb7fb7cb20afd7d3c73ed049d7f2eb5621a46e"
+            }
+          ],
+          "sha256": "a00c8356a5e717becebceec6f335f520f86f77c1d45465ece1a83ca573b0c9a0"
+        },
+        {
+          "name": "string_decoder",
+          "version": "1.3.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-string-decoder-1.3.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/string_decoder/LICENSE",
+              "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b"
+            }
+          ],
+          "sha256": "018ba5453443b61a250d151eba46e5f574ef8d9de5bec95e984bbfa650c8a1da"
+        },
+        {
+          "name": "strip-ansi",
+          "version": "6.0.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-strip-ansi-6.0.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/strip-ansi/LICENSE",
+              "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+            }
+          ],
+          "sha256": "d696744ec76c98d845fdb5c697e998b776285e497288ee2ba9201aa10af7643f"
+        },
+        {
+          "name": "superstruct",
+          "version": "1.0.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-superstruct-1.0.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "License.md",
+              "source": "https://registry.npmjs.org/superstruct/-/superstruct-1.0.3.tgz",
+              "sha256": "0f644bc01d85e4b1958bdfe5a851704bd886404c78188d4d6fba43dc8293bc91"
+            }
+          ],
+          "sha256": "215b72a80b3bf1982f3cf4403fc76910d4c78020f3bc053107b6399a82fb7dc1"
+        },
+        {
+          "name": "tar",
+          "version": "6.1.15",
+          "license": "ISC",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-tar-6.1.15.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/tar/LICENSE",
+              "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+            }
+          ],
+          "sha256": "3842cd9d7816d8f03d3ed650bc3ca1ffbb1baa83217530531a6cb435f3632b46"
+        },
+        {
+          "name": "terser",
+          "version": "5.27.0",
+          "license": "BSD-2-Clause",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-terser-5.27.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/terser/LICENSE",
+              "sha256": "901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da"
+            }
+          ],
+          "sha256": "b34c14dc128035c186456cdd18cf66d186c5ad2de4ba1b2a3b47ac9afdfe98b6"
+        },
+        {
+          "name": "text-table",
+          "version": "0.2.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-text-table-0.2.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/text-table/LICENSE",
+              "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+            }
+          ],
+          "sha256": "434417721b80fdc4eda601f5b6fe272898cb7c5fc6dd7da012a9d514055aee85"
+        },
+        {
+          "name": "timers-browserify",
+          "version": "2.0.12",
+          "license": "MIT",
+          "source": "https://github.com/jryans/timers-browserify",
+          "notice": "licenses/next-bundled-timers-browserify-2.0.12.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE.md",
+              "source": "https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.12.tgz",
+              "sha256": "d5f14c3258420dfe5a3b641a143d6e6dd90eabb5962244d937e25699c3a45ec9"
+            }
+          ],
+          "sha256": "b0c3ee481011d0248fa69315606ec1b14a95bf18df0af0911f752355f22e0dc1"
+        },
+        {
+          "name": "tty-browserify",
+          "version": "0.0.1",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-tty-browserify-0.0.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/tty-browserify/LICENSE",
+              "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+            }
+          ],
+          "sha256": "13398b99e75f1b96035a6d1dcba623a1ef0924fc86d0503e2232066381f976b3"
+        },
+        {
+          "name": "ua-parser-js",
+          "version": "1.0.35",
+          "license": "MIT",
+          "source": "https://github.com/faisalman/ua-parser-js",
+          "notice": "licenses/next-bundled-ua-parser-js-1.0.35.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "license.md",
+              "source": "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-1.0.35.tgz",
+              "sha256": "fb9548e36708f09ae0cc1047ebd8153928bfe5bed67e4051f0ace552bdcbf0b3"
+            }
+          ],
+          "sha256": "6949792d5a2a657a07254bed3d4770f918026cba7b1eb855abcefa58fce2068e"
+        },
+        {
+          "name": "unistore",
+          "version": "3.4.1",
+          "license": "MIT",
+          "source": "https://github.com/developit/unistore",
+          "notice": "licenses/next-bundled-unistore-3.4.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "README (upstream licensing declaration)",
+              "source": "https://registry.npmjs.org/unistore/-/unistore-3.4.1.tgz",
+              "sha256": "9e24224113e53a805fe76ed8084e13697a070061191f627c2053c0ea67f5c364"
+            }
+          ],
+          "sha256": "5593a9fc800737b0019568bb246f87c9f1938c82e81ecac681d9d156982c444f"
+        },
+        {
+          "name": "util",
+          "version": "0.12.4",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-util-0.12.4.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/util/LICENSE",
+              "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43"
+            }
+          ],
+          "sha256": "b2448fc990c238925852629e1edf47acbaffac17ef25163c35d5c12a4419779a"
+        },
+        {
+          "name": "vm-browserify",
+          "version": "1.1.2",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-vm-browserify-1.1.2.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/vm-browserify/LICENSE",
+              "sha256": "3a62887f73cd035ac1068bc0127ce94291f7a03843391f56df3520e2ca2037f8"
+            }
+          ],
+          "sha256": "211c6d1c3cee0acf46542a1825e080a478b31f3c097c0fa396b2b4c375086b7d"
+        },
+        {
+          "name": "watchpack",
+          "version": "2.4.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-watchpack-2.4.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/watchpack/LICENSE",
+              "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e"
+            }
+          ],
+          "sha256": "0329e4994b243334ff91b11c18c71fea325d2cb17f842f97cd782750ce35437a"
+        },
+        {
+          "name": "web-vitals",
+          "version": "4.2.1",
+          "license": "Apache-2.0",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-web-vitals-4.2.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/web-vitals/LICENSE",
+              "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff"
+            }
+          ],
+          "sha256": "a835e38faf76c0c8d049664d3d2fe9b98831f1bd79db6dbff39c0229ed504fdd"
+        },
+        {
+          "name": "web-vitals-attribution",
+          "version": "4.2.1",
+          "license": "Apache-2.0",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-web-vitals-attribution-4.2.1.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/web-vitals-attribution/LICENSE",
+              "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff"
+            }
+          ],
+          "sha256": "19458388f452d53520cc889da54047005966ab563cb23caa877fe2316a29cac3"
+        },
+        {
+          "name": "webpack",
+          "version": "5.98.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-webpack-5.98.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/webpack/LICENSE",
+              "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e"
+            }
+          ],
+          "sha256": "a21fe81f4b1bd47661a92c482ca11f9993919c45bfae42a11a164e7426fbbddd"
+        },
+        {
+          "name": "webpack-sources1",
+          "version": "1.4.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-webpack-sources1-1.4.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/webpack-sources1/LICENSE",
+              "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940"
+            }
+          ],
+          "sha256": "3451a48c10cb70ad1fd4f02e098edc2d3ce1dbbda625c68285192cf72d6448cf"
+        },
+        {
+          "name": "webpack-sources3",
+          "version": "3.2.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-webpack-sources3-3.2.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/webpack-sources3/LICENSE",
+              "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940"
+            }
+          ],
+          "sha256": "b4e140e68f7b4c2d4e4e9041ad128d133ec4c38e321a70aeb670e8958fdaab90"
+        },
+        {
+          "name": "ws",
+          "version": "8.2.3",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-ws-8.2.3.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/ws/LICENSE",
+              "sha256": "dcd0a622a3a2c94fe3aa6238b76363f87df442afe788cbad966afe943ed62281"
+            }
+          ],
+          "sha256": "3f749f77ae9d6ae8950de7ae00d00df153588db94850b9ead704bad8061e78e3"
+        },
+        {
+          "name": "zod",
+          "version": "3.25.76",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-zod-3.25.76.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/zod/LICENSE",
+              "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+            }
+          ],
+          "sha256": "a9bb513f37cc7f73faaef858a89372c5e4f0ed4fcf0ea70e57f1f969fa948d75"
+        },
+        {
+          "name": "zod-validation-error",
+          "version": "3.4.0",
+          "license": "MIT",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-bundled-zod-validation-error-3.4.0.txt",
+          "note": "Unmodified component bundled in Next.js 15.5.22; the inventory includes optional and server/build components conservatively.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "node_modules/next/dist/compiled/zod-validation-error/LICENSE",
+              "sha256": "03cc9a630489a2544b799548a0e8b134f382fe09fa06dc22b339091b28b8f4a8"
+            }
+          ],
+          "sha256": "a4c6fa320e3564eae08c872c5e7ad3b4ec36927baf29c6386ff2ef26a7e4f78a"
+        },
+        {
+          "name": "dotenv",
+          "version": "16.3.1",
+          "license": "BSD-2-Clause",
+          "source": "https://github.com/vercel/next.js/tree/v15.5.22",
+          "notice": "licenses/next-env-dotenv-16.3.1.txt",
+          "note": "Embedded in @next/env 15.5.22.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz",
+              "sha256": "74b629b24865e1e83c5277ee84590b7937644d6fd959d0c7bdce758676cd2ced"
+            }
+          ],
+          "sha256": "8638b792b6d88684998b78cb075cc50d14a70013b983429bea457bb513775689"
+        },
+        {
+          "name": "dotenv-expand",
+          "version": "10.0.0",
+          "license": "BSD-2-Clause",
+          "source": "https://github.com/motdotla/dotenv-expand",
+          "notice": "licenses/next-env-dotenv-expand-10.0.0.txt",
+          "note": "Embedded in @next/env 15.5.22.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-10.0.0.tgz",
+              "sha256": "3726b9470c3a6b54e1ebcc1d802d37089b5a5fc97273b52b2cee578a4421ec45"
+            }
+          ],
+          "sha256": "eded7a6c9a27222f507208a68c126bfa0f3e3023b09bf591f1036a3a45743544"
+        }
+      ]
+    },
+    {
+      "id": "native-build",
+      "title": "画像処理のビルド依存ライブラリ",
+      "description": "sharp のネイティブ依存関係の原文・通知です。この公式サイトは静的に配信され、ネイティブの実行ファイルは配信していません。",
+      "entries": [
+        {
+          "name": "sharp-libvips 1.3.2 original license",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "LGPL-3.0-or-later",
+          "source": "https://raw.githubusercontent.com/lovell/sharp-libvips/v1.3.2/LICENSE",
+          "notice": "licenses/native-sharp-libvips-1.3.2-original-license-next-15.5.22.txt",
+          "note": "Terms and upstream component notices for optional sharp native build dependencies. The static website does not redistribute native libraries.",
+          "files": [
+            {
+              "name": "LICENSE",
+              "source": "https://raw.githubusercontent.com/lovell/sharp-libvips/v1.3.2/LICENSE",
+              "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+            }
+          ],
+          "sha256": "f379bf74cbe4cc42fb8a0859ac8c99c7217ddc951ebfc9a89a7cc0834778a726"
+        },
+        {
+          "name": "sharp-libvips 1.3.2 third-party notices",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "Various; see upstream notices",
+          "source": "https://raw.githubusercontent.com/lovell/sharp-libvips/v1.3.2/THIRD-PARTY-NOTICES.md",
+          "notice": "licenses/native-sharp-libvips-1.3.2-third-party-notices-next-15.5.22.txt",
+          "note": "Terms and upstream component notices for optional sharp native build dependencies. The static website does not redistribute native libraries.",
+          "files": [
+            {
+              "name": "THIRD-PARTY-NOTICES.md",
+              "source": "https://raw.githubusercontent.com/lovell/sharp-libvips/v1.3.2/THIRD-PARTY-NOTICES.md",
+              "sha256": "25ffcfa69e28b1913ced27ec778b90f24911a1bb3021253577e8b0af55db0d49"
+            }
+          ],
+          "sha256": "df6ff787ef08bcd05b23a8565459caf6371516ce40a7eeae38f6bd880274d618"
+        },
+        {
+          "name": "GNU LGPL version 3",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "LGPL-3.0",
+          "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.28.0/text/LGPL-3.0-or-later.txt",
+          "notice": "licenses/native-GNU-LGPL-version-3-next-15.5.22.txt",
+          "note": "Terms and upstream component notices for optional sharp native build dependencies. The static website does not redistribute native libraries.",
+          "files": [
+            {
+              "name": "LGPL-3.0-or-later.txt",
+              "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.28.0/text/LGPL-3.0-or-later.txt",
+              "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+            }
+          ],
+          "sha256": "506f4dbc8d0eb135b3aff8206a8f40cba963955cc5293e522f402d183e3d0c88"
+        },
+        {
+          "name": "GNU GPL version 3",
+          "version": "bundled with Next.js 15.5.22",
+          "license": "GPL-3.0",
+          "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.28.0/text/GPL-3.0-or-later.txt",
+          "notice": "licenses/native-GNU-GPL-version-3-next-15.5.22.txt",
+          "note": "Terms and upstream component notices for optional sharp native build dependencies. The static website does not redistribute native libraries.",
+          "files": [
+            {
+              "name": "GPL-3.0-or-later.txt",
+              "source": "https://raw.githubusercontent.com/spdx/license-list-data/v3.28.0/text/GPL-3.0-or-later.txt",
+              "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+            }
+          ],
+          "sha256": "68e44f089f3358e04a5649aae7d75073297d99a761783ca7eb34531f609bbdfa"
+        }
+      ]
+    }
+  ]
+}
