@@ -32,6 +32,11 @@ Publishing notices on the website does not remove any separate requirements
 that apply when distributing app binaries, exporter packages, or modified
 third-party source. Preserve notices in those distributions as well.
 
+MI-GAN is removed from the current iOS source, including its model, weights,
+inference backend and build requirements. Its unchanged original notice is in
+the previous-app-versions section for binaries distributed before removal.
+Source removal alone does not replace already distributed iOS binaries.
+
 The application audit covers the current iPhone product. The Android source
 declares different native dependency versions and must receive its own audit
 before an Android distribution is published. Unity 2022.3.62f3's common

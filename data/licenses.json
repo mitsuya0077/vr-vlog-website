@@ -37,14 +37,6 @@
         "note": "lilToonのテッセレーション処理に使用。"
       },
       {
-        "name": "MI-GAN（同梱モデル）",
-        "version": "2b793c5ece43",
-        "license": "MIT",
-        "source": "https://github.com/Picsart-AI-Research/MI-GAN/tree/2b793c5ece43f4253e32d4afc257120a5deed6f5",
-        "notice": "licenses/app-MI-GAN-notices.txt",
-        "note": "背景補完機能は停止済みです。現行のiOSビルドで同梱対象として残るモデルの著作権表示・ライセンスを掲載しています。"
-      },
-      {
         "name": "Unity パッケージ",
         "version": "各パッケージ版は通知本文に記載",
         "license": "Unity Companion License / Unity Package Distribution License / MIT / Apache-2.0 / BSD / SGI Free B など",
@@ -456,6 +448,21 @@
         "source": "https://github.com/lovell/sharp-libvips/tree/v1.3.2",
         "notice": "licenses/sharp-libvips-third-party-notices.txt",
         "note": "任意の画像処理ビルド依存関係に付属する通知とライセンス本文です。"
+      }
+    ]
+  },
+  {
+    "id": "previous-app-versions",
+    "title": "旧アプリ版のライセンス",
+    "description": "現行ソースから撤去された、以前の配布版に含まれるソフトウェア・モデルの通知です。",
+    "entries": [
+      {
+        "name": "MI-GAN（旧iOS版の同梱モデル）",
+        "version": "2b793c5ece43",
+        "license": "MIT",
+        "source": "https://github.com/Picsart-AI-Research/MI-GAN/tree/2b793c5ece43f4253e32d4afc257120a5deed6f5",
+        "notice": "licenses/app-MI-GAN-notices.txt",
+        "note": "iOSの現行ソースからモデル・重み・推論処理を撤去しました。撤去前のiOS配布版に同梱されていたモデルの通知を、旧版向けに保持しています。背景補完機能は停止済みです。"
       }
     ]
   }
