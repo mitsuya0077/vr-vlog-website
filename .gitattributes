@@ -1,0 +1,2 @@
+# Preserve original license and notice bytes across Windows/Linux checkouts.
+public/licenses/*.txt -text

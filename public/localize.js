@@ -17,28 +17,36 @@ const VRVLOG_TRANSLATIONS = {"en":{"で":"in","と":"and","ログ":"Log","撮影
   const messages = VRVLOG_TRANSLATIONS[locale];
   Object.assign(messages, {
     en: {
+      "ライセンス・クレジット": "Licenses & credits",
+      "ライセンス・クレジット | VR Vlog": "Licenses & credits | VR Vlog",
       "ダウンロード": "Download",
       "App StoreでVR Vlogをダウンロード": "Download VR Vlog on the App Store",
       "App Storeからダウンロード": "Download on the App Store",
     },
     "zh-Hans": {
+      "ライセンス・クレジット": "许可证与致谢",
+      "ライセンス・クレジット | VR Vlog": "许可证与致谢 | VR Vlog",
       "ダウンロード": "下载",
       "App StoreでVR Vlogをダウンロード": "在 App Store 下载 VR Vlog",
       "App Storeからダウンロード": "从 App Store 下载",
     },
     "zh-Hant": {
+      "ライセンス・クレジット": "授權與致謝",
+      "ライセンス・クレジット | VR Vlog": "授權與致謝 | VR Vlog",
       "ダウンロード": "下載",
       "App StoreでVR Vlogをダウンロード": "在 App Store 下載 VR Vlog",
       "App Storeからダウンロード": "從 App Store 下載",
     },
     ko: {
+      "ライセンス・クレジット": "라이선스 및 크레딧",
+      "ライセンス・クレジット | VR Vlog": "라이선스 및 크레딧 | VR Vlog",
       "ダウンロード": "다운로드",
       "App StoreでVR Vlogをダウンロード": "App Store에서 VR Vlog 다운로드",
       "App Storeからダウンロード": "App Store에서 다운로드",
     },
   }[locale]);
   const attrs = ["alt", "aria-label", "content", "label", "placeholder", "title"];
-  const skipTags = new Set(["SCRIPT", "STYLE", "CODE", "TEXTAREA"]);
+  const skipTags = new Set(["SCRIPT", "STYLE", "CODE", "PRE", "TEXTAREA"]);
   const Japanese = /[ぁ-んァ-ヶ一-龠]/;
   const translated = value => {
     if (!value || !Japanese.test(value)) return value;
@@ -63,7 +71,7 @@ const VRVLOG_TRANSLATIONS = {"en":{"で":"in","と":"and","ログ":"Log","撮影
       if (value !== root.nodeValue) root.nodeValue = value;
       return;
     }
-    if (root.nodeType !== Node.ELEMENT_NODE || skipTags.has(root.tagName) ||
+    if (root.nodeType !== Node.ELEMENT_NODE || skipTags.has(root.tagName) || root.getAttribute("translate") === "no" ||
         root.classList.contains("legal-document")) return;
     for (const attr of attrs) {
       if (!root.hasAttribute(attr)) continue;

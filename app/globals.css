@@ -120,7 +120,7 @@ section, [id] { scroll-margin-top: 24px; }
 .site-footer { padding: 0 var(--gutter) 20px; background: #101619; color: #aebcc7; }
 .footer-main { display: flex; align-items: center; padding: 27px 0; font-size: 12px; gap: 30px; }
 .footer-main .brand { font-size: 27px; }
-.footer-main nav { display: flex; gap: 24px; margin-left: auto; }
+.footer-main nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-left: auto; }
 .footer-trademark { color: #95a1ab; font-size: 10px; line-height: 1.75; }
 .subpage { max-width: 1000px; margin: auto; min-height: 65vh; padding: 54px var(--gutter) 80px; }
 .subpage h1 { font-size: clamp(30px, 4vw, 44px); line-height: 1.5; letter-spacing: -1px; margin: 28px 0 36px; }
@@ -130,6 +130,13 @@ section, [id] { scroll-margin-top: 24px; }
 .subpage p { font-size: 16px; line-height: 1.95; color: var(--muted); }
 .subpage p + p { margin-top: 20px; }
 .document-section { border-top: 1px solid var(--line); padding: 32px 0; }
+.license-updated { margin-top: 20px; }
+.license-index, .license-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 24px 0; }
+.license-index a { color: #ff71ae; text-decoration: underline; text-underline-offset: 4px; }
+.license-entry { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.license-entry h3, #credits h3 { margin: 24px 0 12px; font-size: 18px; overflow-wrap: anywhere; }
+.license-entry summary { cursor: pointer; padding: 12px 0; line-height: 1.7; }
+.license-original { margin-top: 12px; padding: 20px; background: #0d1215; border: 1px solid var(--line); border-radius: 8px; white-space: pre-wrap; overflow-wrap: anywhere; font: 13px/1.8 ui-monospace, monospace; }
 .legal-document { max-width: 760px; }
 .legal-document p { white-space: pre-line; overflow-wrap: anywhere; line-break: strict; }
 .legal-document h2 { font-size: 21px; letter-spacing: 0; overflow-wrap: anywhere; }

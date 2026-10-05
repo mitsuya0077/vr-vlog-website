@@ -1,0 +1,11 @@
+License
+
+VRoid SDK is not an OSS.
+It is licensed under the following terms and guidelines.
+
+terms: https://policies.pixiv.net/#vroidsdk
+guidelines: https://vroid.pixiv.help/hc/ja/articles/900000213643
+
+Verified source: original LICENSE.txt from the SDK 0.5.2 archive matching the application lock SHA-256 0c49cab48ac765b5554a7c1ec26066022756520fc027b04ab644a26fc42cb0bb.
+
+The archive additionally declares MIT terms for bundled UniVRM and CC BY-SA 2.5 / CC BY-SA 4.0 for modified Stack Overflow examples. The application's SDK importer excludes the bundled UniGLTF / VRM10 / VRMShaders trees and uses its separately licensed UniVRM package. No SDK binary, SDK archive, private distribution URL, credentials, or proprietary source is published here.
