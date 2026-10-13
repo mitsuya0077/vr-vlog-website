@@ -95,7 +95,7 @@
         "name": "VR Vlog lilToon VRM Exporter",
         "version": "0.11.10",
         "license": "MIT",
-        "source": "https://github.com/mitsuya0077/VR-Vlog-lilToon-Exporter/blob/a4d11c9925b44e218c0885a6e372625a3a847dec/LICENSE",
+        "source": "https://github.com/VR-Vlog/VR-Vlog-lilToon-Exporter/blob/a4d11c9925b44e218c0885a6e372625a3a847dec/LICENSE",
         "notice": "licenses/exporter-exporter.txt",
         "note": "VRM書き出し用のUnityエクスポーター。"
       },
@@ -127,7 +127,7 @@
         "name": "Avatar Optimizer compatibility patch",
         "version": "1.9.20",
         "license": "MIT",
-        "source": "https://github.com/mitsuya0077/VR-Vlog-lilToon-Exporter/blob/a4d11c9925b44e218c0885a6e372625a3a847dec/Documentation~/DependencyPatches/AAO-LICENSE.txt",
+        "source": "https://github.com/VR-Vlog/VR-Vlog-lilToon-Exporter/blob/a4d11c9925b44e218c0885a6e372625a3a847dec/Documentation~/DependencyPatches/AAO-LICENSE.txt",
         "notice": "licenses/exporter-avatar-optimizer-patch.txt",
         "note": "Avatar Optimizer 1.9.20の頂点バッファ解放を修正する差分を同梱しています。Avatar Optimizer本体は任意の外部依存ツールです。"
       },

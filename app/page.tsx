@@ -60,7 +60,7 @@ export default function Home() {
             <div className="tag">lilToon対応</div>
             <h3>lilToonの見た目をそのまま再現</h3>
             <p>専用の変換ツールでVRMに書き出すことで、<br className="desktop-break" />lilToonの見た目を保ったまま撮影できます。</p>
-            <a className="exporter-link" href="https://mitsuya0077.github.io/VR-Vlog-lilToon-Exporter/">lilToon用の変換ツールを見る <span aria-hidden="true">→</span></a>
+            <a className="exporter-link" href="https://vr-vlog.github.io/VR-Vlog-lilToon-Exporter/">lilToon用の変換ツールを見る <span aria-hidden="true">→</span></a>
             <br /><a className="exporter-link" href={siteHref("/guide/")}>書き出しからアバターの読み込みまでを動画で見る <span aria-hidden="true">→</span></a>
           </div>
           <div className="avatar-capability" id="perfect-sync">
