@@ -4,84 +4,30 @@
   "url": "https://vrvlog.fun/exporter/index.json",
   "id": "com.vrvlog.packages",
   "packages": {
-    "com.vrmc.gltf": {
+    "com.vrvlog.liltoon-vrm-exporter": {
       "versions": {
-        "0.131.0": {
-          "name": "com.vrmc.gltf",
-          "displayName": "UniGLTF",
-          "version": "0.131.0",
-          "unity": "2021.3",
-          "description": "GLTF importer and exporter",
-          "dependencies": {
-            "com.unity.modules.animation": "1.0.0",
-            "com.unity.modules.imgui": "1.0.0",
-            "com.unity.modules.imageconversion": "1.0.0",
-            "com.unity.test-framework": "1.4.6",
-            "com.unity.mathematics": "1.2.6"
+        "0.12.0-beta.1": {
+          "name": "com.vrvlog.liltoon-vrm-exporter",
+          "displayName": "VR Vlog lilToon VRM Exporter",
+          "version": "0.12.0-beta.1",
+          "unity": "2022.3",
+          "description": "Exports a VRM 1.0 MToon fallback and validated lilToon extension in one step.",
+          "vpmDependencies": {
+            "com.vrmc.gltf": "0.131.x",
+            "com.vrmc.vrm": "0.131.x"
           },
-          "samples": [
-            {
-              "displayName": "GltfViewer",
-              "description": "UniGLTF runtime loader sample",
-              "path": "Samples~/GltfViewer"
-            }
-          ],
           "author": {
-            "name": "VRM Consortium"
-          },
-          "keywords": [
-            "gltf"
-          ],
-          "zipSHA256": "a3c7bd328151cb9c9a3fcdf1365455f45390dd7d0c4d237af44c6c9c893a92af",
-          "url": "https://github.com/VR-Vlog/VR-Vlog-Avatar-Exporter/releases/download/v0.11.15/com.vrmc.gltf-0.131.0.zip"
-        }
-      }
-    },
-    "com.vrmc.vrm": {
-      "versions": {
-        "0.131.0": {
-          "name": "com.vrmc.vrm",
-          "displayName": "VRM-1.0",
-          "version": "0.131.0",
-          "unity": "2021.3",
-          "description": "VRM-1.0 importer",
-          "dependencies": {
-            "com.unity.timeline": "1.7.6",
-            "com.vrmc.gltf": "0.131.0"
-          },
-          "samples": [
-            {
-              "displayName": "VRM10Viewer",
-              "description": "VRM10 runtime loader sample",
-              "path": "Samples~/VRM10Viewer"
-            },
-            {
-              "displayName": "VRM10FirstPersonSample",
-              "description": "First Person layer sample with multi camera",
-              "path": "Samples~/VRM10FirstPersonSample"
-            },
-            {
-              "displayName": "ClothSample",
-              "description": "Experimental cloth implementation",
-              "path": "Samples~/ClothSample"
-            }
-          ],
-          "author": {
-            "name": "VRM Consortium"
+            "name": "VR Vlog"
           },
           "keywords": [
             "vrm",
-            "importer",
-            "avatar",
-            "vr"
+            "liltoon",
+            "exporter",
+            "vpm"
           ],
-          "zipSHA256": "19402867c6ddc8888975618d9a22b2e3ea25a6731e3b5702a922d7ed356a927d",
-          "url": "https://github.com/VR-Vlog/VR-Vlog-Avatar-Exporter/releases/download/v0.11.15/com.vrmc.vrm-0.131.0.zip"
-        }
-      }
-    },
-    "com.vrvlog.liltoon-vrm-exporter": {
-      "versions": {
+          "zipSHA256": "30768b03da2faf25fad51fb2b736e0faa79a8db8a3c8bc17f0f34dcb811f4313",
+          "url": "https://github.com/VR-Vlog/VR-Vlog-Avatar-Exporter/releases/download/v0.12.0-beta.1/com.vrvlog.liltoon-vrm-exporter-0.12.0-beta.1.zip"
+        },
         "0.11.15": {
           "name": "com.vrvlog.liltoon-vrm-exporter",
           "displayName": "VR Vlog lilToon VRM Exporter",
@@ -1489,6 +1435,82 @@
           ],
           "zipSHA256": "284f25f074bc9f61d6ca81e278fc2b662c4941941edf93b011f35a592666335b",
           "url": "https://github.com/VR-Vlog/VR-Vlog-Avatar-Exporter/releases/download/v0.3.0/com.vrvlog.liltoon-vrm-exporter-0.3.0.zip"
+        }
+      }
+    },
+    "com.vrmc.gltf": {
+      "versions": {
+        "0.131.0": {
+          "name": "com.vrmc.gltf",
+          "displayName": "UniGLTF",
+          "version": "0.131.0",
+          "unity": "2021.3",
+          "description": "GLTF importer and exporter",
+          "dependencies": {
+            "com.unity.modules.animation": "1.0.0",
+            "com.unity.modules.imgui": "1.0.0",
+            "com.unity.modules.imageconversion": "1.0.0",
+            "com.unity.test-framework": "1.4.6",
+            "com.unity.mathematics": "1.2.6"
+          },
+          "samples": [
+            {
+              "displayName": "GltfViewer",
+              "description": "UniGLTF runtime loader sample",
+              "path": "Samples~/GltfViewer"
+            }
+          ],
+          "author": {
+            "name": "VRM Consortium"
+          },
+          "keywords": [
+            "gltf"
+          ],
+          "zipSHA256": "a3c7bd328151cb9c9a3fcdf1365455f45390dd7d0c4d237af44c6c9c893a92af",
+          "url": "https://github.com/VR-Vlog/VR-Vlog-Avatar-Exporter/releases/download/v0.11.15/com.vrmc.gltf-0.131.0.zip"
+        }
+      }
+    },
+    "com.vrmc.vrm": {
+      "versions": {
+        "0.131.0": {
+          "name": "com.vrmc.vrm",
+          "displayName": "VRM-1.0",
+          "version": "0.131.0",
+          "unity": "2021.3",
+          "description": "VRM-1.0 importer",
+          "dependencies": {
+            "com.unity.timeline": "1.7.6",
+            "com.vrmc.gltf": "0.131.0"
+          },
+          "samples": [
+            {
+              "displayName": "VRM10Viewer",
+              "description": "VRM10 runtime loader sample",
+              "path": "Samples~/VRM10Viewer"
+            },
+            {
+              "displayName": "VRM10FirstPersonSample",
+              "description": "First Person layer sample with multi camera",
+              "path": "Samples~/VRM10FirstPersonSample"
+            },
+            {
+              "displayName": "ClothSample",
+              "description": "Experimental cloth implementation",
+              "path": "Samples~/ClothSample"
+            }
+          ],
+          "author": {
+            "name": "VRM Consortium"
+          },
+          "keywords": [
+            "vrm",
+            "importer",
+            "avatar",
+            "vr"
+          ],
+          "zipSHA256": "19402867c6ddc8888975618d9a22b2e3ea25a6731e3b5702a922d7ed356a927d",
+          "url": "https://github.com/VR-Vlog/VR-Vlog-Avatar-Exporter/releases/download/v0.11.15/com.vrmc.vrm-0.131.0.zip"
         }
       }
     }
