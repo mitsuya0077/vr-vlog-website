@@ -1,5 +1,5 @@
 {
-  "digest": "ea596cc11e66c2fc5512dc113462ab2dd18edc3588f8483504d0b5ee3136312b",
+  "digest": "337ae564da231238fad8c14264827c9d486a55c0e49926f6f7407afa463e0b64",
   "files": {
     "app.js": "9ced68d522e261f8fca533c9b016a1a2d1880fbd4bdcac77ef5bffad4f23d3f2",
     "assets/README.md": "827da1fb3b2632fddcb520f26f2734b1af2dc907a633da84430cdb6ab01f03e4",
@@ -11,17 +11,17 @@
     "assets/vr-vlog-phone-framed.png": "5d29b42f333d9076dd57cdce7d7d0def475be7573e83f9d9e1b99ec30685ec4b",
     "assets/vr-vlog-screenshot-ocean-background.png": "abd52d9cc32e94515f8799ed807b094b24602d9367cd098b45c2101f4a26a1f8",
     "assets/vr-vlog-wordmark.png": "dfa4ac375ea5f01f0f89b1cb2fe09f635ee4207005aa703438d29b1ea1287a41",
-    "index.html": "9adcd107a3e7ca6bf878512e979e31933398a19839aba1904b92c42c652bb780",
-    "index.json": "efe63445272de7423d89240ac8d4322597e519d300bee2ccef8c27643f4074e0",
+    "index.html": "383863810fbe011d819aaa3d8864e58da78507a95795fcfb2a3b4ce6c5df5cfd",
+    "index.json": "0b59770df682b0ba7fb224c7e8c07225612330abc28f31050b60bf1a205f07ad",
     "localize.js": "b6b33f32d8df882a593794a9a1f7e8cbc61fa0c12fed1d68fa1bf73688eeed90",
     "styles.css": "d6e3a3efb603f6f413874e96df90821dde8543dbbd44457751523acd79c541d0"
   },
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 39753411819,
-    "run_number": 880,
-    "source_commit": "b39cffb75d2d8f9145e44927e42a72c76e5523d8",
+    "run_id": 39767904216,
+    "run_number": 890,
+    "source_commit": "98991c864a55f0f21ef57b9e63067c2527c131b7",
     "workflow": ".github/workflows/build-listing.yml"
   },
   "schema": 2
