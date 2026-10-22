@@ -6,6 +6,29 @@
   "packages": {
     "com.vrvlog.liltoon-vrm-exporter": {
       "versions": {
+        "0.12.0-beta.8": {
+          "name": "com.vrvlog.liltoon-vrm-exporter",
+          "displayName": "VR Vlog lilToon VRM Exporter",
+          "version": "0.12.0-beta.8",
+          "unity": "2022.3",
+          "description": "Exports a VRM 1.0 MToon fallback and validated lilToon extension in one step.",
+          "dependencies": {
+            "com.unity.mathematics": "1.2.6",
+            "com.unity.timeline": "1.7.6"
+          },
+          "vpmDependencies": {},
+          "author": {
+            "name": "VR Vlog"
+          },
+          "keywords": [
+            "vrm",
+            "liltoon",
+            "exporter",
+            "vpm"
+          ],
+          "zipSHA256": "8cf35deea2198c69aecd9515813b9a7c307e0a3751fdca93f2d9a43d7c1940b0",
+          "url": "https://github.com/VR-Vlog/VR-Vlog-Avatar-Exporter/releases/download/v0.12.0-beta.8/com.vrvlog.liltoon-vrm-exporter-0.12.0-beta.8.zip"
+        },
         "0.12.0-beta.7": {
           "name": "com.vrvlog.liltoon-vrm-exporter",
           "displayName": "VR Vlog lilToon VRM Exporter",
