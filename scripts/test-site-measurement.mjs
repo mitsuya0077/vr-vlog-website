@@ -169,11 +169,20 @@ test('region endpoint trusts only Cloudflare country, returns no identifiers, an
   for (const country of ['JP', 'FR', 'XX', undefined]) {
     const request = new Request('https://worker.invalid/region', { headers: { Origin: 'https://vrvlog.fun', 'CF-IPCountry': 'JP' } });
     Object.defineProperty(request, 'cf', { value: { country } });
-    const r = regionWorker.fetch(request);
+    const r = regionWorker.fetch(request, { MEASUREMENT_ENABLED: 'true' });
     assert.deepEqual(await r.json(), { measurement: country === 'JP' ? 'jp' : 'off' });
     assert.equal(r.headers.get('Cache-Control'), 'no-store');
     assert.equal(r.headers.get('Access-Control-Allow-Origin'), 'https://vrvlog.fun');
   }
   assert.equal(regionWorker.fetch(new Request('https://worker.invalid/region')).status, 403);
   assert.equal(regionWorker.fetch(new Request('https://worker.invalid/region?email=SECRET', { headers: { Origin: 'https://vrvlog.fun' } })).status, 404);
+});
+
+test('region deployment remains off until its exact enable flag is set', async () => {
+  const request = new Request('https://worker.invalid/region', { headers: { Origin: 'https://vrvlog.fun' } });
+  Object.defineProperty(request, 'cf', { value: { country: 'JP' } });
+  for (const value of [undefined, false, true, 'false', 'TRUE']) {
+    const r = regionWorker.fetch(request, { MEASUREMENT_ENABLED: value });
+    assert.deepEqual(await r.json(), { measurement: 'off' });
+  }
 });

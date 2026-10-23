@@ -4,6 +4,7 @@
   "compatibility_date": "2026-10-24",
   "workers_dev": true,
   "preview_urls": false,
+  "vars": { "MEASUREMENT_ENABLED": "false" },
   "observability": { "enabled": false },
   "logpush": false
 }
