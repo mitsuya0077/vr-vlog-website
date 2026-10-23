@@ -175,6 +175,10 @@
       window.gtag('js', new Date());
       window.gtag('config', measurementId, { send_page_view: false, page_referrer: '',
         page_location: origin + location.pathname, page_title: group,
+        ignore_referrer: true, campaign_id: 'not_collected', campaign_source: 'not_collected',
+        campaign_medium: 'not_collected', campaign_name: 'not_collected',
+        campaign_term: 'not_collected', campaign_content: 'not_collected',
+        cookie_expires: 63072000, cookie_update: true,
         allow_google_signals: false, allow_ad_personalization_signals: false,
         ads_data_redaction: true, url_passthrough: false });
       const tag = document.createElement('script');
