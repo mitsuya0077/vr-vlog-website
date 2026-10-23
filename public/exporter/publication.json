@@ -1,5 +1,5 @@
 {
-  "digest": "3b154f93fa9083bef4ba47e3f4847cc63e3765e289ca787e28a4cc39e3328e51",
+  "digest": "96249fccb17ce4c9d80b16deb92d979c3fd2de71dd646ff87c4fd358f3db8c4b",
   "files": {
     "app.js": "bb79d691bc1df0fd70ba1deca6cbbec404674fa8f444fb13377384d2652874a0",
     "assets/README.md": "543934829ee8a3f4615f037c959ae6c696793b29a4be90d9899bd3689ed156dd",
@@ -22,17 +22,17 @@
     "assets/vr-vlog-phone-framed.png": "5d29b42f333d9076dd57cdce7d7d0def475be7573e83f9d9e1b99ec30685ec4b",
     "assets/vr-vlog-screenshot-ocean-background.png": "abd52d9cc32e94515f8799ed807b094b24602d9367cd098b45c2101f4a26a1f8",
     "assets/vr-vlog-wordmark.png": "dfa4ac375ea5f01f0f89b1cb2fe09f635ee4207005aa703438d29b1ea1287a41",
-    "index.html": "bc3660fad1498dfcc2082d3b26ce075133a594e11b0a999399dd6b98ce5e75f8",
-    "index.json": "6b2cee907aa9eaad21d9db1a033af9c75adf79d72d793e125381979209b02a77",
+    "index.html": "ae5adc635278c707c26a7642cf31aa9076cb146cf0ca664fad2fec070ee668c9",
+    "index.json": "e38861700226a536a432f109c8a48042b3b3b718ac1187ee1fb7f225b1e9c05d",
     "localize.js": "b6b33f32d8df882a593794a9a1f7e8cbc61fa0c12fed1d68fa1bf73688eeed90",
-    "styles.css": "3bd48a2c83f6e0d9c8f174f83efa40469de05f9bc8b8d2304bfbeb2b3fb60a61"
+    "styles.css": "eb257c7bbda58e2d12d3e8a8c08a7008e9a1e8e26e6442319e42e63c59f056d1"
   },
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 39944274397,
-    "run_number": 1179,
-    "source_commit": "d92f3821690c5c26b516adfafcc487a5b0e1d31a",
+    "run_id": 39969515269,
+    "run_number": 1221,
+    "source_commit": "a6101e3c5072dfcb582146c8cd9443b4d574cd97",
     "workflow": ".github/workflows/build-listing.yml"
   },
   "schema": 2
