@@ -1,5 +1,5 @@
 {
-  "digest": "1a29060aaba41a124236a10f10286d972a1b5e36e558c07bab92e392608eabda",
+  "digest": "f158ad72e835020b7344f6408d8018866fd1012cb1c467706ebb6e819e1f14fa",
   "files": {
     "app.js": "b8bdddf88f13c8a2157c5115990880cd7731ff02c8f98d3ef137b321a4c74cd8",
     "assets/README.md": "543934829ee8a3f4615f037c959ae6c696793b29a4be90d9899bd3689ed156dd",
@@ -30,8 +30,8 @@
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 39933986479,
-    "run_number": 1150,
+    "run_id": 39934032352,
+    "run_number": 1151,
     "source_commit": "5b0a2525613aee50291a7d78619733ac5a114553",
     "workflow": ".github/workflows/build-listing.yml"
   },
