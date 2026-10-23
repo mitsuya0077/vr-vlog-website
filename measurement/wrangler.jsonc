@@ -1,0 +1,9 @@
+{
+  "name": "vrvlog-web-region",
+  "main": "region-worker.mjs",
+  "compatibility_date": "2026-10-24",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  "logpush": false
+}
