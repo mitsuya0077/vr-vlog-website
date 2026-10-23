@@ -28,3 +28,11 @@ repository and the legacy personal Pages repository. Normal website builds
 include the tracked subtree. Do not edit release-derived files here independently;
 update the Exporter website source. The synchronization preserves concurrent
 changes outside this subtree and verifies all three public JSON endpoints.
+
+## Web measurement and acquisition checks
+
+The [website measurement plan](docs/web-measurement.md) defines website-only
+metrics and the remaining Google setup. After `npm run build:pages`, run
+`python3 scripts/verify-acquisition.py out` (Python 3.10+) to check canonical
+URLs, store/test/guide/VPM routes, robots and sitemap without network access.
+This check does not enable analytics or measure installations and app usage.
