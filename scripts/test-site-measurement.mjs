@@ -186,3 +186,18 @@ test('region deployment remains off until its exact enable flag is set', async (
     assert.deepEqual(await r.json(), { measurement: 'off' });
   }
 });
+
+
+test('privacy controls work through the published action attributes without starting analytics', async () => {
+  const f = await fixture({ url: 'https://vrvlog.fun/privacy/' });
+  const control = action => ({ closest: selector => selector === '[data-analytics-action]'
+    ? { dataset: { analyticsAction: action } } : null });
+  f.emit('click', control('stop'));
+  assert.equal(f.storage.get('vrvlog.website.analytics'), 'off');
+  assert.match(f.status.textContent, /停止しました/);
+  f.emit('click', control('resume'));
+  assert.equal(f.storage.has('vrvlog.website.analytics'), false);
+  assert.match(f.status.textContent, /次にページを開いた/);
+  assert.equal(f.tags.length, 0);
+  assert.equal(f.requests.length, 0);
+});

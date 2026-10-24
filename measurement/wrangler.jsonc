@@ -1,5 +1,6 @@
 {
   "name": "vrvlog-web-region",
+  "account_id": "e4be39f50088dd328e8979961d52153b",
   "main": "region-worker.mjs",
   "compatibility_date": "2026-10-24",
   "workers_dev": true,

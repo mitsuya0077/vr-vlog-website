@@ -1,5 +1,5 @@
 {
-  "enabled": false,
+  "enabled": true,
   "measurement_id": "G-P5NNKTYS39",
-  "eligibility_url": null
+  "eligibility_url": "https://vrvlog-web-region.vr-vlog-website.workers.dev/region"
 }

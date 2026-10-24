@@ -1,4 +1,4 @@
-/* Website-only measurement. Configuration stays disabled until publication approval. */
+/* Website-only measurement. Collection also requires the approved region Worker flag. */
 (() => {
   'use strict';
   const origin = 'https://vrvlog.fun';
