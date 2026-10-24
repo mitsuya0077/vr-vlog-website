@@ -42,7 +42,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}<Script src="/localize.js" strategy="afterInteractive" /></body>
+      <body>{children}<Script src="/localize.js" strategy="afterInteractive" />
+        <Script src="/site-measurement.js" referrerPolicy="no-referrer" strategy="afterInteractive" /></body>
     </html>
   );
 }
