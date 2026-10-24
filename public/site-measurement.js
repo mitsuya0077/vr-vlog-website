@@ -62,7 +62,9 @@
     if (event.key === preferenceKey && event.newValue === 'off') stop();
   });
   document.addEventListener('visibilitychange', () => {
-    if (disabled()) stop();
+    // A resumed preference applies to future documents; an already stopped tab
+    // must not write the old preference back when its visibility changes.
+    if (!stopped && disabled()) stop();
   });
 
   document.addEventListener('click', event => {
