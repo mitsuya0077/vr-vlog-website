@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import legal from "../../public/legal-documents.json";
 import { AnalyticsSettings } from "./AnalyticsSettings";
 
@@ -8,13 +7,14 @@ export function LegalDocument({ kind }: { kind: "terms" | "privacy" }) {
     <p className="privacy-updated">{kind === "privacy" ? legal.privacy.revisionLabel : legal.revisionLabel}</p>
     {document.sections.map(section => <section className="document-section" key={section.heading}>
       <h2>{section.heading}</h2>
-      {section.paragraphs.map((paragraph, index) => <Fragment key={index}><p>
+      {section.paragraphs.map((paragraph, index) => <p key={index}>
         {paragraph.split(/(https:\/\/[^\s]+)/g).map((part, partIndex) =>
           part.startsWith("https://")
             ? <a className="text-link" key={partIndex} href={part}>{part}</a>
             : part)}
-      </p>{kind === "privacy" && section.heading === "12. 公式サイトの閲覧" && index === 1
-        ? <AnalyticsSettings /> : null}</Fragment>)}
+      </p>)}
+      {kind === "privacy" && section.heading === "12. 公式サイトの閲覧"
+        ? <AnalyticsSettings /> : null}
     </section>)}
   </article>;
 }
