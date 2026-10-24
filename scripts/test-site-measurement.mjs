@@ -198,6 +198,9 @@ test('privacy controls work through the published action attributes without star
   f.emit('click', control('resume'));
   assert.equal(f.storage.has('vrvlog.website.analytics'), false);
   assert.match(f.status.textContent, /次にページを開いた/);
+  f.emit('visibilitychange', {});
+  assert.equal(f.storage.has('vrvlog.website.analytics'), false);
+  assert.match(f.status.textContent, /次にページを開いた/);
   assert.equal(f.tags.length, 0);
   assert.equal(f.requests.length, 0);
 });
