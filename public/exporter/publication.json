@@ -1,5 +1,5 @@
 {
-  "digest": "96249fccb17ce4c9d80b16deb92d979c3fd2de71dd646ff87c4fd358f3db8c4b",
+  "digest": "3d16e5756df8fae399968195887080fb8398af1daab28672412e88d40cbe9dd9",
   "files": {
     "app.js": "bb79d691bc1df0fd70ba1deca6cbbec404674fa8f444fb13377384d2652874a0",
     "assets/README.md": "543934829ee8a3f4615f037c959ae6c696793b29a4be90d9899bd3689ed156dd",
@@ -23,16 +23,16 @@
     "assets/vr-vlog-screenshot-ocean-background.png": "abd52d9cc32e94515f8799ed807b094b24602d9367cd098b45c2101f4a26a1f8",
     "assets/vr-vlog-wordmark.png": "dfa4ac375ea5f01f0f89b1cb2fe09f635ee4207005aa703438d29b1ea1287a41",
     "index.html": "ae5adc635278c707c26a7642cf31aa9076cb146cf0ca664fad2fec070ee668c9",
-    "index.json": "e38861700226a536a432f109c8a48042b3b3b718ac1187ee1fb7f225b1e9c05d",
+    "index.json": "63ada5a828afd23c66c0564fea7248fd648c3795d93813d3bf4c7592d0e45823",
     "localize.js": "b6b33f32d8df882a593794a9a1f7e8cbc61fa0c12fed1d68fa1bf73688eeed90",
     "styles.css": "eb257c7bbda58e2d12d3e8a8c08a7008e9a1e8e26e6442319e42e63c59f056d1"
   },
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 39969515269,
-    "run_number": 1221,
-    "source_commit": "a6101e3c5072dfcb582146c8cd9443b4d574cd97",
+    "run_id": 40053829064,
+    "run_number": 1240,
+    "source_commit": "3358fee85ea14212b61c37dc93a4ab4b43d60d82",
     "workflow": ".github/workflows/build-listing.yml"
   },
   "schema": 2
