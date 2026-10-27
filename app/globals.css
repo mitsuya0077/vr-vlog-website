@@ -120,7 +120,8 @@ section, [id] { scroll-margin-top: 24px; }
 .site-footer { padding: 0 var(--gutter) 20px; background: #101619; color: #aebcc7; }
 .footer-main { display: flex; align-items: center; padding: 27px 0; font-size: 12px; gap: 30px; }
 .footer-main .brand { font-size: 27px; }
-.footer-main nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-left: auto; }
+.footer-main nav { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-left: auto; }
+.footer-main nav .discord-link { display: inline-flex; align-items: center; min-height: 44px; }
 .footer-trademark { color: #95a1ab; font-size: 10px; line-height: 1.75; }
 .subpage { max-width: 1000px; margin: auto; min-height: 65vh; padding: 54px var(--gutter) 80px; }
 .subpage h1 { font-size: clamp(30px, 4vw, 44px); line-height: 1.5; letter-spacing: -1px; margin: 28px 0 36px; }
