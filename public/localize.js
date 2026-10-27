@@ -22,6 +22,8 @@ const VRVLOG_TRANSLATIONS = {"en":{"で":"in","と":"and","ログ":"Log","撮影
       "ダウンロード": "Download",
       "App StoreでVR Vlogをダウンロード": "Download VR Vlog on the App Store",
       "App Storeからダウンロード": "Download on the App Store",
+      "公式Discordに参加 ↗": "Join the official Discord ↗",
+      "公式Discordに参加（新しいタブで開きます）": "Join the official Discord (opens in a new tab)",
     },
     "zh-Hans": {
       "ライセンス・クレジット": "许可证与致谢",
@@ -29,6 +31,8 @@ const VRVLOG_TRANSLATIONS = {"en":{"で":"in","と":"and","ログ":"Log","撮影
       "ダウンロード": "下载",
       "App StoreでVR Vlogをダウンロード": "在 App Store 下载 VR Vlog",
       "App Storeからダウンロード": "从 App Store 下载",
+      "公式Discordに参加 ↗": "加入官方 Discord ↗",
+      "公式Discordに参加（新しいタブで開きます）": "加入官方 Discord（在新标签页中打开）",
     },
     "zh-Hant": {
       "ライセンス・クレジット": "授權與致謝",
@@ -36,6 +40,8 @@ const VRVLOG_TRANSLATIONS = {"en":{"で":"in","と":"and","ログ":"Log","撮影
       "ダウンロード": "下載",
       "App StoreでVR Vlogをダウンロード": "在 App Store 下載 VR Vlog",
       "App Storeからダウンロード": "從 App Store 下載",
+      "公式Discordに参加 ↗": "加入官方 Discord ↗",
+      "公式Discordに参加（新しいタブで開きます）": "加入官方 Discord（在新分頁開啟）",
     },
     ko: {
       "ライセンス・クレジット": "라이선스 및 크레딧",
@@ -43,6 +49,8 @@ const VRVLOG_TRANSLATIONS = {"en":{"で":"in","と":"and","ログ":"Log","撮影
       "ダウンロード": "다운로드",
       "App StoreでVR Vlogをダウンロード": "App Store에서 VR Vlog 다운로드",
       "App Storeからダウンロード": "App Store에서 다운로드",
+      "公式Discordに参加 ↗": "공식 Discord에 참여하기 ↗",
+      "公式Discordに参加（新しいタブで開きます）": "공식 Discord에 참여하기(새 탭에서 열림)",
     },
   }[locale]);
   const attrs = ["alt", "aria-label", "content", "label", "placeholder", "title"];
