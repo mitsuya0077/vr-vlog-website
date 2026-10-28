@@ -1,6 +1,7 @@
 {
-  "digest": "d754800c8a85e6331db91d78130f70cc73014a73f6f847a8554aeb61a35ce859",
+  "digest": "296365484aa931091121ad1177e130d50b0e3e19d0f5db2cdc0315b98a41e04e",
   "files": {
+    "GUIDE.md": "1ce2466771b460cb8a81b923151dcbffd849daf8122b13dfd36c4cc12f20854b",
     "app.js": "bb79d691bc1df0fd70ba1deca6cbbec404674fa8f444fb13377384d2652874a0",
     "assets/README.md": "543934829ee8a3f4615f037c959ae6c696793b29a4be90d9899bd3689ed156dd",
     "assets/capture-sunset.webp": "090af02450b2f334b45253b967a37b0763bb180654e59d227c31988a335b1a37",
@@ -22,17 +23,21 @@
     "assets/vr-vlog-phone-framed.png": "5d29b42f333d9076dd57cdce7d7d0def475be7573e83f9d9e1b99ec30685ec4b",
     "assets/vr-vlog-screenshot-ocean-background.png": "abd52d9cc32e94515f8799ed807b094b24602d9367cd098b45c2101f4a26a1f8",
     "assets/vr-vlog-wordmark.png": "dfa4ac375ea5f01f0f89b1cb2fe09f635ee4207005aa703438d29b1ea1287a41",
-    "index.html": "3455a9b8f169867616f273b305ac2aa2530072d30346def9acdde43b661c346b",
+    "guide.css": "70b75246bbe92dda7bc133427ba0dd925b70d9fc5252c2c65288b5717d78c563",
+    "guide.js": "370f5117f470cc70d1f87317f53f0f8b64afa832ab698f93928c1bc7c1d68164",
+    "guide/index.html": "afc61750aaf10730231780fa3cc2e7da4d5e4a457421aa22df031a3d95c79b98",
+    "index.html": "1d671fb85a6f065e220eb4133ea69b59dbd450a3303d52ddb307bb715b05c711",
     "index.json": "e2268b27ce2312632b156a84c0a678c1427c1d1f7c409d581eb3b82e38cd32c8",
     "localize.js": "b6b33f32d8df882a593794a9a1f7e8cbc61fa0c12fed1d68fa1bf73688eeed90",
+    "sitemap.xml": "c26a16e2bd2529eebdbb6b8d0a21f75d7b224116d3bc5ef2b232be787f448207",
     "styles.css": "eb257c7bbda58e2d12d3e8a8c08a7008e9a1e8e26e6442319e42e63c59f056d1"
   },
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 40377617714,
-    "run_number": 1296,
-    "source_commit": "9ae0d963dd2d40403b29191af36548b539605b59",
+    "run_id": 40699921770,
+    "run_number": 1298,
+    "source_commit": "b245516cbafcbc38a8b0ce3b14103b03df8498c4",
     "workflow": ".github/workflows/build-listing.yml"
   },
   "schema": 2
