@@ -12,27 +12,27 @@ additional rights to the depicted avatars.
 
 ## Getting-started video
 
-The owner approved publication of `public/guide/` on September 19, 2026.
-The revised video ends after avatar import and preparation, without recording instructions.
-It uses actual Unity, ALCOM and freshly captured iPhone screens.
-Personal information is masked or cropped. Main camera backgrounds and library thumbnails
-use the owner's approved generated park scenery; avatar and app-control pixels
-remain captured material. Do not add raw captures or avatar model files here.
+The owner requested the October 28, 2026 update of `public/guide/`.
+The 5:39 tutorial demonstrates ALCOM and VCC installation through the official
+website buttons, Unity's easy app-transfer flow, and smartphone receipt.
+Manual repository registration is an optional fallback beginning at 04:20.
+PC steps use real operation recordings; phone steps use the official site's
+device screenshots. Personal project information and the live QR code are hidden.
+Do not add raw captures or avatar model files here.
 
-- `vrvlog-start-guide.mp4`: H.264/AAC video with Japanese captions.
-- `vrvlog-start-guide.vtt`: subtitles used by the player.
-- `poster.jpg`: thumbnail from the same video revision.
-- `logo.png`: owner-supplied VR Vlog logo with background extracted using the built-in image tool.
+- `vrvlog-start-guide.mp4`: latest owner-approved H.264/AAC version, with audio
+  reduced by a total of 15 dB from the original edit. No further normalization.
+- Video SHA-256: `be86956d233726ead59282f66a422ca771a0e0e33d5b98f64b102552279f5015`.
+- `vrvlog-start-guide*.vtt`: synchronized Japanese, English, Simplified Chinese,
+  Traditional Chinese and Korean subtitles for this revision (63 cues each).
+- `poster.jpg`: the approved thumbnail for the same tutorial.
+- `logo.png`: unmodified official VR Vlog logo, with its original transparency,
+  from the Exporter website's `assets/guide/vr-vlog-official-logo.png`.
 - Voice credit: **VOICEVOX:ずんだもん**.
 - Avatar credit: **©もち山金魚**, as specified in the [official license](https://mochiyama.com/license_jp).
 
 These files are supplied for this website and do not grant additional rights
-to the depicted avatar or the logo.
-
-The September 20 revision restores the default avatar before import and the
-avatar inset at the upper right. The written guide and SRT download are no longer
-published, and the page has no download controls. The avatar attribution is plain
-text on the playback page; the license link above is an internal source reference.
+to the depicted avatar or the logo. The page has no download controls.
 
 | File | Use |
 | --- | --- |

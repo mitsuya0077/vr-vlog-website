@@ -1,109 +1,253 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:08.583
-Let’s load an avatar into VR Vlog and get ready to film, step by step.
+1
+00:00:00.250 --> 00:00:06.426
+Here is how to bring an avatar you already own into VR Vlog.
 
-00:00:08.583 --> 00:00:15.583
-This video does not cover buying an avatar or setting up Unity.
+2
+00:00:07.350 --> 00:00:15.684
+Use a Unity 2022.3 project that already contains your avatar and lilToon.
 
-00:00:15.583 --> 00:00:24.417
-You can find helpful articles in “Prepare to capture” below the video.
+3
+00:00:15.684 --> 00:00:19.851
+Install VR Vlog on your phone beforehand.
 
-00:00:24.417 --> 00:00:29.333
-On your computer, open the exporter’s official website.
+4
+00:00:20.784 --> 00:00:24.396
+First, save your work with File > Save.
 
-00:00:29.333 --> 00:00:35.708
-Click the “Add to VCC / ALCOM” button.
+5
+00:00:24.396 --> 00:00:29.979
+Close Unity with the top-right close button before installing the package.
 
-00:00:35.708 --> 00:00:40.375
-If asked to open ALCOM, choose Open.
+6
+00:00:30.884 --> 00:00:37.711
+Open the official Exporter website linked below and select Install the exporter.
 
-00:00:40.375 --> 00:00:47.583
-On the ALCOM screen, click the button to add the repository.
+7
+00:00:38.618 --> 00:00:43.806
+Follow only the instructions for the manager you use: ALCOM or VCC.
 
-00:00:47.583 --> 00:00:56.333
-Open Projects on the left and click Manage for the project containing your avatar.
+8
+00:00:43.806 --> 00:00:50.426
+Both follow the same flow: register the repository, install into your project, then open Unity.
 
-00:00:56.333 --> 00:01:06.333
-Search for “VR Vlog,” then click the plus button next to the exporter.
+9
+00:00:51.352 --> 00:00:57.133
+For ALCOM, select ALCOM, then Add to ALCOM.
 
-00:01:06.333 --> 00:01:14.583
-Click Apply. Required packages will be installed with the exporter.
+10
+00:00:57.133 --> 00:01:02.915
+For VCC, select VCC, then Add to VCC.
 
-00:01:14.583 --> 00:01:19.292
-When installation finishes, click Open Unity.
+11
+00:01:03.819 --> 00:01:10.287
+If your browser asks for confirmation, check the manager's name and select Open.
 
-00:01:19.292 --> 00:01:29.625
-In Unity, choose VR Vlog → Export lilToon VRM 1.0 from the top menu.
+12
+00:01:10.287 --> 00:01:14.240
+The repository information is sent to the manager automatically.
 
-00:01:29.625 --> 00:01:36.708
-Drag the top-level Kipfel object from Hierarchy into the Avatar field.
+13
+00:01:15.153 --> 00:01:19.797
+Check the repository name and official URL, then add it.
 
-00:01:36.708 --> 00:01:42.500
-Select the parent of the whole avatar, not just its body or clothes.
+14
+00:01:19.797 --> 00:01:26.182
+If it says the repository is already registered, continue to the next step.
 
-00:01:42.500 --> 00:01:52.875
-Next, enter the creator’s name. For this Kipfel example, enter the model creator’s name, Kameyama.
+15
+00:01:27.087 --> 00:01:29.157
+Return to the project list.
 
-00:01:52.875 --> 00:01:57.833
-Click “Choose destination and export VRM.”
+16
+00:01:29.157 --> 00:01:36.698
+For the project containing your avatar, select Manage in ALCOM or Manage Project in VCC.
 
-00:01:57.833 --> 00:02:08.917
-Choose a folder and file name, then click Save. Here, we use Kipfel.vrm.
+17
+00:01:37.621 --> 00:01:46.148
+Find VR Vlog lilToon VRM Exporter in the package list.
 
-00:02:08.917 --> 00:02:18.542
-Transfer the exported file to iPhone using a cloud service such as Google Drive or Dropbox.
+18
+00:01:46.148 --> 00:01:51.701
+If you cannot find it, enter VR Vlog in the search field.
 
-00:02:18.542 --> 00:02:27.375
-You can also connect your iPhone to the computer and transfer it to a file-sharing app.
+19
+00:01:52.621 --> 00:01:55.803
+In ALCOM, open None under Installed.
 
-00:02:27.375 --> 00:02:32.625
-This guide uses iCloud Drive.
+20
+00:01:55.803 --> 00:02:04.237
+In VCC, open Not Installed under Installed Version and select the latest stable version.
 
-00:02:32.625 --> 00:02:39.208
-In a computer browser, open Drive on iCloud.com.
+21
+00:02:05.155 --> 00:02:09.681
+In ALCOM, review the changes and select Apply.
 
-00:02:39.208 --> 00:02:46.042
-Sign in with the same Apple Account you use on your iPhone.
+22
+00:02:09.681 --> 00:02:13.263
+In VCC, installation starts when you select a version.
 
-00:02:46.042 --> 00:02:50.292
-Click the New Folder button at the top.
+23
+00:02:13.263 --> 00:02:15.715
+Wait for it to finish.
 
-00:02:50.292 --> 00:02:55.917
-Name it VRVlog and press Enter.
+24
+00:02:16.622 --> 00:02:22.403
+Installation is complete when the selected version appears in the Installed column.
 
-00:02:55.917 --> 00:03:00.875
-Double-click the folder you just created.
+25
+00:02:23.322 --> 00:02:28.811
+Select Open Unity in ALCOM or Open Project in VCC.
 
-00:03:00.875 --> 00:03:06.083
-Click the upload button with an upward arrow on a cloud.
+26
+00:02:28.811 --> 00:02:32.965
+Once Unity has finished loading, the remaining steps are the same.
 
-00:03:06.083 --> 00:03:14.292
-Select the Kipfel.vrm file you exported, then click Open.
+27
+00:02:33.889 --> 00:02:39.267
+In the Hierarchy on the left, right-click the avatar's root object.
 
-00:03:14.292 --> 00:03:23.000
-Wait for the upload to finish and the file to appear in the folder.
+28
+00:02:39.267 --> 00:02:44.972
+Select the whole avatar, rather than a child object such as hair or clothing.
 
-00:03:23.000 --> 00:03:31.500
-On your iPhone, open VR Vlog and tap the gear icon on the capture screen.
+29
+00:02:45.889 --> 00:02:52.225
+From the VR Vlog menu, select Transfer to app (Easy).
 
-00:03:31.500 --> 00:03:39.917
-In Settings, under Change model, tap “Choose a VRM on this device.”
+30
+00:02:53.156 --> 00:02:58.764
+Check that the Avatar field and preview show the avatar you want to use.
 
-00:03:39.917 --> 00:03:46.250
-In the file picker, tap Browse and open iCloud Drive.
+31
+00:02:58.764 --> 00:03:02.393
+Enter the name you want to display in the app.
 
-00:03:46.250 --> 00:03:49.500
-Open the VRVlog folder.
+32
+00:03:03.323 --> 00:03:07.218
+Enter the avatar creator's name in the Author field.
 
-00:03:49.500 --> 00:03:55.542
-Tap Kipfel.vrm inside it.
+33
+00:03:07.218 --> 00:03:10.928
+For this Kipfel example, the creator is もち山金魚.
 
-00:03:55.542 --> 00:04:05.625
-If it has a cloud icon, wait for the download. Then wait for the avatar to load.
+34
+00:03:11.857 --> 00:03:18.203
+Open the VRM usage permissions and set them according to the avatar and outfit licenses.
 
-00:04:05.625 --> 00:04:11.375
-When the avatar appears, you are ready to film.
+35
+00:03:18.203 --> 00:03:22.555
+You do not need to copy the values shown in this video.
 
-00:04:11.375 --> 00:04:20.375
-Narration was provided by Zundamon.
+36
+00:03:23.457 --> 00:03:27.382
+After checking, tick the consent box at the bottom.
+
+37
+00:03:28.291 --> 00:03:34.149
+Connect your PC and phone to the internet, then select Create QR code.
+
+38
+00:03:34.149 --> 00:03:37.496
+Wait for the export and transfer preparation to finish.
+
+39
+00:03:38.425 --> 00:03:42.841
+When it is ready, a Show QR button appears.
+
+40
+00:03:42.841 --> 00:03:47.427
+Select it to display the code for scanning.
+
+41
+00:03:48.359 --> 00:03:52.588
+Use your phone's camera to scan the code on your own PC.
+
+42
+00:03:52.588 --> 00:03:55.250
+The code itself is hidden in this video.
+
+43
+00:03:55.250 --> 00:03:57.756
+Do not show your code to anyone else.
+
+44
+00:03:58.659 --> 00:04:02.818
+Open VR Vlog from the link that appears.
+
+45
+00:04:02.818 --> 00:04:07.340
+Check the file on the confirmation screen and select Receive.
+
+46
+00:04:07.340 --> 00:04:10.595
+Wait until the transfer is complete.
+
+47
+00:04:11.526 --> 00:04:16.180
+Once received, select your avatar and check its appearance.
+
+48
+00:04:16.180 --> 00:04:19.760
+You can now film with your usual avatar.
+
+49
+00:04:20.693 --> 00:04:25.122
+The following section is for cases where the Add button does not open the manager.
+
+50
+00:04:25.122 --> 00:04:29.728
+You can also use this method if the wrong manager opens.
+
+51
+00:04:29.728 --> 00:04:33.802
+If the normal Add button worked, you can skip this section.
+
+52
+00:04:34.727 --> 00:04:39.618
+On the official website, expand When the manager does not open.
+
+53
+00:04:39.618 --> 00:04:43.192
+Copy the repository URL shown there.
+
+54
+00:04:43.192 --> 00:04:46.577
+The same URL is also linked below the video.
+
+55
+00:04:47.494 --> 00:04:52.969
+In ALCOM, select the box icon on the left, then open VPM Repositories.
+
+56
+00:04:52.969 --> 00:04:57.947
+In VCC, open Settings, then Packages.
+
+57
+00:04:58.861 --> 00:05:01.855
+In ALCOM, select Add VPM Repository.
+
+58
+00:05:01.855 --> 00:05:05.794
+In VCC, select Add Repository.
+
+59
+00:05:06.728 --> 00:05:13.810
+In either manager, paste the official repository URL linked below and select Add.
+
+60
+00:05:14.728 --> 00:05:21.199
+After registering the repository, continue from Install into your project in the main tutorial.
+
+61
+00:05:21.199 --> 00:05:26.376
+If it says the repository is already registered, continue as well.
+
+62
+00:05:27.295 --> 00:05:32.104
+You only need to register the repository and install the package once.
+
+63
+00:05:32.104 --> 00:05:38.516
+Next time, start from Transfer to app (Easy) in Unity.
