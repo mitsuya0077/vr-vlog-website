@@ -1,7 +1,7 @@
 {
-  "digest": "5251f840f79a00b6468c9117806c3c7af40ca96e58c5918838e6991c46675ce7",
+  "digest": "da75489b25f0a42cec1b04fbfdbdaab0ccbe4a6ee71fa09d4b3d437bfa28ae44",
   "files": {
-    "GUIDE.md": "2e86d6315bf2516dee7cb216b3715738b73d432d6b3c8c90dcaebc2f0fff977c",
+    "GUIDE.md": "fa679dc76df351f6217f9ecd5b0017a03a062a5574a1c0a01b8f07e33a52f5e7",
     "app.js": "4978129de68dc8e43020011c53389db5d31b93d62a5c68c79ac0f59126279fb8",
     "assets/README.md": "543934829ee8a3f4615f037c959ae6c696793b29a4be90d9899bd3689ed156dd",
     "assets/capture-sunset.webp": "090af02450b2f334b45253b967a37b0763bb180654e59d227c31988a335b1a37",
@@ -27,18 +27,18 @@
     "guide.css": "01c9b33f4b5130303b6d8b16013aa6f804e1040d3d80fc5bd2bc9ac51f324bd1",
     "guide.js": "cf165f738b1a6a581d19a52311f301a5d5d1e0dac890b83021c0678b4342f31b",
     "guide/index.html": "efc9f80bcf6e725b7bc04a68c69b41d220dc37dce7ad9afd52bf3a0928445b68",
-    "index.html": "31df36e07438d4762c5e5457eddda449cb1c31fc694eb2bd1975fedc2c8e6952",
+    "index.html": "1c6ac4bacf2c8c673355d74576883288103098042c6803d22ef3a098054109bf",
     "index.json": "e598b83b01c60026ca47746d3c118e224f3ec860ded15a63ffc6c39352874ec8",
     "localize.js": "b6b33f32d8df882a593794a9a1f7e8cbc61fa0c12fed1d68fa1bf73688eeed90",
     "sitemap.xml": "fae57421647e3a3297630ef01a47d35da53f03240618f6d6a4f8b464c8eb0cbf",
-    "styles.css": "61c745c356230b8dd76a772a49662d68b1ed534e0265d82d1981145110dd26ae"
+    "styles.css": "fb6d238e6bb39c00ecdd1daeb0febb7842f77d03c6d0b48a33f1d4196c24b1fd"
   },
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 41301819552,
-    "run_number": 1456,
-    "source_commit": "59e25075d1cecb69804e7e845c7fa0d9ec6ab70d",
+    "run_id": 41304095976,
+    "run_number": 1460,
+    "source_commit": "046b4979ca81e078720026921f88b46c3668797e",
     "workflow": ".github/workflows/build-listing.yml"
   },
   "schema": 2
