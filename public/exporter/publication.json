@@ -1,5 +1,5 @@
 {
-  "digest": "da75489b25f0a42cec1b04fbfdbdaab0ccbe4a6ee71fa09d4b3d437bfa28ae44",
+  "digest": "5065a76861d7428f7dbe972ba09b14b10921d0835456f12e6c2141a0269af79f",
   "files": {
     "GUIDE.md": "fa679dc76df351f6217f9ecd5b0017a03a062a5574a1c0a01b8f07e33a52f5e7",
     "app.js": "4978129de68dc8e43020011c53389db5d31b93d62a5c68c79ac0f59126279fb8",
@@ -27,8 +27,8 @@
     "guide.css": "01c9b33f4b5130303b6d8b16013aa6f804e1040d3d80fc5bd2bc9ac51f324bd1",
     "guide.js": "cf165f738b1a6a581d19a52311f301a5d5d1e0dac890b83021c0678b4342f31b",
     "guide/index.html": "efc9f80bcf6e725b7bc04a68c69b41d220dc37dce7ad9afd52bf3a0928445b68",
-    "index.html": "1c6ac4bacf2c8c673355d74576883288103098042c6803d22ef3a098054109bf",
-    "index.json": "e598b83b01c60026ca47746d3c118e224f3ec860ded15a63ffc6c39352874ec8",
+    "index.html": "b28e4d300735f31bbd857715623b0ecd354b9693d3baa50e9e0ae9ea1b69ae50",
+    "index.json": "6c202aa2a6155e57d5faf5f8f224e01896b971712a07a6d9cf14c9753451d98a",
     "localize.js": "b6b33f32d8df882a593794a9a1f7e8cbc61fa0c12fed1d68fa1bf73688eeed90",
     "sitemap.xml": "fae57421647e3a3297630ef01a47d35da53f03240618f6d6a4f8b464c8eb0cbf",
     "styles.css": "fb6d238e6bb39c00ecdd1daeb0febb7842f77d03c6d0b48a33f1d4196c24b1fd"
@@ -36,9 +36,9 @@
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 41304095976,
-    "run_number": 1460,
-    "source_commit": "046b4979ca81e078720026921f88b46c3668797e",
+    "run_id": 41321989132,
+    "run_number": 1483,
+    "source_commit": "702122cdc7ddf0f0fb7d7cb5f696b02e9ec391ad",
     "workflow": ".github/workflows/build-listing.yml"
   },
   "schema": 2
