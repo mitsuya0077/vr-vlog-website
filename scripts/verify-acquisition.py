@@ -13,8 +13,7 @@ ORIGIN = "https://vrvlog.fun"
 PAGES = {"home": "/", "exporter": "/exporter/", "guide": "/guide/",
          "support": "/support/"}
 STORE_ID = "id6789953414"
-ANDROID_GROUP = "https://groups.google.com/g/vrvlog-android-test"
-ANDROID_TEST = "https://play.google.com/apps/testing/com.mitsuya0077.facemaskvtuber"
+ANDROID_STORE = "https://play.google.com/store/apps/details?id=com.mitsuya0077.facemaskvtuber"
 VPM_INDEX = ORIGIN + "/exporter/index.json"
 SITEMAP_NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
@@ -86,9 +85,10 @@ def audit(root):
         check("home:ios_store", any(map(is_store, home.links)))
         check("home:ios_store_targets", all(is_store(link) for link in home.links
                                              if urlsplit(link).hostname == "apps.apple.com"))
-        check("home:android_group", ANDROID_GROUP in home.links)
-        check("home:android_test", ANDROID_TEST in home.links)
-        check("home:android_steps_anchor", "android-beta" in home.ids)
+        check("home:android_store", ANDROID_STORE in home.links)
+        check("home:android_store_targets", all(link == ANDROID_STORE for link in home.links
+                                                 if urlsplit(link).hostname == "play.google.com"))
+        check("home:android_download_anchor", "android-download" in home.ids)
         check("home:exporter_route", ORIGIN + PAGES["exporter"] in home.links)
         check("home:guide_route", ORIGIN + PAGES["guide"] in home.links)
     if guide:
