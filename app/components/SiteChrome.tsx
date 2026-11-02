@@ -6,7 +6,7 @@ export function Brand() {
 }
 export function SiteHeader() {
   return <header className="site-header"><Brand /><nav className="nav-links" aria-label="メインナビゲーション">
-    <a href="https://apps.apple.com/jp/app/vr-vlog/id6789953414">iPhone版</a><a href="https://play.google.com/store/apps/details?id=com.mitsuya0077.facemaskvtuber">Android版</a><a href={siteHref("/exporter/")}>エクスポーター</a>
+    <a href="https://apps.apple.com/jp/app/vr-vlog/id6789953414">iOS版</a><a href="https://play.google.com/store/apps/details?id=com.mitsuya0077.facemaskvtuber">Android版</a><a href={siteHref("/exporter/")}>エクスポーター</a>
   </nav></header>;
 }
 export function SiteFooter() {

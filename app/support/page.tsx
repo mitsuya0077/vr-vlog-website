@@ -4,7 +4,13 @@ import { siteHref } from "../site";
 export const metadata: Metadata = { title: "対応環境・サポート | VR Vlog", alternates: { canonical: "https://vrvlog.fun/support/" } };
 export default function Support() {
   return <Subpage title="対応環境・サポート">
-    <section className="document-section" id="requirements"><h2>対応環境</h2><p><strong>iPhone版：</strong>iOS 17以降の対応iPhoneで利用できます。対応機種の詳細は、<a className="text-link" href="https://apps.apple.com/jp/app/vr-vlog/id6789953414">App Storeページ</a>でご確認ください。</p><p><strong>Android版：</strong>Google Playで公開中です。<a className="text-link" href="https://play.google.com/store/apps/details?id=com.mitsuya0077.facemaskvtuber">Google PlayでVR Vlogをダウンロード</a>してください。対応端末・インストール可否もGoogle Playでご確認ください。Googleグループへの参加やテスター登録は不要です。</p><p>クローズドベータをご利用中の方は、Google Playで「更新」を選んでください。アプリを削除せず、そのまま更新できます。</p></section>
+    <section className="document-section" id="requirements"><h2>ダウンロード・対応環境</h2>
+      <div className="support-downloads">
+        <div className="support-download-platform"><h3>iOS版</h3><a className="support-store-badge" href="https://apps.apple.com/jp/app/vr-vlog/id6789953414" aria-label="App StoreでVR Vlogをダウンロード"><img src={siteHref("/images/app-store-badge-ja.svg")} alt="App Storeからダウンロード" width={109} height={40} /></a></div>
+        <div className="support-download-platform"><h3>Android版</h3><a className="support-store-badge" href="https://play.google.com/store/apps/details?id=com.mitsuya0077.facemaskvtuber" aria-label="Google PlayでVR Vlogをダウンロード"><img src={siteHref("/images/google-play-badge-ja.png")} alt="Google Playで手に入れよう" width={270} height={80} /></a></div>
+      </div>
+      <p>対応端末・必要なOS・インストール可否は、各ストアでご確認ください。</p>
+    </section>
     <section className="document-section" id="faq"><h2>よくある質問</h2><div className="faq-list">
       <details><summary>「動画」と「ログ」の違いは？</summary><p>「ログ」は1回2秒の短い動画です。撮ったログを選ぶと、最大30ログ・60秒のVlogにまとめられます。撮影した動画は、トリムや文字入れ、フィルタで編集できます。</p></details>
       <details><summary>どんなアバターを使えますか？</summary><p>端末に保存したVRM 0.x / 1.0のファイル、またはVRoid Hubに自分が登録したモデルを読み込めます。lilToonのモデルは、エクスポーターでVRMに書き出してから読み込みます。導入方法は、<a className="text-link" href={siteHref("/exporter/")}>エクスポーター導入ページ</a>をご確認ください。</p></details>
