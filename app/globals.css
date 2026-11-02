@@ -134,6 +134,8 @@ section, [id] { scroll-margin-top: 24px; }
 .support-downloads { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .support-download-platform { min-width: 0; padding: 24px; border: 1px solid var(--line); border-radius: 8px; background: #101619; }
 .support-download-platform h3 { margin: 0 0 24px; font-size: 18px; line-height: 1.5; }
+.support-download-platform > p { margin-bottom: 20px; }
+.support-download-platform > .support-ar-note { margin: 20px 0 0; font-size: 14px; }
 .support-store-badge { display: inline-flex; line-height: 0; }
 .support-store-badge img { display: block; width: auto; height: 48px; max-width: none; }
 .support-downloads + p { margin-top: 20px; }
