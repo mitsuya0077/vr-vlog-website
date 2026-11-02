@@ -17,9 +17,8 @@ class AcquisitionTests(unittest.TestCase):
         for route in ("", "guide/", "support/", "exporter/"):
             self.write(route + "index.html", '<link rel="canonical" href="https://vrvlog.fun/' + route + '">')
         self.append("index.html", '''<a href="https://apps.apple.com/jp/app/vr-vlog/id6789953414">iOS</a>
-<a href="https://groups.google.com/g/vrvlog-android-test">Group</a>
-<a href="https://play.google.com/apps/testing/com.mitsuya0077.facemaskvtuber">Test</a>
-<section id="android-beta"></section><a href="exporter/">Exporter</a><a href="guide/">Guide</a>''')
+<a href="https://play.google.com/store/apps/details?id=com.mitsuya0077.facemaskvtuber">Android</a>
+<section id="android-download"></section><a href="exporter/">Exporter</a><a href="guide/">Guide</a>''')
         self.append("guide/index.html", '<a href="../exporter/">Exporter</a>')
         self.append("exporter/index.html", '<a href="../">Home</a><a href="vcc://vpm/addRepo?url=https%3A%2F%2Fvrvlog.fun%2Fexporter%2Findex.json">VPM</a>')
         self.write("exporter/index.json", json.dumps({"url": "https://vrvlog.fun/exporter/index.json", "packages": {"example": {}}}))
@@ -66,9 +65,9 @@ class AcquisitionTests(unittest.TestCase):
         self.replace("index.html", "apps.apple.com/", "apps.apple.com.evil.example/")
         self.fails("home:ios_store")
 
-    def test_missing_android_step_fails(self):
-        self.replace("index.html", "https://groups.google.com/g/vrvlog-android-test", "#removed")
-        self.fails("home:android_group")
+    def test_missing_android_download_fails(self):
+        self.replace("index.html", "https://play.google.com/store/apps/details?id=com.mitsuya0077.facemaskvtuber", "#removed")
+        self.fails("home:android_store")
 
     def test_broken_fragment_fails_without_logging_query(self):
         self.append("index.html", '<a href="support/?private=sentinel#missing">help</a>')
