@@ -1,5 +1,5 @@
 {
-  "digest": "5dffcbfd6ad7a3fe0284238e3ac4b3c624738e8335073d81c5b158547a5432a1",
+  "digest": "a72e31accd418b8d8df338e8ed1f5b883862f9e1cc9770f2444899de07a277de",
   "files": {
     "GUIDE.md": "fa679dc76df351f6217f9ecd5b0017a03a062a5574a1c0a01b8f07e33a52f5e7",
     "app.js": "4978129de68dc8e43020011c53389db5d31b93d62a5c68c79ac0f59126279fb8",
@@ -28,7 +28,7 @@
     "guide.js": "cf165f738b1a6a581d19a52311f301a5d5d1e0dac890b83021c0678b4342f31b",
     "guide/index.html": "efc9f80bcf6e725b7bc04a68c69b41d220dc37dce7ad9afd52bf3a0928445b68",
     "index.html": "b28e4d300735f31bbd857715623b0ecd354b9693d3baa50e9e0ae9ea1b69ae50",
-    "index.json": "95b63a2b052edf73de581951eda6258c20ff84337c077189ec18987874b471e4",
+    "index.json": "ef5534052e73d9ef31ce2b1d182180b6e8f797abb590c80a5f2464dd5757da97",
     "localize.js": "b6b33f32d8df882a593794a9a1f7e8cbc61fa0c12fed1d68fa1bf73688eeed90",
     "sitemap.xml": "fae57421647e3a3297630ef01a47d35da53f03240618f6d6a4f8b464c8eb0cbf",
     "styles.css": "fb6d238e6bb39c00ecdd1daeb0febb7842f77d03c6d0b48a33f1d4196c24b1fd"
@@ -36,9 +36,9 @@
   "id": "com.vrvlog.packages",
   "publisher": {
     "repository": "VR-Vlog/VR-Vlog-Avatar-Exporter",
-    "run_id": 41569540385,
-    "run_number": 1591,
-    "source_commit": "49e9315683dd98b36fc7250892d7d967bcde37de",
+    "run_id": 41599451996,
+    "run_number": 1615,
+    "source_commit": "d6949d10659ced86e9a3581519ab50a7ba4efd8c",
     "workflow": ".github/workflows/build-listing.yml"
   },
   "schema": 2
