@@ -96,5 +96,50 @@
     "app": "VR Vlog",
     "version": "1.2.2",
     "build": "486"
+  },
+  {
+    "file": "alcom-package-list.png",
+    "width": 1210,
+    "height": 690,
+    "bytes": 154837,
+    "sha256": "ead1e1a8389e1461593dad493517dc1fa65ec8547ea64499b95f1428d51d5f7f",
+    "captured_date_jst": "2026-11-04",
+    "kind": "native-app-screen-region-screenshot",
+    "os": "macOS 27.0.1 (26A434)",
+    "app": "ALCOM",
+    "version": "1.1.8",
+    "theme": "dark",
+    "language": "ja",
+    "method": "screencapture -x -R634,218,1210,690; direct screen area, no pixel editing"
+  },
+  {
+    "file": "alcom-package-search.png",
+    "width": 1210,
+    "height": 690,
+    "bytes": 48513,
+    "sha256": "a9c1fbf325d4324ad000106c71be50b5c10715271de5702f6988ff7b802317d8",
+    "captured_date_jst": "2026-11-04",
+    "kind": "native-app-screen-region-screenshot",
+    "os": "macOS 27.0.1 (26A434)",
+    "app": "ALCOM",
+    "version": "1.1.8",
+    "theme": "dark",
+    "language": "ja",
+    "method": "screencapture -x -R634,218,1210,690; direct screen area, no pixel editing"
+  },
+  {
+    "file": "alcom-package-versions.png",
+    "width": 1210,
+    "height": 690,
+    "bytes": 56788,
+    "sha256": "95a06f1878c946a6f79f1b15d83058732916f2da9f3e89da1eb649a970958a61",
+    "captured_date_jst": "2026-11-04",
+    "kind": "native-app-screen-region-screenshot",
+    "os": "macOS 27.0.1 (26A434)",
+    "app": "ALCOM",
+    "version": "1.1.8",
+    "theme": "dark",
+    "language": "ja",
+    "method": "screencapture -x -R634,218,1210,690; direct screen area, no pixel editing"
   }
 ]
