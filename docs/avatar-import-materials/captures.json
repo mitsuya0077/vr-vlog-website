@@ -1,0 +1,22 @@
+[
+  {
+    "file": "current-exporter-alcom.png",
+    "width": 1920,
+    "height": 839,
+    "bytes": 226196,
+    "sha256": "f9349219a4996c516f24d2a1de4a9719d4d61d199bfe7bf626c0e0bb5ff20212",
+    "kind": "live-browser-screenshot",
+    "source_url": "https://vrvlog.fun/exporter/",
+    "captured_date_jst": "2026-11-04"
+  },
+  {
+    "file": "current-exporter-vcc.png",
+    "width": 1920,
+    "height": 839,
+    "bytes": 249972,
+    "sha256": "63030093a18a00fcba6ae7d181dd2b9088279dd40effade2c3531cfa5c574d0f",
+    "kind": "live-browser-screenshot",
+    "source_url": "https://vrvlog.fun/exporter/",
+    "captured_date_jst": "2026-11-04"
+  }
+]
