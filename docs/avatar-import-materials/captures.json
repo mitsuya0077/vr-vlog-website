@@ -1,13 +1,46 @@
 [
   {
+    "file": "alcom-add-repository-url.png",
+    "width": 1412,
+    "height": 912,
+    "bytes": 201164,
+    "sha256": "6775b7f89a12703f900ae819e5a82a13c8612c2b67efa6872fdb8721a877071c",
+    "captured_date_jst": "2026-11-04",
+    "kind": "native-app-window-screenshot",
+    "os": "macOS 27.0.1 (26A434)",
+    "app": "ALCOM",
+    "version": "1.1.8",
+    "theme": "dark",
+    "language": "ja",
+    "method": "screencapture -x -l, original pixels"
+  },
+  {
+    "file": "alcom-repositories.png",
+    "width": 1412,
+    "height": 912,
+    "bytes": 201946,
+    "sha256": "241a7b1dc6f92832869b3b423b72f48802aa353c127d2111298b93a6b43fe031",
+    "captured_date_jst": "2026-11-04",
+    "kind": "native-app-window-screenshot",
+    "os": "macOS 27.0.1 (26A434)",
+    "app": "ALCOM",
+    "version": "1.1.8",
+    "theme": "dark",
+    "language": "ja",
+    "method": "screencapture -x -l, original pixels"
+  },
+  {
     "file": "current-exporter-alcom.png",
     "width": 1920,
     "height": 839,
     "bytes": 226196,
     "sha256": "f9349219a4996c516f24d2a1de4a9719d4d61d199bfe7bf626c0e0bb5ff20212",
+    "captured_date_jst": "2026-11-04",
     "kind": "live-browser-screenshot",
-    "source_url": "https://vrvlog.fun/exporter/",
-    "captured_date_jst": "2026-11-04"
+    "source_url": "https://vrvlog.fun/exporter/#install",
+    "browser": "Chrome",
+    "browser_version": "unrecorded",
+    "method": "browser screenshot JPEG converted to PNG"
   },
   {
     "file": "current-exporter-vcc.png",
@@ -15,8 +48,53 @@
     "height": 839,
     "bytes": 249972,
     "sha256": "63030093a18a00fcba6ae7d181dd2b9088279dd40effade2c3531cfa5c574d0f",
+    "captured_date_jst": "2026-11-04",
     "kind": "live-browser-screenshot",
-    "source_url": "https://vrvlog.fun/exporter/",
-    "captured_date_jst": "2026-11-04"
+    "source_url": "https://vrvlog.fun/exporter/#install",
+    "browser": "Chrome",
+    "browser_version": "unrecorded",
+    "method": "browser screenshot JPEG converted to PNG"
+  },
+  {
+    "file": "ios-capture-current.png",
+    "width": 1290,
+    "height": 2796,
+    "bytes": 1291692,
+    "sha256": "268e1906eb367cb12e73349a9e989de12bcd8293a9080f6a4c8b946bd1768e1a",
+    "captured_date_jst": "2026-11-04",
+    "kind": "physical-device-screenshot",
+    "device": "iPhone 15 Pro Max",
+    "os": "iOS 27.2",
+    "app": "VR Vlog",
+    "version": "1.2.2",
+    "build": "486"
+  },
+  {
+    "file": "ios-settings-avatar-import.png",
+    "width": 1290,
+    "height": 2796,
+    "bytes": 169573,
+    "sha256": "1f756b27f236d8b24c6b21feed097407347c7003b3f47263ebc15f1eb7b894a5",
+    "captured_date_jst": "2026-11-04",
+    "kind": "physical-device-screenshot",
+    "device": "iPhone 15 Pro Max",
+    "os": "iOS 27.2",
+    "app": "VR Vlog",
+    "version": "1.2.2",
+    "build": "486"
+  },
+  {
+    "file": "ios-settings-top.png",
+    "width": 1290,
+    "height": 2796,
+    "bytes": 155145,
+    "sha256": "0b6c02e85229a75182cf1735cf42bf1846e51a8886f82d7b7c334624c7671291",
+    "captured_date_jst": "2026-11-04",
+    "kind": "physical-device-screenshot",
+    "device": "iPhone 15 Pro Max",
+    "os": "iOS 27.2",
+    "app": "VR Vlog",
+    "version": "1.2.2",
+    "build": "486"
   }
 ]
