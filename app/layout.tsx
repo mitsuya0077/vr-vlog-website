@@ -42,7 +42,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head><link rel="stylesheet" href="/app-download.css" /></head>
       <body>{children}<Script src="/localize.js" strategy="afterInteractive" />
+        <Script type="module" src="/app-download.mjs" strategy="afterInteractive" />
         <Script src="/site-measurement.js" referrerPolicy="no-referrer" strategy="afterInteractive" /></body>
     </html>
   );
