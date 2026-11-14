@@ -1,0 +1,11 @@
+{
+  "name": "vrvlog-inquiries",
+  "account_id": "e4be39f50088dd328e8979961d52153b",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-14",
+  "workers_dev": true,
+  "preview_urls": false,
+  "send_email": [{"name":"MAIL","destination_address":"info@vrvlog.fun"}],
+  "ratelimits": [{"name":"CONTACT_LIMITER","namespace_id":"1001","simple":{"limit":3,"period":60}}],
+  "observability": {"enabled":false}
+}

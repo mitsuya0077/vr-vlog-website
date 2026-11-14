@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>お問い合わせ | VR Vlog</title>
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<style>
+:root{color-scheme:dark;font-family:system-ui,'Noto Sans JP',sans-serif;background:#13191c;color:#f5f4f7;line-height:1.8}*{box-sizing:border-box}body{margin:0}a{color:#ff8dc1;text-underline-offset:4px}header,main,footer{width:min(720px,calc(100% - 40px));margin:auto}header{padding:25px 0;border-bottom:1px solid #ffffff25;display:flex;justify-content:space-between}header a{text-decoration:none}main{padding:44px 0 64px}h1{font-size:32px;line-height:1.4;margin:8px 0 20px}.eyebrow{font-size:12px;color:#ff8dc1;letter-spacing:.12em}p{color:#bfc1c9}label{display:block;margin-top:22px;font-size:14px}label small{color:#ff8dc1;margin-left:8px}input,textarea,select{display:block;width:100%;font:inherit;color:inherit;background:#20272c;border:1px solid #66717c;border-radius:6px;padding:12px;margin-top:7px}textarea{min-height:150px;resize:vertical}input:focus,textarea:focus,select:focus,button:focus-visible,a:focus-visible{outline:2px solid #ff8dc1;outline-offset:3px}.consent{display:flex;align-items:flex-start;gap:10px;font-size:12px}.consent input{width:18px;height:18px;flex:none;margin-top:5px}.trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}button{background:#ff4d9b;color:#1b1016;border:0;border-radius:6px;font:inherit;font-weight:700;padding:13px 24px;cursor:pointer;margin-top:24px}button:disabled{opacity:.5;cursor:wait}.secondary{background:transparent;color:#f5f4f7;border:1px solid #66717c;margin-right:12px}.panel{border:1px solid #ffffff30;background:#20272c;padding:24px;border-radius:10px;margin-top:28px}.panel:focus{outline:2px solid #ff8dc1}dt{font-size:12px;color:#bfc1c9;margin-top:15px}dd{margin:3px 0;white-space:pre-wrap;overflow-wrap:anywhere}footer{font-size:12px;color:#bfc1c9;padding-bottom:32px}#error{color:#ffb2ca;white-space:pre-wrap}[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header><a href="/vrchat/">VR VLOG</a><a href="/vrchat/">VRChat版に戻る ↗</a></header>
+<main><div class="eyebrow">CONTACT</div><h1>お問い合わせ</h1><p>広告掲載のご相談や、サービスへのお問い合わせをお送りください。<br><strong>info@vrvlog.fun</strong> からお返事します。</p><p>広告のご相談は、バナー画像が未完成でも大丈夫です。送信だけで契約・お支払いは発生しません。</p>
+<form id="inquiry">
+<div id="fields">
+<label>お問い合わせの種類<small>必須</small><select name="kind"><option value="advertising">広告掲載のご相談</option><option value="contact">その他のお問い合わせ</option></select></label>
+<label>お名前・ショップ名<small>必須</small><input name="name" autocomplete="name" required maxlength="120"></label>
+<label>メールアドレス<small>必須</small><input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+<label>関連するページのURL<input name="url" type="url" placeholder="https://…" pattern="https://.+" maxlength="1000"></label>
+<label>掲載希望時期<input name="period" placeholder="広告のご相談の場合のみ。例：12月上旬、空き次第" maxlength="120"></label>
+<label>お問い合わせ内容<small>必須</small><textarea name="description" required maxlength="3000"></textarea></label>
+<label class="trap" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+<label class="consent"><input name="consent" type="checkbox" required><span>入力情報をお問い合わせへの回答・掲載の調整に使用することに同意します。<a href="/privacy/" target="_blank" rel="noopener">プライバシーポリシー ↗</a></span></label>
+<button type="submit">入力内容を確認する →</button>
+</div>
+<section id="confirmation" class="panel" tabindex="-1" hidden><h2>入力内容をご確認ください</h2><p>宛先：VR Vlog 運営（info@vrvlog.fun）</p><dl></dl><button id="edit" type="button" class="secondary">入力に戻る</button><button id="send" type="button">この内容で送信する</button><p id="error" role="alert"></p></section>
+<section id="success" class="panel" tabindex="-1" hidden><h2>お問い合わせを受け付けました</h2><p>info@vrvlog.fun からの返信をお待ちください。迷惑メールフォルダもご確認ください。</p><p id="receipt"></p></section>
+</form>
+<p>フォームが使えない場合は、<a href="mailto:info@vrvlog.fun">info@vrvlog.fun</a> へ直接ご連絡ください。</p>
+</main><footer>© 2026 VR Vlog</footer>
+<script>
+// Replace with the verified, deployed endpoint before publishing this file.
+const endpoint='__INQUIRY_ENDPOINT__';
+const form=document.getElementById('inquiry'),fields=document.getElementById('fields'),confirmation=document.getElementById('confirmation'),success=document.getElementById('success'),error=document.getElementById('error'),send=document.getElementById('send'),edit=document.getElementById('edit');
+let payload,pending=false;
+form.addEventListener('submit',event=>{
+ event.preventDefault();if(pending)return;
+ payload=Object.fromEntries(new FormData(form));payload.consent=form.elements.consent.checked;
+ for(const key of ['name','email','url','period','description','website'])payload[key]=payload[key].trim();
+ if(!payload.name||!payload.description){alert('お名前とお問い合わせ内容を入力してください。');return;}
+ const dl=confirmation.querySelector('dl');dl.replaceChildren();
+ for(const [key,label] of Object.entries({kind:'種類',name:'お名前・ショップ名',email:'返信先メールアドレス',url:'URL',period:'掲載希望時期',description:'お問い合わせ内容'})){
+  const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=key==='kind'?(payload[key]==='advertising'?'広告掲載のご相談':'その他のお問い合わせ'):(payload[key]||'未記入');dl.append(dt,dd);
+ }
+ error.textContent='';fields.hidden=true;confirmation.hidden=false;confirmation.focus();
+});
+edit.addEventListener('click',()=>{if(pending)return;confirmation.hidden=true;fields.hidden=false;form.elements.name.focus();});
+send.addEventListener('click',async()=>{
+ if(pending||!payload)return;
+ if(!endpoint.startsWith('https://')){error.textContent='フォームは現在準備中です。info@vrvlog.fun へメールでご連絡ください。';return;}
+ pending=true;send.disabled=true;edit.disabled=true;send.textContent='送信中…';error.textContent='';
+ try{
+  const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),credentials:'omit',redirect:'error'});
+  const result=await response.json();
+  if(!response.ok||result.ok!==true||typeof result.id!=='string')throw Error(result.error||'送信に失敗しました。時間をおいてお試しください。');
+  confirmation.hidden=true;success.hidden=false;document.getElementById('receipt').textContent='受付番号：'+result.id;success.focus();payload=null;
+ }catch(e){error.textContent=e instanceof TypeError?'通信状況により送信結果を確認できませんでした。重複送信を避けるため、時間をおいて info@vrvlog.fun へお問い合わせください。':e.message;}
+ finally{pending=false;send.disabled=false;edit.disabled=false;send.textContent='この内容で送信する';}
+});
+</script></body></html>
