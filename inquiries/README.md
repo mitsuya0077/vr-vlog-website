@@ -18,3 +18,7 @@ Production account: e4be39f50088dd328e8979961d52153b. Dashboard bindings MAIL an
 End-to-end acceptance: submit Japanese content from the official site, receive at info and forwarded personal mailbox, confirm Reply-To equals the applicant; test invalid fields and delivery failures without claiming success. No secrets in the frontend.
 
 Improved advertising landing page remains a UI proposal in the parent workspace's `outputs/vrchat-ads-ui-v2.html`. Do not publish its provisional tax/slot wording as settled commercial terms.
+
+## Publication withdrawn
+
+2026-11-14: The user clarified that a standalone contact form was not intended. Removed public/contact/index.html and the new footer/support form links. Keep the mail infrastructure and form source for the eventual advertising page. Do not republish the form or advertising page until the user has reviewed and approved the improved local UI proposal.
