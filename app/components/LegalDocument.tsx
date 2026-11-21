@@ -1,5 +1,18 @@
 import legal from "../../public/legal-documents.json";
+import vrchatLegal from "../../data/vrchat-legal-documents.json";
 import { AnalyticsSettings } from "./AnalyticsSettings";
+
+// ASCII URL characters only, so a full-width "）" or Japanese text right after a URL is not linked.
+const urlPattern = /(https:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'*+,;=%]+)/g;
+
+function LegalParagraph({ text }: { text: string }) {
+  return <p>
+    {text.split(urlPattern).map((part, index) =>
+      part.startsWith("https://")
+        ? <a className="text-link" key={index} href={part}>{part}</a>
+        : part)}
+  </p>;
+}
 
 export function LegalDocument({ kind }: { kind: "terms" | "privacy" }) {
   const document = legal[kind];
@@ -7,12 +20,7 @@ export function LegalDocument({ kind }: { kind: "terms" | "privacy" }) {
     <p className="privacy-updated">{kind === "privacy" ? legal.privacy.revisionLabel : legal.revisionLabel}</p>
     {document.sections.map(section => <section className="document-section" key={section.heading}>
       <h2>{section.heading}</h2>
-      {section.paragraphs.map((paragraph, index) => <p key={index}>
-        {paragraph.split(/(https:\/\/[^\s]+)/g).map((part, partIndex) =>
-          part.startsWith("https://")
-            ? <a className="text-link" key={partIndex} href={part}>{part}</a>
-            : part)}
-      </p>)}
+      {section.paragraphs.map((paragraph, index) => <LegalParagraph key={index} text={paragraph} />)}
       {kind === "privacy" && section.heading === "12. 公式サイトの閲覧"
         ? <AnalyticsSettings /> : null}
       {kind === "privacy" && section.heading === "14. 改定とお問い合わせ"
@@ -22,6 +30,18 @@ export function LegalDocument({ kind }: { kind: "terms" | "privacy" }) {
           <p>パスワードや認証コードを送る必要はありません。</p>
           <p><a className="text-link" href="mailto:mouri0077@gmail.com?subject=VR%20Vlog%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC">アカウント削除をメールで依頼</a></p>
         </div> : null}
+    </section>)}
+  </article>;
+}
+
+export function VrchatLegalDocument({ kind }: { kind: "terms" | "privacy" }) {
+  const document = vrchatLegal[kind];
+  return <article className="legal-document" aria-label={document.title}>
+    <p className="privacy-updated">{document.revisionLabel}</p>
+    <div className="legal-intro">{document.intro.map((paragraph, index) => <LegalParagraph key={index} text={paragraph} />)}</div>
+    {document.sections.map(section => <section className="document-section" key={section.heading}>
+      <h2>{section.heading}</h2>
+      {section.paragraphs.map((paragraph, index) => <LegalParagraph key={index} text={paragraph} />)}
     </section>)}
   </article>;
 }

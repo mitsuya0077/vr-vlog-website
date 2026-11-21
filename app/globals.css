@@ -152,6 +152,7 @@ section, [id] { scroll-margin-top: 24px; }
 .legal-document { max-width: 760px; }
 .legal-document p { white-space: pre-line; overflow-wrap: anywhere; line-break: strict; }
 .legal-document h2 { font-size: 21px; letter-spacing: 0; overflow-wrap: anywhere; }
+.legal-intro { padding-bottom: 32px; }
 .analytics-settings { margin-top: 32px; border-top: 1px solid var(--line); color: var(--muted); }
 .analytics-settings summary { min-height: 44px; padding: 12px 0; line-height: 1.8; cursor: pointer; }
 .analytics-settings-content { padding-top: 4px; }
