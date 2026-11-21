@@ -8,7 +8,7 @@ const urlPattern = /(https:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'*+,;=%]+)/g;
 function LegalParagraph({ text }: { text: string }) {
   return <p>
     {text.split(urlPattern).map((part, index) =>
-      part.startsWith("https://")
+      index % 2 === 1
         ? <a className="text-link" key={index} href={part}>{part}</a>
         : part)}
   </p>;
