@@ -29,6 +29,15 @@ include the tracked subtree. Do not edit release-derived files here independentl
 update the Exporter website source. The synchronization preserves concurrent
 changes outside this subtree and verifies all three public JSON endpoints.
 
+## VR Vlog for VRChat terms and privacy policy
+
+`/vrchat/terms/` and `/vrchat/privacy/` show the VR Vlog for VRChat documents,
+which are written in Google Docs. After updating either document, run
+`python3 scripts/import-vrchat-legal.py` (Python 3.10+, network access to
+docs.google.com) to regenerate `data/vrchat-legal-documents.json`, review the
+diff, and publish it with the site. The script stops if the generated text does
+not match the document's plain-text export.
+
 ## Web measurement and acquisition checks
 
 The [website measurement plan](docs/web-measurement.md) defines website-only
