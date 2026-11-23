@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const pages = [
@@ -18,4 +18,13 @@ for (const [source, destination] of pages) {
   }
   mkdirSync(dirname(destination), { recursive: true });
   copyFileSync(source, destination);
+}
+
+// The exporter subtree is synchronized from its own release. Apply the main
+// website's language catalog to the exported HTML on every website build.
+const exporterPage = "out/exporter/index.html";
+const exporterHtml = readFileSync(exporterPage, "utf8");
+if (!exporterHtml.includes('src="/localize.js"')) {
+  if (!exporterHtml.includes("</head>")) throw new Error("Invalid exporter page");
+  writeFileSync(exporterPage, exporterHtml.replace("</head>", '<script defer src="/localize.js"></script></head>'));
 }

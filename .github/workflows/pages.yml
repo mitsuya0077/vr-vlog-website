@@ -32,6 +32,8 @@ jobs:
 
       - name: Build static site
         run: npm run build:pages
+      - name: Verify language coverage
+        run: python3 scripts/verify-localization.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6

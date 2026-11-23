@@ -278,3 +278,11 @@ section, [id] { scroll-margin-top: 24px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.localized-store-link { display: none; }
+html:not(:lang(ja)) .support-store-badge img { display: none; }
+html:not(:lang(ja)) .localized-store-link {
+  display: inline-block;
+  line-height: 1.4;
+  text-decoration: underline;
+}
