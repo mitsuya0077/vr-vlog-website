@@ -3,14 +3,16 @@ import vrchatLegal from "../../data/vrchat-legal-documents.json";
 import { AnalyticsSettings } from "./AnalyticsSettings";
 
 // ASCII URL characters only, so a full-width "）" or Japanese text right after a URL is not linked.
-const urlPattern = /(https:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'*+,;=%]+)/g;
+const contactPattern = /(https:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'*+,;=%]+|[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})/g;
 
 function LegalParagraph({ text }: { text: string }) {
   return <p>
-    {text.split(urlPattern).map((part, index) =>
-      index % 2 === 1
-        ? <a className="text-link" key={index} href={part}>{part}</a>
-        : part)}
+    {text.split(contactPattern).map((part, index) => {
+      if (index % 2 === 0) return part;
+      if (part.startsWith("https://")) return <a className="text-link" key={index} href={part}>{part}</a>;
+      // The CDN decodes email addresses into their own text nodes before hydration.
+      return <span key={index}>{part}</span>;
+    })}
   </p>;
 }
 
